@@ -1,0 +1,2108 @@
+[
+  {
+    "ZAPIS_ID": 162160,
+    "WYDAWNICTWO_ID": 153,
+    "NAZWA": "Krajowa Agencja Wydawnicza",
+    "MIASTO": "Białystok"
+  },
+  {
+    "ZAPIS_ID": 316679,
+    "WYDAWNICTWO_ID": 162,
+    "NAZWA": "Wydawnictwo Dolnośląskie",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 361547,
+    "WYDAWNICTWO_ID": 81,
+    "NAZWA": "Książka i Wiedza",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 25212,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 18062,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 412844,
+    "WYDAWNICTWO_ID": 99,
+    "NAZWA": "Kunst",
+    "MIASTO": "Tallin"
+  },
+  {
+    "ZAPIS_ID": 261419,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 211878,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 1048216,
+    "WYDAWNICTWO_ID": 1412,
+    "NAZWA": "Towarzystwo Przyjaciół Nałęczowa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 1368748,
+    "WYDAWNICTWO_ID": 1413,
+    "NAZWA": "Muzeum Lubelskie",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1357546,
+    "WYDAWNICTWO_ID": 1413,
+    "NAZWA": "Muzeum Lubelskie",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 372597,
+    "WYDAWNICTWO_ID": 2303,
+    "NAZWA": "Siedmioróg",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1362792,
+    "WYDAWNICTWO_ID": 2744,
+    "NAZWA": "Towarzystwo Autorów i Wydawców Prac Naukowych \"Universitas\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 342843,
+    "WYDAWNICTWO_ID": 2744,
+    "NAZWA": "Towarzystwo Autorów i Wydawców Prac Naukowych \"Universitas\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 261429,
+    "WYDAWNICTWO_ID": 3722,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich",
+    "MIASTO": "Wrocław, Kraków"
+  },
+  {
+    "ZAPIS_ID": 392486,
+    "WYDAWNICTWO_ID": 4786,
+    "NAZWA": "Prószyński i S-ka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 324264,
+    "WYDAWNICTWO_ID": 16924,
+    "NAZWA": "Aufbau - Taschenbuch - Verlag",
+    "MIASTO": "Berlin"
+  },
+  {
+    "ZAPIS_ID": 1295600,
+    "WYDAWNICTWO_ID": 20551,
+    "NAZWA": "Świat Książki",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 372477,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 120854,
+    "WYDAWNICTWO_ID": 8426,
+    "NAZWA": "Sie \"AL\"",
+    "MIASTO": "Varna"
+  },
+  {
+    "ZAPIS_ID": 212738,
+    "WYDAWNICTWO_ID": 9943,
+    "NAZWA": "Dom",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 261422,
+    "WYDAWNICTWO_ID": 11604,
+    "NAZWA": "Morex",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212638,
+    "WYDAWNICTWO_ID": 13603,
+    "NAZWA": "RIPOL",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1348686,
+    "WYDAWNICTWO_ID": 25733,
+    "NAZWA": "Świat Książki - Bertelsmann Media",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1348671,
+    "WYDAWNICTWO_ID": 25733,
+    "NAZWA": "Świat Książki - Bertelsmann Media",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 389214,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1297872,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1294488,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 389202,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 723515,
+    "WYDAWNICTWO_ID": 26510,
+    "NAZWA": "KWE",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 365368,
+    "WYDAWNICTWO_ID": 28169,
+    "NAZWA": "Central European Univ. Press",
+    "MIASTO": "Budapest, London"
+  },
+  {
+    "ZAPIS_ID": 372572,
+    "WYDAWNICTWO_ID": 28692,
+    "NAZWA": "PW [Przedsiębiortswo Wielobranżowe] \"WAM\"",
+    "MIASTO": "Rawa Mazowiecka"
+  },
+  {
+    "ZAPIS_ID": 1424028,
+    "WYDAWNICTWO_ID": 28910,
+    "NAZWA": "[b.w.]",
+    "MIASTO": "Siedlce"
+  },
+  {
+    "ZAPIS_ID": 467333,
+    "WYDAWNICTWO_ID": 33412,
+    "NAZWA": "Allfa",
+    "MIASTO": "Bucuresti"
+  },
+  {
+    "ZAPIS_ID": 467333,
+    "WYDAWNICTWO_ID": 36804,
+    "NAZWA": "Paideia",
+    "MIASTO": "Bucuresti"
+  },
+  {
+    "ZAPIS_ID": 722335,
+    "WYDAWNICTWO_ID": 4396,
+    "NAZWA": "Wydawnictwo WSP [Wyższej Szkoły Pedagogicznej]",
+    "MIASTO": "Zielona Góra"
+  },
+  {
+    "ZAPIS_ID": 1422692,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1335876,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1348713,
+    "WYDAWNICTWO_ID": 80314,
+    "NAZWA": "BEL Studio",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1303315,
+    "WYDAWNICTWO_ID": 123577,
+    "NAZWA": "Lao dông",
+    "MIASTO": "H."
+  },
+  {
+    "ZAPIS_ID": 1303315,
+    "WYDAWNICTWO_ID": 123578,
+    "NAZWA": "Trung Tâm Văn Hóa Ngôn Ngu Đông Tây",
+    "MIASTO": "H."
+  },
+  {
+    "ZAPIS_ID": 1437341,
+    "WYDAWNICTWO_ID": 123759,
+    "NAZWA": "Wydawnictwo Słowo/Obraz Terytoria",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 1348655,
+    "WYDAWNICTWO_ID": 125969,
+    "NAZWA": "Orkla Press Polska",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1332839,
+    "WYDAWNICTWO_ID": 126156,
+    "NAZWA": "Akademia Humanistyczna",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1448435,
+    "WYDAWNICTWO_ID": 126198,
+    "NAZWA": "Wydawnictwo Ibis",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 2012003,
+    "WYDAWNICTWO_ID": 126290,
+    "NAZWA": "Narodowe Centrum Kultury",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1455970,
+    "WYDAWNICTWO_ID": 126326,
+    "NAZWA": "Siedleckie Towarzystwo Naukowe",
+    "MIASTO": "Siedlce"
+  },
+  {
+    "ZAPIS_ID": 1357467,
+    "WYDAWNICTWO_ID": 129922,
+    "NAZWA": "Wydawnictwo Patmos",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1359266,
+    "WYDAWNICTWO_ID": 130038,
+    "NAZWA": "Agencja Wydawnicza a Linea",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1462423,
+    "WYDAWNICTWO_ID": 129785,
+    "NAZWA": "Wydawnictwo Uniwersytetu Kazimierza Wielkiego",
+    "MIASTO": "Bydgoszcz"
+  },
+  {
+    "ZAPIS_ID": 1365867,
+    "WYDAWNICTWO_ID": 131848,
+    "NAZWA": "Wyższa Szkoła Zarządzania i Administracji. Centrum Badawczo-Szkoleniowe",
+    "MIASTO": "Zamość"
+  },
+  {
+    "ZAPIS_ID": 2716,
+    "WYDAWNICTWO_ID": 21,
+    "NAZWA": "Wydawnictwo Łódzkie",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 372590,
+    "WYDAWNICTWO_ID": 49,
+    "NAZWA": "Nasza Księgarnia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 211979,
+    "WYDAWNICTWO_ID": 49,
+    "NAZWA": "Nasza Księgarnia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 388988,
+    "WYDAWNICTWO_ID": 81,
+    "NAZWA": "Książka i Wiedza",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 361728,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 167437,
+    "WYDAWNICTWO_ID": 370,
+    "NAZWA": "Liesma",
+    "MIASTO": "Riga"
+  },
+  {
+    "ZAPIS_ID": 406152,
+    "WYDAWNICTWO_ID": 218,
+    "NAZWA": "Northwestern University Press",
+    "MIASTO": "Evanston, Ill."
+  },
+  {
+    "ZAPIS_ID": 120839,
+    "WYDAWNICTWO_ID": 437,
+    "NAZWA": "Polonia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 324265,
+    "WYDAWNICTWO_ID": 452,
+    "NAZWA": "Edhasa",
+    "MIASTO": "Barcelona"
+  },
+  {
+    "ZAPIS_ID": 162158,
+    "WYDAWNICTWO_ID": 1212,
+    "NAZWA": "Dom Książki",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 211958,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 212018,
+    "WYDAWNICTWO_ID": 1413,
+    "NAZWA": "Muzeum Lubelskie",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 90293,
+    "WYDAWNICTWO_ID": 2652,
+    "NAZWA": "Oficyna Literacka \"Patria\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 476683,
+    "WYDAWNICTWO_ID": 2655,
+    "NAZWA": "Wojewódzka Biblioteka Publiczna",
+    "MIASTO": "Kielce"
+  },
+  {
+    "ZAPIS_ID": 590636,
+    "WYDAWNICTWO_ID": 4617,
+    "NAZWA": "Kurpisz",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 388986,
+    "WYDAWNICTWO_ID": 4786,
+    "NAZWA": "Prószyński i S-ka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212099,
+    "WYDAWNICTWO_ID": 13583,
+    "NAZWA": "Constelatia",
+    "MIASTO": "Bucuresti"
+  },
+  {
+    "ZAPIS_ID": 287140,
+    "WYDAWNICTWO_ID": 25282,
+    "NAZWA": "Rosma",
+    "MIASTO": "Vilnius"
+  },
+  {
+    "ZAPIS_ID": 1303287,
+    "WYDAWNICTWO_ID": 25550,
+    "NAZWA": "EKSMO",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 495413,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 361538,
+    "WYDAWNICTWO_ID": 27641,
+    "NAZWA": "Podsiedlik-Raniowski i Spółka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1442640,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1432509,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1421168,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1358731,
+    "WYDAWNICTWO_ID": 34099,
+    "NAZWA": "Towarzystwo Naukowe KUL. Katolicki Uniwersytet Lubelski Jana Pawła II",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1189677,
+    "WYDAWNICTWO_ID": 35903,
+    "NAZWA": "EKSMO-Press",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 472496,
+    "WYDAWNICTWO_ID": 38083,
+    "NAZWA": "IFP WSP [Instytut Filologii Polskiej Wyższej Szkoły Pedagogicznej w Częstochowie]",
+    "MIASTO": "Częstochowa"
+  },
+  {
+    "ZAPIS_ID": 1359266,
+    "WYDAWNICTWO_ID": 67514,
+    "NAZWA": "Wydział Filologiczny Uniwersytetu Wrocławskiego",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1332838,
+    "WYDAWNICTWO_ID": 84234,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich. Wydawnictwo",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1451370,
+    "WYDAWNICTWO_ID": 106617,
+    "NAZWA": "Fundacja Akademia Humanistyczna",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1357467,
+    "WYDAWNICTWO_ID": 129921,
+    "NAZWA": "Warszawska Wyższa Szkoła Humanistyczna im. Bolesława Prusa",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1359573,
+    "WYDAWNICTWO_ID": 129955,
+    "NAZWA": "Wydawnictwo Biblios",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1358998,
+    "WYDAWNICTWO_ID": 129785,
+    "NAZWA": "Wydawnictwo Uniwersytetu Kazimierza Wielkiego",
+    "MIASTO": "Bydgoszcz"
+  },
+  {
+    "ZAPIS_ID": 2012003,
+    "WYDAWNICTWO_ID": 132654,
+    "NAZWA": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1429962,
+    "WYDAWNICTWO_ID": 143957,
+    "NAZWA": "Leningradskoe Izdatel'stvo",
+    "MIASTO": "Sankt-Peterburg"
+  },
+  {
+    "ZAPIS_ID": 1454759,
+    "WYDAWNICTWO_ID": 147519,
+    "NAZWA": "Katarzyna Wasilewska",
+    "MIASTO": "[Stany Zjednoczone]"
+  },
+  {
+    "ZAPIS_ID": 1456573,
+    "WYDAWNICTWO_ID": 147758,
+    "NAZWA": "[Wydawnictwo IBIS, Izabela Napierała]",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 316722,
+    "WYDAWNICTWO_ID": 162,
+    "NAZWA": "Wydawnictwo Dolnośląskie",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1362769,
+    "WYDAWNICTWO_ID": 2,
+    "NAZWA": "Wydawnictwo Literackie",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 90121,
+    "WYDAWNICTWO_ID": 51,
+    "NAZWA": "Wydawnictwo Ministerstwa Obrony Narodowej",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 25213,
+    "WYDAWNICTWO_ID": 51,
+    "NAZWA": "Wydawnictwo Ministerstwa Obrony Narodowej",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1461959,
+    "WYDAWNICTWO_ID": 64,
+    "NAZWA": "Wydawnictwo Poznańskie",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 25325,
+    "WYDAWNICTWO_ID": 970,
+    "NAZWA": "Wydawnictwo Polskiego Towarzystwa Turystyczno-Krajoznawczego \"Kraj\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 25225,
+    "WYDAWNICTWO_ID": 978,
+    "NAZWA": "Verlag der Nation",
+    "MIASTO": "Berlin"
+  },
+  {
+    "ZAPIS_ID": 1362936,
+    "WYDAWNICTWO_ID": 1082,
+    "NAZWA": "Wydawnictwo Uniwersytetu Gdańskiego",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 90119,
+    "WYDAWNICTWO_ID": 1212,
+    "NAZWA": "Dom Książki",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 120833,
+    "WYDAWNICTWO_ID": 1238,
+    "NAZWA": "Jota",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1419268,
+    "WYDAWNICTWO_ID": 1412,
+    "NAZWA": "Towarzystwo Przyjaciół Nałęczowa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 389554,
+    "WYDAWNICTWO_ID": 3722,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich",
+    "MIASTO": "Wrocław, Kraków"
+  },
+  {
+    "ZAPIS_ID": 211858,
+    "WYDAWNICTWO_ID": 4282,
+    "NAZWA": "Łuk",
+    "MIASTO": "Białystok"
+  },
+  {
+    "ZAPIS_ID": 361491,
+    "WYDAWNICTWO_ID": 4404,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich",
+    "MIASTO": "Wrocław, Kraków, Warszawa"
+  },
+  {
+    "ZAPIS_ID": 372492,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 316684,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 211939,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212878,
+    "WYDAWNICTWO_ID": 8430,
+    "NAZWA": "Lilija",
+    "MIASTO": "Chelabinsk"
+  },
+  {
+    "ZAPIS_ID": 212898,
+    "WYDAWNICTWO_ID": 13663,
+    "NAZWA": "TOO Fora",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 361548,
+    "WYDAWNICTWO_ID": 25673,
+    "NAZWA": "Adalex",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 730211,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 495414,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 495412,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 495523,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 361540,
+    "WYDAWNICTWO_ID": 27649,
+    "NAZWA": "\"Klasyka\". Nakł. Bielskich Zakładów Graficznych",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 1436189,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1358257,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1333477,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372578,
+    "WYDAWNICTWO_ID": 28692,
+    "NAZWA": "PW [Przedsiębiortswo Wielobranżowe] \"WAM\"",
+    "MIASTO": "Rawa Mazowiecka"
+  },
+  {
+    "ZAPIS_ID": 1436878,
+    "WYDAWNICTWO_ID": 28828,
+    "NAZWA": "AST",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1462690,
+    "WYDAWNICTWO_ID": 29895,
+    "NAZWA": "Wydawnictwo Uniwersytetu Jagiellońskiego",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 537316,
+    "WYDAWNICTWO_ID": 44923,
+    "NAZWA": "Club Internacional del Libro",
+    "MIASTO": "Madrid"
+  },
+  {
+    "ZAPIS_ID": 1461042,
+    "WYDAWNICTWO_ID": 126198,
+    "NAZWA": "Wydawnictwo Ibis",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 1348716,
+    "WYDAWNICTWO_ID": 128156,
+    "NAZWA": "Stephanie Kraft",
+    "MIASTO": "Amherst"
+  },
+  {
+    "ZAPIS_ID": 1436878,
+    "WYDAWNICTWO_ID": 128695,
+    "NAZWA": "Astrel'",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1353009,
+    "WYDAWNICTWO_ID": 129096,
+    "NAZWA": "b.w.",
+    "MIASTO": "Amherst"
+  },
+  {
+    "ZAPIS_ID": 1451370,
+    "WYDAWNICTWO_ID": 129852,
+    "NAZWA": "Instytut Badań Literackich PAN. Wydawnictwo",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 120852,
+    "WYDAWNICTWO_ID": 155,
+    "NAZWA": "Varsovia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 120848,
+    "WYDAWNICTWO_ID": 155,
+    "NAZWA": "Varsovia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 541464,
+    "WYDAWNICTWO_ID": 162,
+    "NAZWA": "Wydawnictwo Dolnośląskie",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 388820,
+    "WYDAWNICTWO_ID": 162,
+    "NAZWA": "Wydawnictwo Dolnośląskie",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 825595,
+    "WYDAWNICTWO_ID": 2,
+    "NAZWA": "Wydawnictwo Literackie",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 25210,
+    "WYDAWNICTWO_ID": 21,
+    "NAZWA": "Wydawnictwo Łódzkie",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 467319,
+    "WYDAWNICTWO_ID": 664,
+    "NAZWA": "Vaga",
+    "MIASTO": "Vilnius"
+  },
+  {
+    "ZAPIS_ID": 211938,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 1048211,
+    "WYDAWNICTWO_ID": 1412,
+    "NAZWA": "Towarzystwo Przyjaciół Nałęczowa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 594346,
+    "WYDAWNICTWO_ID": 3167,
+    "NAZWA": "Elipsa",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 25324,
+    "WYDAWNICTWO_ID": 3467,
+    "NAZWA": "Oddział Doskonalenia Nauczycieli",
+    "MIASTO": "Szczecin"
+  },
+  {
+    "ZAPIS_ID": 365374,
+    "WYDAWNICTWO_ID": 4807,
+    "NAZWA": "Chudozhestvennaja Literatura",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 365371,
+    "WYDAWNICTWO_ID": 4807,
+    "NAZWA": "Chudozhestvennaja Literatura",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1362768,
+    "WYDAWNICTWO_ID": 4883,
+    "NAZWA": "Towarzystwo Naukowe Katolickiego Uniwersytetu Lubelskiego",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 729514,
+    "WYDAWNICTWO_ID": 20551,
+    "NAZWA": "Świat Książki",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 316687,
+    "WYDAWNICTWO_ID": 20551,
+    "NAZWA": "Świat Książki",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 266215,
+    "WYDAWNICTWO_ID": 22341,
+    "NAZWA": "A/O \"Interbruk\"",
+    "MIASTO": "Novosibirsk"
+  },
+  {
+    "ZAPIS_ID": 471996,
+    "WYDAWNICTWO_ID": 6802,
+    "NAZWA": "Dom Wydawniczy \"Rebis\"",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 162189,
+    "WYDAWNICTWO_ID": 6902,
+    "NAZWA": "Debit",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 388985,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 163256,
+    "WYDAWNICTWO_ID": 8426,
+    "NAZWA": "Sie \"AL\"",
+    "MIASTO": "Varna"
+  },
+  {
+    "ZAPIS_ID": 472496,
+    "WYDAWNICTWO_ID": 11603,
+    "NAZWA": "Księgarnia Akademicka",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 261425,
+    "WYDAWNICTWO_ID": 11604,
+    "NAZWA": "Morex",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212698,
+    "WYDAWNICTWO_ID": 13623,
+    "NAZWA": "TOO Lokus",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1049186,
+    "WYDAWNICTWO_ID": 25550,
+    "NAZWA": "EKSMO",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 361536,
+    "WYDAWNICTWO_ID": 25673,
+    "NAZWA": "Adalex",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 389206,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1348632,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1214377,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1214360,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 724015,
+    "WYDAWNICTWO_ID": 26195,
+    "NAZWA": "KWE",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 361539,
+    "WYDAWNICTWO_ID": 27649,
+    "NAZWA": "\"Klasyka\". Nakł. Bielskich Zakładów Graficznych",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 1299283,
+    "WYDAWNICTWO_ID": 27730,
+    "NAZWA": "Słowo/Obraz Terytoria",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 1426110,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1358239,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1351061,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1333479,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1333476,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 412838,
+    "WYDAWNICTWO_ID": 32982,
+    "NAZWA": "Domino",
+    "MIASTO": "Ostrava"
+  },
+  {
+    "ZAPIS_ID": 1422713,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1422667,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1357957,
+    "WYDAWNICTWO_ID": 83014,
+    "NAZWA": "Norbertinum Wydawnictwo - Drukarnia - Księgarnia",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1332838,
+    "WYDAWNICTWO_ID": 122499,
+    "NAZWA": "we współpr. z De Agostini Polska",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1348669,
+    "WYDAWNICTWO_ID": 122830,
+    "NAZWA": "Polskapresse",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1419868,
+    "WYDAWNICTWO_ID": 123004,
+    "NAZWA": "Wydawnictwo KUL",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1362767,
+    "WYDAWNICTWO_ID": 123004,
+    "NAZWA": "Wydawnictwo KUL",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1457851,
+    "WYDAWNICTWO_ID": 126221,
+    "NAZWA": "Wydawnictwo Olesiejuk",
+    "MIASTO": "Ożarów Mazowiecki"
+  },
+  {
+    "ZAPIS_ID": 1348672,
+    "WYDAWNICTWO_ID": 128154,
+    "NAZWA": "Bertelsmann Media - Świat Książki",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1348715,
+    "WYDAWNICTWO_ID": 128156,
+    "NAZWA": "Stephanie Kraft",
+    "MIASTO": "Amherst"
+  },
+  {
+    "ZAPIS_ID": 1353006,
+    "WYDAWNICTWO_ID": 128676,
+    "NAZWA": "KRK Ediciones",
+    "MIASTO": "Oviedo"
+  },
+  {
+    "ZAPIS_ID": 1380912,
+    "WYDAWNICTWO_ID": 130000,
+    "NAZWA": "Muzeum Literatury im. Adama Mickiewicza",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1357115,
+    "WYDAWNICTWO_ID": 129785,
+    "NAZWA": "Wydawnictwo Uniwersytetu Kazimierza Wielkiego",
+    "MIASTO": "Bydgoszcz"
+  },
+  {
+    "ZAPIS_ID": 1368748,
+    "WYDAWNICTWO_ID": 132668,
+    "NAZWA": "we współpr. z Towarzystwem Przyjaciół Nałęczowa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 1436802,
+    "WYDAWNICTWO_ID": 143945,
+    "NAZWA": "[Wydawnictwo Ibis]",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 1450974,
+    "WYDAWNICTWO_ID": 145110,
+    "NAZWA": "Wydawnictwo Uniwersytetu Przyrodniczo-Humanistycznego",
+    "MIASTO": "Siedlce"
+  },
+  {
+    "ZAPIS_ID": 120828,
+    "WYDAWNICTWO_ID": 155,
+    "NAZWA": "Varsovia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 90162,
+    "WYDAWNICTWO_ID": 155,
+    "NAZWA": "Varsovia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 368306,
+    "WYDAWNICTWO_ID": 49,
+    "NAZWA": "Nasza Księgarnia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 361541,
+    "WYDAWNICTWO_ID": 49,
+    "NAZWA": "Nasza Księgarnia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 162163,
+    "WYDAWNICTWO_ID": 49,
+    "NAZWA": "Nasza Księgarnia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 90139,
+    "WYDAWNICTWO_ID": 59,
+    "NAZWA": "Krajowa Agencja Wydawnicza",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 361492,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 162180,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 316706,
+    "WYDAWNICTWO_ID": 478,
+    "NAZWA": "Wydawnictwo Wyższej Szkoły Pedagogicznej",
+    "MIASTO": "Rzeszów"
+  },
+  {
+    "ZAPIS_ID": 2736,
+    "WYDAWNICTWO_ID": 669,
+    "NAZWA": "Kriterion",
+    "MIASTO": "Bucuresti"
+  },
+  {
+    "ZAPIS_ID": 90122,
+    "WYDAWNICTWO_ID": 1212,
+    "NAZWA": "Dom Książki",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 261430,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 211859,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 211839,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 1368747,
+    "WYDAWNICTWO_ID": 1412,
+    "NAZWA": "Towarzystwo Przyjaciół Nałęczowa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 211920,
+    "WYDAWNICTWO_ID": 2294,
+    "NAZWA": "Resovia",
+    "MIASTO": "Rzeszów"
+  },
+  {
+    "ZAPIS_ID": 90170,
+    "WYDAWNICTWO_ID": 2755,
+    "NAZWA": "Wydawnictwo Uczelniane Wyższej Szkoły Pedagogicznej",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 266220,
+    "WYDAWNICTWO_ID": 4710,
+    "NAZWA": "Polymja",
+    "MIASTO": "Mihnsk"
+  },
+  {
+    "ZAPIS_ID": 1362771,
+    "WYDAWNICTWO_ID": 4952,
+    "NAZWA": "Wydawnictwo Poznańskiego Towarzystwa Przyjaciół Nauk",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 388451,
+    "WYDAWNICTWO_ID": 20551,
+    "NAZWA": "Świat Książki",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 261404,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 163271,
+    "WYDAWNICTWO_ID": 8430,
+    "NAZWA": "Lilija",
+    "MIASTO": "Chelabinsk"
+  },
+  {
+    "ZAPIS_ID": 212080,
+    "WYDAWNICTWO_ID": 13563,
+    "NAZWA": "Tulipan",
+    "MIASTO": "Budapest"
+  },
+  {
+    "ZAPIS_ID": 212858,
+    "WYDAWNICTWO_ID": 13643,
+    "NAZWA": "Omskoe Knizhnoe Izd-vo",
+    "MIASTO": "Omsk"
+  },
+  {
+    "ZAPIS_ID": 316683,
+    "WYDAWNICTWO_ID": 25673,
+    "NAZWA": "Adalex",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 1348680,
+    "WYDAWNICTWO_ID": 25733,
+    "NAZWA": "Świat Książki - Bertelsmann Media",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1348627,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1297867,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1294537,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372093,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 495136,
+    "WYDAWNICTWO_ID": 26195,
+    "NAZWA": "KWE",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 365376,
+    "WYDAWNICTWO_ID": 28174,
+    "NAZWA": "Stredoevropske Nakl.",
+    "MIASTO": "Ostrava"
+  },
+  {
+    "ZAPIS_ID": 365370,
+    "WYDAWNICTWO_ID": 28171,
+    "NAZWA": "A3 Data",
+    "MIASTO": "Zagreb"
+  },
+  {
+    "ZAPIS_ID": 1457647,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1351060,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372115,
+    "WYDAWNICTWO_ID": 28691,
+    "NAZWA": "PWW [Philip Wilson Warsaw]",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1420184,
+    "WYDAWNICTWO_ID": 28910,
+    "NAZWA": "[b.w.]",
+    "MIASTO": "Siedlce"
+  },
+  {
+    "ZAPIS_ID": 730196,
+    "WYDAWNICTWO_ID": 33938,
+    "NAZWA": "Mea",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 466295,
+    "WYDAWNICTWO_ID": 35903,
+    "NAZWA": "EKSMO-Press",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1210137,
+    "WYDAWNICTWO_ID": 40044,
+    "NAZWA": "Wydawnictwo Uniwersytetu Kardynała Stefana Wyszyńskiego",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1368747,
+    "WYDAWNICTWO_ID": 56094,
+    "NAZWA": "przy współpr. z Muzeum Bolesława Prusa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 1420509,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1303568,
+    "WYDAWNICTWO_ID": 85954,
+    "NAZWA": "Harrassowitz Verlag",
+    "MIASTO": "Wiesbaden"
+  },
+  {
+    "ZAPIS_ID": 1049187,
+    "WYDAWNICTWO_ID": 105399,
+    "NAZWA": "Academia",
+    "MIASTO": "Praha"
+  },
+  {
+    "ZAPIS_ID": 1438913,
+    "WYDAWNICTWO_ID": 123759,
+    "NAZWA": "Wydawnictwo Słowo/Obraz Terytoria",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 1456501,
+    "WYDAWNICTWO_ID": 126221,
+    "NAZWA": "Wydawnictwo Olesiejuk",
+    "MIASTO": "Ożarów Mazowiecki"
+  },
+  {
+    "ZAPIS_ID": 1346523,
+    "WYDAWNICTWO_ID": 128099,
+    "NAZWA": "Levné knihy KMa",
+    "MIASTO": "Praha"
+  },
+  {
+    "ZAPIS_ID": 1353008,
+    "WYDAWNICTWO_ID": 129096,
+    "NAZWA": "b.w.",
+    "MIASTO": "Amherst"
+  },
+  {
+    "ZAPIS_ID": 1359644,
+    "WYDAWNICTWO_ID": 129955,
+    "NAZWA": "Wydawnictwo Biblios",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1429070,
+    "WYDAWNICTWO_ID": 142792,
+    "NAZWA": "Beijing Yanshan Chubanshe",
+    "MIASTO": "Beijing"
+  },
+  {
+    "ZAPIS_ID": 120832,
+    "WYDAWNICTWO_ID": 155,
+    "NAZWA": "Varsovia",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 25211,
+    "WYDAWNICTWO_ID": 64,
+    "NAZWA": "Wydawnictwo Poznańskie",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 316670,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 90160,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 163265,
+    "WYDAWNICTWO_ID": 587,
+    "NAZWA": "Izvestija",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 2736,
+    "WYDAWNICTWO_ID": 671,
+    "NAZWA": "[Europa]",
+    "MIASTO": "[Budapest]"
+  },
+  {
+    "ZAPIS_ID": 1209337,
+    "WYDAWNICTWO_ID": 1082,
+    "NAZWA": "Wydawnictwo Uniwersytetu Gdańskiego",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 90141,
+    "WYDAWNICTWO_ID": 1212,
+    "NAZWA": "Dom Książki",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1446333,
+    "WYDAWNICTWO_ID": 1413,
+    "NAZWA": "Muzeum Lubelskie",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 25355,
+    "WYDAWNICTWO_ID": 1413,
+    "NAZWA": "Muzeum Lubelskie",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 388445,
+    "WYDAWNICTWO_ID": 2303,
+    "NAZWA": "Siedmioróg",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 361546,
+    "WYDAWNICTWO_ID": 2303,
+    "NAZWA": "Siedmioróg",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 316672,
+    "WYDAWNICTWO_ID": 2303,
+    "NAZWA": "Siedmioróg",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 261427,
+    "WYDAWNICTWO_ID": 2545,
+    "NAZWA": "GMP",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 94702,
+    "WYDAWNICTWO_ID": 3026,
+    "NAZWA": "L'Atalante",
+    "MIASTO": "Nantes"
+  },
+  {
+    "ZAPIS_ID": 388987,
+    "WYDAWNICTWO_ID": 4786,
+    "NAZWA": "Prószyński i S-ka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 266225,
+    "WYDAWNICTWO_ID": 16924,
+    "NAZWA": "Aufbau - Taschenbuch - Verlag",
+    "MIASTO": "Berlin"
+  },
+  {
+    "ZAPIS_ID": 266345,
+    "WYDAWNICTWO_ID": 22381,
+    "NAZWA": "Novella",
+    "MIASTO": "Budapest"
+  },
+  {
+    "ZAPIS_ID": 163270,
+    "WYDAWNICTWO_ID": 8429,
+    "NAZWA": "Transport",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 261412,
+    "WYDAWNICTWO_ID": 11604,
+    "NAZWA": "Morex",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 213058,
+    "WYDAWNICTWO_ID": 13683,
+    "NAZWA": "Lubelskie Towarzystwo Naukowe",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1348684,
+    "WYDAWNICTWO_ID": 25733,
+    "NAZWA": "Świat Książki - Bertelsmann Media",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 389198,
+    "WYDAWNICTWO_ID": 26051,
+    "NAZWA": "Spes",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1214380,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 389200,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 361542,
+    "WYDAWNICTWO_ID": 27641,
+    "NAZWA": "Podsiedlik-Raniowski i Spółka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 408829,
+    "WYDAWNICTWO_ID": 28093,
+    "NAZWA": "Wojewódzka i Miejska Biblioteka Publiczna im. Marszałka Józefa Piłsudskiego",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 1427051,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1358241,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1333478,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372092,
+    "WYDAWNICTWO_ID": 28691,
+    "NAZWA": "PWW [Philip Wilson Warsaw]",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1434852,
+    "WYDAWNICTWO_ID": 28828,
+    "NAZWA": "AST",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 495126,
+    "WYDAWNICTWO_ID": 33938,
+    "NAZWA": "Mea",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 735333,
+    "WYDAWNICTWO_ID": 35903,
+    "NAZWA": "EKSMO-Press",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 533989,
+    "WYDAWNICTWO_ID": 37983,
+    "NAZWA": "Wydawnictwo UwB [Uniwersytetu w Białymstoku]",
+    "MIASTO": "Białystok"
+  },
+  {
+    "ZAPIS_ID": 1357545,
+    "WYDAWNICTWO_ID": 77594,
+    "NAZWA": "De Agostini Polska",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1417969,
+    "WYDAWNICTWO_ID": 84234,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich. Wydawnictwo",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1332837,
+    "WYDAWNICTWO_ID": 122499,
+    "NAZWA": "we współpr. z De Agostini Polska",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1348656,
+    "WYDAWNICTWO_ID": 122830,
+    "NAZWA": "Polskapresse",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1465021,
+    "WYDAWNICTWO_ID": 125157,
+    "NAZWA": "Eksmo",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1353011,
+    "WYDAWNICTWO_ID": 128622,
+    "NAZWA": "Mediasat Group",
+    "MIASTO": "[Madryt]"
+  },
+  {
+    "ZAPIS_ID": 1362793,
+    "WYDAWNICTWO_ID": 131010,
+    "NAZWA": "Muzeum Historyczne m. st. Warszawy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1434532,
+    "WYDAWNICTWO_ID": 144141,
+    "NAZWA": "Slovo / Slovo",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 25222,
+    "WYDAWNICTWO_ID": 64,
+    "NAZWA": "Wydawnictwo Poznańskie",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 120843,
+    "WYDAWNICTWO_ID": 81,
+    "NAZWA": "Książka i Wiedza",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 120847,
+    "WYDAWNICTWO_ID": 87,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 25229,
+    "WYDAWNICTWO_ID": 478,
+    "NAZWA": "Wydawnictwo Wyższej Szkoły Pedagogicznej",
+    "MIASTO": "Rzeszów"
+  },
+  {
+    "ZAPIS_ID": 2732,
+    "WYDAWNICTWO_ID": 668,
+    "NAZWA": "Rowohlt",
+    "MIASTO": "Reinbek bei Hamburg"
+  },
+  {
+    "ZAPIS_ID": 211980,
+    "WYDAWNICTWO_ID": 1400,
+    "NAZWA": "Beskidzka Oficyna Wydawnicza",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 25355,
+    "WYDAWNICTWO_ID": 1412,
+    "NAZWA": "Towarzystwo Przyjaciół Nałęczowa",
+    "MIASTO": "Nałęczów"
+  },
+  {
+    "ZAPIS_ID": 120850,
+    "WYDAWNICTWO_ID": 1509,
+    "NAZWA": "Arcanum",
+    "MIASTO": "Bydgoszcz"
+  },
+  {
+    "ZAPIS_ID": 120812,
+    "WYDAWNICTWO_ID": 1509,
+    "NAZWA": "Arcanum",
+    "MIASTO": "Bydgoszcz"
+  },
+  {
+    "ZAPIS_ID": 79371,
+    "WYDAWNICTWO_ID": 2126,
+    "NAZWA": "Zrzeszenie Nauczycieli Polskich w Ameryce",
+    "MIASTO": "Chicago"
+  },
+  {
+    "ZAPIS_ID": 372499,
+    "WYDAWNICTWO_ID": 2303,
+    "NAZWA": "Siedmioróg",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 162153,
+    "WYDAWNICTWO_ID": 3167,
+    "NAZWA": "Elipsa",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 388989,
+    "WYDAWNICTWO_ID": 4786,
+    "NAZWA": "Prószyński i S-ka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 904266,
+    "WYDAWNICTWO_ID": 20551,
+    "NAZWA": "Świat Książki",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 261416,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212918,
+    "WYDAWNICTWO_ID": 12803,
+    "NAZWA": "Veche",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 261423,
+    "WYDAWNICTWO_ID": 11604,
+    "NAZWA": "Morex",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 261406,
+    "WYDAWNICTWO_ID": 11604,
+    "NAZWA": "Morex",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212058,
+    "WYDAWNICTWO_ID": 13543,
+    "NAZWA": "Dedalus",
+    "MIASTO": "Huntingdon"
+  },
+  {
+    "ZAPIS_ID": 261437,
+    "WYDAWNICTWO_ID": 14218,
+    "NAZWA": "Elipsa 2",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 261403,
+    "WYDAWNICTWO_ID": 15058,
+    "NAZWA": "PIW [Państwowy Instytut Wydawniczy]",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1348677,
+    "WYDAWNICTWO_ID": 25733,
+    "NAZWA": "Świat Książki - Bertelsmann Media",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1297832,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 828848,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1348589,
+    "WYDAWNICTWO_ID": 28328,
+    "NAZWA": "Wydawnictwo Greg",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372577,
+    "WYDAWNICTWO_ID": 28692,
+    "NAZWA": "PW [Przedsiębiortswo Wielobranżowe] \"WAM\"",
+    "MIASTO": "Rawa Mazowiecka"
+  },
+  {
+    "ZAPIS_ID": 723514,
+    "WYDAWNICTWO_ID": 61554,
+    "NAZWA": "Promocja",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1455328,
+    "WYDAWNICTWO_ID": 126221,
+    "NAZWA": "Wydawnictwo Olesiejuk",
+    "MIASTO": "Ożarów Mazowiecki"
+  },
+  {
+    "ZAPIS_ID": 1362770,
+    "WYDAWNICTWO_ID": 130132,
+    "NAZWA": "Wydawnictwa Akademickie i Profesjonalne",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1451318,
+    "WYDAWNICTWO_ID": 144993,
+    "NAZWA": "Wydawnictwo Primum Verbum",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 541452,
+    "WYDAWNICTWO_ID": 162,
+    "NAZWA": "Wydawnictwo Dolnośląskie",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 361537,
+    "WYDAWNICTWO_ID": 81,
+    "NAZWA": "Książka i Wiedza",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 120849,
+    "WYDAWNICTWO_ID": 84,
+    "NAZWA": "Państwowy Instytut Wydawniczy",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 2720,
+    "WYDAWNICTWO_ID": 102,
+    "NAZWA": "Pravda",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "WYDAWNICTWO_ID": 450,
+    "NAZWA": "Suhrkamp",
+    "MIASTO": "Frankfurt am Main"
+  },
+  {
+    "ZAPIS_ID": 1451407,
+    "WYDAWNICTWO_ID": 1082,
+    "NAZWA": "Wydawnictwo Uniwersytetu Gdańskiego",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 163241,
+    "WYDAWNICTWO_ID": 1379,
+    "NAZWA": "Minerva",
+    "MIASTO": "Bucuresti"
+  },
+  {
+    "ZAPIS_ID": 1362771,
+    "WYDAWNICTWO_ID": 1449,
+    "NAZWA": "Uniwersytet im. Adama Mickiewicza",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 79349,
+    "WYDAWNICTWO_ID": 2123,
+    "NAZWA": "Wydawnictwo Literackie Stowarzyszenia Polskich Kombatantów",
+    "MIASTO": "Szkocja"
+  },
+  {
+    "ZAPIS_ID": 589994,
+    "WYDAWNICTWO_ID": 2545,
+    "NAZWA": "GMP",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 120811,
+    "WYDAWNICTWO_ID": 2642,
+    "NAZWA": "Labos",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 365372,
+    "WYDAWNICTWO_ID": 3883,
+    "NAZWA": "Puls",
+    "MIASTO": "London"
+  },
+  {
+    "ZAPIS_ID": 261439,
+    "WYDAWNICTWO_ID": 4240,
+    "NAZWA": "Marba Crown",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 161999,
+    "WYDAWNICTWO_ID": 4518,
+    "NAZWA": "Romcart",
+    "MIASTO": "Bucuresti"
+  },
+  {
+    "ZAPIS_ID": 388984,
+    "WYDAWNICTWO_ID": 4786,
+    "NAZWA": "Prószyński i S-ka",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 361291,
+    "WYDAWNICTWO_ID": 21800,
+    "NAZWA": "Eventus",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 211919,
+    "WYDAWNICTWO_ID": 8564,
+    "NAZWA": "Wydawnictwo \"Kama\"",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 261415,
+    "WYDAWNICTWO_ID": 11604,
+    "NAZWA": "Morex",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 212058,
+    "WYDAWNICTWO_ID": 13523,
+    "NAZWA": "Hippocrene",
+    "MIASTO": "New York"
+  },
+  {
+    "ZAPIS_ID": 261414,
+    "WYDAWNICTWO_ID": 15058,
+    "NAZWA": "PIW [Państwowy Instytut Wydawniczy]",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 314822,
+    "WYDAWNICTWO_ID": 25673,
+    "NAZWA": "Adalex",
+    "MIASTO": "Łódź"
+  },
+  {
+    "ZAPIS_ID": 1348678,
+    "WYDAWNICTWO_ID": 25733,
+    "NAZWA": "Świat Książki - Bertelsmann Media",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1334834,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 389201,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372122,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372118,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 372116,
+    "WYDAWNICTWO_ID": 26180,
+    "NAZWA": "Zielona Sowa",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 363987,
+    "WYDAWNICTWO_ID": 26368,
+    "NAZWA": "Trans Humana",
+    "MIASTO": "Białystok"
+  },
+  {
+    "ZAPIS_ID": 365728,
+    "WYDAWNICTWO_ID": 28259,
+    "NAZWA": "Foris",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 388819,
+    "WYDAWNICTWO_ID": 28691,
+    "NAZWA": "PWW [Philip Wilson Warsaw]",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1450478,
+    "WYDAWNICTWO_ID": 40263,
+    "NAZWA": "Wydawnictwo Polihymnia",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1352992,
+    "WYDAWNICTWO_ID": 47148,
+    "NAZWA": "Shang hai yi wen chu ban she",
+    "MIASTO": "Shang hai"
+  },
+  {
+    "ZAPIS_ID": 1371629,
+    "WYDAWNICTWO_ID": 58034,
+    "NAZWA": "Indrik",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1433507,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1422691,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1348646,
+    "WYDAWNICTWO_ID": 67034,
+    "NAZWA": "Wydawnictwo \"Zielona Sowa\"",
+    "MIASTO": "Kraków"
+  },
+  {
+    "ZAPIS_ID": 1332837,
+    "WYDAWNICTWO_ID": 84234,
+    "NAZWA": "Zakład Narodowy im. Ossolińskich. Wydawnictwo",
+    "MIASTO": "Wrocław"
+  },
+  {
+    "ZAPIS_ID": 1332839,
+    "WYDAWNICTWO_ID": 116357,
+    "NAZWA": "Instytut Badań Literackich PAN [Polskiej Akademii Nauk]. Wydawnictwo",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1450301,
+    "WYDAWNICTWO_ID": 122760,
+    "NAZWA": "Wydawnictwo Akademii Techniczno-Humanistycznej",
+    "MIASTO": "Bielsko-Biała"
+  },
+  {
+    "ZAPIS_ID": 1437078,
+    "WYDAWNICTWO_ID": 123759,
+    "NAZWA": "Wydawnictwo Słowo/Obraz Terytoria",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 1348665,
+    "WYDAWNICTWO_ID": 125969,
+    "NAZWA": "Orkla Press Polska",
+    "MIASTO": "Warszawa"
+  },
+  {
+    "ZAPIS_ID": 1445037,
+    "WYDAWNICTWO_ID": 126198,
+    "NAZWA": "Wydawnictwo Ibis",
+    "MIASTO": "Poznań"
+  },
+  {
+    "ZAPIS_ID": 1434852,
+    "WYDAWNICTWO_ID": 128695,
+    "NAZWA": "Astrel'",
+    "MIASTO": "Moskva"
+  },
+  {
+    "ZAPIS_ID": 1359550,
+    "WYDAWNICTWO_ID": 129955,
+    "NAZWA": "Wydawnictwo Biblios",
+    "MIASTO": "Lublin"
+  },
+  {
+    "ZAPIS_ID": 1362936,
+    "WYDAWNICTWO_ID": 131038,
+    "NAZWA": "Officina Ferberiana",
+    "MIASTO": "Gdańsk"
+  },
+  {
+    "ZAPIS_ID": 1426304,
+    "WYDAWNICTWO_ID": 142792,
+    "NAZWA": "Beijing Yanshan Chubanshe",
+    "MIASTO": "Beijing"
+  },
+  {
+    "ZAPIS_ID": 1436878,
+    "WYDAWNICTWO_ID": 144143,
+    "NAZWA": "VKT",
+    "MIASTO": "Vladimir"
+  },
+  {
+    "ZAPIS_ID": 1463331,
+    "WYDAWNICTWO_ID": 147588,
+    "NAZWA": "DM Sorus",
+    "MIASTO": "Poznań"
+  }
+]

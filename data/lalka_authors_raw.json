@@ -1,0 +1,4592 @@
+[
+  {
+    "ZAPIS_ID": 1110101,
+    "AUTOR_ID": 122,
+    "IMIE": "Wojciech",
+    "NAZWISKO": "Janota"
+  },
+  {
+    "ZAPIS_ID": 342843,
+    "AUTOR_ID": 178,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Markiewicz"
+  },
+  {
+    "ZAPIS_ID": 97861,
+    "AUTOR_ID": 2768,
+    "IMIE": "Jan",
+    "NAZWISKO": "Błoński"
+  },
+  {
+    "ZAPIS_ID": 186882,
+    "AUTOR_ID": 2855,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Tynecki"
+  },
+  {
+    "ZAPIS_ID": 1513883,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1457851,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1422692,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1422691,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1358257,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1335876,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1294488,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1214380,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1049186,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 828848,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 724015,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 467319,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 413972,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 408829,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389200,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388986,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388820,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 378916,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372590,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372115,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372092,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 364636,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361547,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361541,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316687,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 300433,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261437,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261412,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 199137,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 162158,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 132571,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120847,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120833,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 119998,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90121,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 85017,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 79371,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 35364,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 25211,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 21045,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 290238,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 55916,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 863104,
+    "AUTOR_ID": 2557,
+    "IMIE": "Hanna",
+    "NAZWISKO": "Gosk"
+  },
+  {
+    "ZAPIS_ID": 1961537,
+    "AUTOR_ID": 3089,
+    "IMIE": "Sylwester",
+    "NAZWISKO": "Dziki"
+  },
+  {
+    "ZAPIS_ID": 291614,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 1258,
+    "IMIE": "Zofia",
+    "NAZWISKO": "Kossak"
+  },
+  {
+    "ZAPIS_ID": 170183,
+    "AUTOR_ID": 1762,
+    "IMIE": "Edward",
+    "NAZWISKO": "Szopa"
+  },
+  {
+    "ZAPIS_ID": 512034,
+    "AUTOR_ID": 1413,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Pomian"
+  },
+  {
+    "ZAPIS_ID": 373804,
+    "AUTOR_ID": 3877,
+    "IMIE": "Grzegorz",
+    "NAZWISKO": "Leszczyński"
+  },
+  {
+    "ZAPIS_ID": 383242,
+    "AUTOR_ID": 1531,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Faron"
+  },
+  {
+    "ZAPIS_ID": 1461959,
+    "AUTOR_ID": 3479,
+    "IMIE": "Edward",
+    "NAZWISKO": "Pieścikowski"
+  },
+  {
+    "ZAPIS_ID": 471996,
+    "AUTOR_ID": 3479,
+    "IMIE": "Edward",
+    "NAZWISKO": "Pieścikowski"
+  },
+  {
+    "ZAPIS_ID": 224961,
+    "AUTOR_ID": 3479,
+    "IMIE": "Edward",
+    "NAZWISKO": "Pieścikowski"
+  },
+  {
+    "ZAPIS_ID": 130768,
+    "AUTOR_ID": 4351,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Koźniewski"
+  },
+  {
+    "ZAPIS_ID": 18100,
+    "AUTOR_ID": 6485,
+    "IMIE": "Janina",
+    "NAZWISKO": "Szcześniak"
+  },
+  {
+    "ZAPIS_ID": 72414,
+    "AUTOR_ID": 4445,
+    "IMIE": "Eugeniusz",
+    "NAZWISKO": "Czaplejewicz"
+  },
+  {
+    "ZAPIS_ID": 1362769,
+    "AUTOR_ID": 8909,
+    "IMIE": "Olga",
+    "NAZWISKO": "Tokarczuk"
+  },
+  {
+    "ZAPIS_ID": 910433,
+    "AUTOR_ID": 5371,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Bortnowski"
+  },
+  {
+    "ZAPIS_ID": 802889,
+    "AUTOR_ID": 2983,
+    "IMIE": "Anna",
+    "NAZWISKO": "Tatarkiewicz"
+  },
+  {
+    "ZAPIS_ID": 843019,
+    "AUTOR_ID": 9174,
+    "IMIE": "Dariusz",
+    "NAZWISKO": "Gawin"
+  },
+  {
+    "ZAPIS_ID": 105219,
+    "AUTOR_ID": 8534,
+    "IMIE": "Antoni",
+    "NAZWISKO": "Baczewski"
+  },
+  {
+    "ZAPIS_ID": 1368747,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 1048216,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 512127,
+    "AUTOR_ID": 10518,
+    "IMIE": "Bronisław",
+    "NAZWISKO": "Maj"
+  },
+  {
+    "ZAPIS_ID": 918418,
+    "AUTOR_ID": 13776,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Kralkowska-Gątkowska"
+  },
+  {
+    "ZAPIS_ID": 294728,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 224964,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 1210137,
+    "AUTOR_ID": 14272,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Bobrowska"
+  },
+  {
+    "ZAPIS_ID": 996862,
+    "AUTOR_ID": 14272,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Bobrowska"
+  },
+  {
+    "ZAPIS_ID": 415721,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 483192,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 1158543,
+    "AUTOR_ID": 20882,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Micińska"
+  },
+  {
+    "ZAPIS_ID": 178239,
+    "AUTOR_ID": 23808,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Żabski"
+  },
+  {
+    "ZAPIS_ID": 150218,
+    "AUTOR_ID": 24261,
+    "IMIE": "Andrzej Józef",
+    "NAZWISKO": "Dąbrowski"
+  },
+  {
+    "ZAPIS_ID": 1717072,
+    "AUTOR_ID": 27482,
+    "IMIE": "Jacek",
+    "NAZWISKO": "Kamiński"
+  },
+  {
+    "ZAPIS_ID": 135579,
+    "AUTOR_ID": 28082,
+    "IMIE": "Louis J.",
+    "NAZWISKO": "Budd"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 51269,
+    "IMIE": "Roman",
+    "NAZWISKO": "Dmowski"
+  },
+  {
+    "ZAPIS_ID": 2010971,
+    "AUTOR_ID": 71748,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1764892,
+    "AUTOR_ID": 76668,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Lewandowska-Tarasiuk"
+  },
+  {
+    "ZAPIS_ID": 328459,
+    "AUTOR_ID": 86233,
+    "IMIE": "Christopher",
+    "NAZWISKO": "Kasparek"
+  },
+  {
+    "ZAPIS_ID": 290634,
+    "AUTOR_ID": 86233,
+    "IMIE": "Christopher",
+    "NAZWISKO": "Kasparek"
+  },
+  {
+    "ZAPIS_ID": 1359644,
+    "AUTOR_ID": 89789,
+    "IMIE": "Józef",
+    "NAZWISKO": "Osmoła"
+  },
+  {
+    "ZAPIS_ID": 986032,
+    "AUTOR_ID": 91720,
+    "IMIE": "Urszula",
+    "NAZWISKO": "Benka"
+  },
+  {
+    "ZAPIS_ID": 1450301,
+    "AUTOR_ID": 95201,
+    "IMIE": "Ireneusz",
+    "NAZWISKO": "Gielata"
+  },
+  {
+    "ZAPIS_ID": 1362767,
+    "AUTOR_ID": 104140,
+    "IMIE": "Jakub A.",
+    "NAZWISKO": "Malik"
+  },
+  {
+    "ZAPIS_ID": 538762,
+    "AUTOR_ID": 109434,
+    "IMIE": "Stanisława",
+    "NAZWISKO": "Lewińska"
+  },
+  {
+    "ZAPIS_ID": 971745,
+    "AUTOR_ID": 117335,
+    "IMIE": "Rafał",
+    "NAZWISKO": "Dąbrowski"
+  },
+  {
+    "ZAPIS_ID": 1362936,
+    "AUTOR_ID": 122018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Friedrich"
+  },
+  {
+    "ZAPIS_ID": 498326,
+    "AUTOR_ID": 134935,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1955791,
+    "AUTOR_ID": 169018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Bąbel"
+  },
+  {
+    "ZAPIS_ID": 1231878,
+    "AUTOR_ID": 174398,
+    "IMIE": "Maja E.",
+    "NAZWISKO": "Cybulska"
+  },
+  {
+    "ZAPIS_ID": 1908933,
+    "AUTOR_ID": 197742,
+    "IMIE": "Maria",
+    "NAZWISKO": "Cyran"
+  },
+  {
+    "ZAPIS_ID": 1068091,
+    "AUTOR_ID": 347059,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Samborska-Kukuć"
+  },
+  {
+    "ZAPIS_ID": 1947252,
+    "AUTOR_ID": 440779,
+    "IMIE": "Ela",
+    "NAZWISKO": "Bauer"
+  },
+  {
+    "ZAPIS_ID": 1143679,
+    "AUTOR_ID": 452839,
+    "IMIE": "Lucyna",
+    "NAZWISKO": "Podgórniak"
+  },
+  {
+    "ZAPIS_ID": 1359573,
+    "AUTOR_ID": 511643,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wilczycka"
+  },
+  {
+    "ZAPIS_ID": 1317391,
+    "AUTOR_ID": 517739,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Rumińska"
+  },
+  {
+    "ZAPIS_ID": 1987831,
+    "AUTOR_ID": 532413,
+    "IMIE": "Czesław",
+    "NAZWISKO": "Galek"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553822,
+    "IMIE": "Antoni",
+    "NAZWISKO": "Chołoniewski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553829,
+    "IMIE": "Józef",
+    "NAZWISKO": "Lange"
+  },
+  {
+    "ZAPIS_ID": 1857620,
+    "AUTOR_ID": 557873,
+    "IMIE": "Joanna",
+    "NAZWISKO": "Popłońska"
+  },
+  {
+    "ZAPIS_ID": 1987829,
+    "AUTOR_ID": 644412,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Skubis-Rafalska"
+  },
+  {
+    "ZAPIS_ID": 1928691,
+    "AUTOR_ID": 689732,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1934616,
+    "AUTOR_ID": 691951,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1955791,
+    "AUTOR_ID": 705679,
+    "IMIE": "Agata",
+    "NAZWISKO": "Grabowska-Kuniczuk"
+  },
+  {
+    "ZAPIS_ID": 1956456,
+    "AUTOR_ID": 706063,
+    "IMIE": "Grzegorz",
+    "NAZWISKO": "Głąb"
+  },
+  {
+    "ZAPIS_ID": 1988016,
+    "AUTOR_ID": 725319,
+    "IMIE": "Marta",
+    "NAZWISKO": "Jedliczko-Malik"
+  },
+  {
+    "ZAPIS_ID": 1228206,
+    "AUTOR_ID": 960,
+    "IMIE": "Marceli",
+    "NAZWISKO": "Kosman"
+  },
+  {
+    "ZAPIS_ID": 193496,
+    "AUTOR_ID": 1021,
+    "IMIE": "Gabriela",
+    "NAZWISKO": "Pauszer-Klonowska"
+  },
+  {
+    "ZAPIS_ID": 419816,
+    "AUTOR_ID": 2992,
+    "IMIE": "Ryszard",
+    "NAZWISKO": "Loew"
+  },
+  {
+    "ZAPIS_ID": 1461042,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1448435,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1434852,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1429962,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1422667,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1420509,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348678,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1050921,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 495523,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 495412,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 495136,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 466295,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 406152,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389201,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389198,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 378914,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372578,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372499,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372116,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372093,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365728,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361548,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 328452,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 324264,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 314822,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261425,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261419,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261414,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261406,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 242185,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211980,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211979,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211938,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 167437,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120848,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 119997,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 27030,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 21047,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 2720,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 2716,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 523772,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 531000,
+    "AUTOR_ID": 2536,
+    "IMIE": "Czesław",
+    "NAZWISKO": "Skonka"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 1181,
+    "IMIE": "Zygmunt",
+    "NAZWISKO": "Krasiński"
+  },
+  {
+    "ZAPIS_ID": 1938152,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 43354,
+    "AUTOR_ID": 1210,
+    "IMIE": "Maciej",
+    "NAZWISKO": "Krassowski"
+  },
+  {
+    "ZAPIS_ID": 398558,
+    "AUTOR_ID": 5678,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Gradkowski"
+  },
+  {
+    "ZAPIS_ID": 407265,
+    "AUTOR_ID": 6357,
+    "IMIE": "Marta",
+    "NAZWISKO": "Denys"
+  },
+  {
+    "ZAPIS_ID": 109714,
+    "AUTOR_ID": 6440,
+    "IMIE": "Tomasz",
+    "NAZWISKO": "Wójcik"
+  },
+  {
+    "ZAPIS_ID": 363987,
+    "AUTOR_ID": 8295,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Paczoska"
+  },
+  {
+    "ZAPIS_ID": 825595,
+    "AUTOR_ID": 8909,
+    "IMIE": "Olga",
+    "NAZWISKO": "Tokarczuk"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 8439,
+    "IMIE": "Maria",
+    "NAZWISKO": "Czapska"
+  },
+  {
+    "ZAPIS_ID": 49757,
+    "AUTOR_ID": 12854,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Olszewski"
+  },
+  {
+    "ZAPIS_ID": 341734,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 302256,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 186977,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 1299283,
+    "AUTOR_ID": 14272,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Bobrowska"
+  },
+  {
+    "ZAPIS_ID": 543642,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 26558,
+    "IMIE": "Ignacy Jan",
+    "NAZWISKO": "Paderewski"
+  },
+  {
+    "ZAPIS_ID": 330663,
+    "AUTOR_ID": 31398,
+    "IMIE": "Piotr",
+    "NAZWISKO": "Podziomek-Zakrzewski"
+  },
+  {
+    "ZAPIS_ID": 236197,
+    "AUTOR_ID": 36935,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Gurbiel"
+  },
+  {
+    "ZAPIS_ID": 188059,
+    "AUTOR_ID": 43494,
+    "IMIE": "Pszisko",
+    "NAZWISKO": "Jacobs"
+  },
+  {
+    "ZAPIS_ID": 1463331,
+    "AUTOR_ID": 40630,
+    "IMIE": "Alicja",
+    "NAZWISKO": "Pihan-Kijasowa"
+  },
+  {
+    "ZAPIS_ID": 1937797,
+    "AUTOR_ID": 101255,
+    "IMIE": "Cezary",
+    "NAZWISKO": "Zalewski"
+  },
+  {
+    "ZAPIS_ID": 570503,
+    "AUTOR_ID": 133717,
+    "IMIE": "Zygmunt",
+    "NAZWISKO": "Turski"
+  },
+  {
+    "ZAPIS_ID": 974030,
+    "AUTOR_ID": 151685,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1672531,
+    "AUTOR_ID": 230325,
+    "IMIE": "Halina",
+    "NAZWISKO": "Zielińska"
+  },
+  {
+    "ZAPIS_ID": 1238892,
+    "AUTOR_ID": 280086,
+    "IMIE": "Karolina",
+    "NAZWISKO": "Morawiecka"
+  },
+  {
+    "ZAPIS_ID": 1966233,
+    "AUTOR_ID": 347059,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Samborska-Kukuć"
+  },
+  {
+    "ZAPIS_ID": 1714371,
+    "AUTOR_ID": 347059,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Samborska-Kukuć"
+  },
+  {
+    "ZAPIS_ID": 970168,
+    "AUTOR_ID": 349139,
+    "IMIE": "Elżbieta",
+    "NAZWISKO": "Lubczyńska-Jeziorna"
+  },
+  {
+    "ZAPIS_ID": 1083152,
+    "AUTOR_ID": 424199,
+    "IMIE": "Elizabeth",
+    "NAZWISKO": "Blake"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553826,
+    "IMIE": "Józef",
+    "NAZWISKO": "Kenig"
+  },
+  {
+    "ZAPIS_ID": 1857620,
+    "AUTOR_ID": 557872,
+    "IMIE": "Wioletta",
+    "NAZWISKO": "Guzek"
+  },
+  {
+    "ZAPIS_ID": 1609467,
+    "AUTOR_ID": 604333,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Mariasik"
+  },
+  {
+    "ZAPIS_ID": 1972209,
+    "AUTOR_ID": 715759,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Zawistowska"
+  },
+  {
+    "ZAPIS_ID": 2002582,
+    "AUTOR_ID": 733700,
+    "IMIE": "Anna",
+    "NAZWISKO": "Wodzyńska"
+  },
+  {
+    "ZAPIS_ID": 2005993,
+    "AUTOR_ID": 735339,
+    "IMIE": "Renata",
+    "NAZWISKO": "Pałka"
+  },
+  {
+    "ZAPIS_ID": 1051958,
+    "AUTOR_ID": 178,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Markiewicz"
+  },
+  {
+    "ZAPIS_ID": 1051343,
+    "AUTOR_ID": 232,
+    "IMIE": "Zofia",
+    "NAZWISKO": "Mitosek"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2266,
+    "IMIE": "Konstanty Aleksander",
+    "NAZWISKO": "Jeleński"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 357,
+    "IMIE": "Witold",
+    "NAZWISKO": "Gombrowicz"
+  },
+  {
+    "ZAPIS_ID": 1438913,
+    "AUTOR_ID": 1126,
+    "IMIE": "Krzysztof",
+    "NAZWISKO": "Rutkowski"
+  },
+  {
+    "ZAPIS_ID": 1936779,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1933570,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1446333,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1437341,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1424028,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348715,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348713,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348686,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348684,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348671,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348669,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348656,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348655,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348646,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348589,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1333478,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1332838,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1303315,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1250227,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1051082,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 904266,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 729514,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 541452,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 392486,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388819,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 368306,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365372,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361546,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361540,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361537,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316722,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316672,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316670,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 300434,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 266225,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 266215,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261439,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261423,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 242186,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212918,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212878,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211920,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211878,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211858,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 163256,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 162153,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 161999,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120854,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 94702,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90160,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 25213,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 25210,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 21046,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 236196,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 90170,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 230897,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 137430,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 110832,
+    "AUTOR_ID": 1413,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Pomian"
+  },
+  {
+    "ZAPIS_ID": 185306,
+    "AUTOR_ID": 4191,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Mostwin"
+  },
+  {
+    "ZAPIS_ID": 185852,
+    "AUTOR_ID": 4428,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Warzenica-Zalewska"
+  },
+  {
+    "ZAPIS_ID": 166656,
+    "AUTOR_ID": 4601,
+    "IMIE": "Leon",
+    "NAZWISKO": "Krzemieniecki"
+  },
+  {
+    "ZAPIS_ID": 1209337,
+    "AUTOR_ID": 4710,
+    "IMIE": "Anna",
+    "NAZWISKO": "Martuszewska"
+  },
+  {
+    "ZAPIS_ID": 302266,
+    "AUTOR_ID": 5482,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Gajda"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 8770,
+    "IMIE": "Joachim",
+    "NAZWISKO": "Lelewel"
+  },
+  {
+    "ZAPIS_ID": 1987290,
+    "AUTOR_ID": 9432,
+    "IMIE": "Zygmunt",
+    "NAZWISKO": "Kozak"
+  },
+  {
+    "ZAPIS_ID": 410558,
+    "AUTOR_ID": 5858,
+    "IMIE": "Janina",
+    "NAZWISKO": "Kulczycka-Saloni"
+  },
+  {
+    "ZAPIS_ID": 1419268,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 356147,
+    "AUTOR_ID": 10890,
+    "IMIE": "Krzysztof",
+    "NAZWISKO": "Biliński"
+  },
+  {
+    "ZAPIS_ID": 284272,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 194820,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 813195,
+    "AUTOR_ID": 14203,
+    "IMIE": "Janusz",
+    "NAZWISKO": "Kapuścik"
+  },
+  {
+    "ZAPIS_ID": 117342,
+    "AUTOR_ID": 16071,
+    "IMIE": "Nikolaj",
+    "NAZWISKO": "Daskalov"
+  },
+  {
+    "ZAPIS_ID": 307342,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 1092767,
+    "AUTOR_ID": 19071,
+    "IMIE": "Frantisek",
+    "NAZWISKO": "Vseticka"
+  },
+  {
+    "ZAPIS_ID": 1898112,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 405083,
+    "AUTOR_ID": 20751,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Sosnowska"
+  },
+  {
+    "ZAPIS_ID": 1876931,
+    "AUTOR_ID": 23797,
+    "IMIE": "Stefan",
+    "NAZWISKO": "Kruk"
+  },
+  {
+    "ZAPIS_ID": 158728,
+    "AUTOR_ID": 24597,
+    "IMIE": "Elena",
+    "NAZWISKO": "Cybenko"
+  },
+  {
+    "ZAPIS_ID": 916913,
+    "AUTOR_ID": 26610,
+    "IMIE": "Piotr",
+    "NAZWISKO": "Kępiński"
+  },
+  {
+    "ZAPIS_ID": 551920,
+    "AUTOR_ID": 28890,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Kluba"
+  },
+  {
+    "ZAPIS_ID": 1160765,
+    "AUTOR_ID": 28011,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Markiewicz"
+  },
+  {
+    "ZAPIS_ID": 135412,
+    "AUTOR_ID": 28032,
+    "IMIE": "Maria",
+    "NAZWISKO": "Rachwałowa"
+  },
+  {
+    "ZAPIS_ID": 304250,
+    "AUTOR_ID": 31907,
+    "IMIE": "Justyna",
+    "NAZWISKO": "Kobus"
+  },
+  {
+    "ZAPIS_ID": 919495,
+    "AUTOR_ID": 37101,
+    "IMIE": "Anna",
+    "NAZWISKO": "Tumidajewicz"
+  },
+  {
+    "ZAPIS_ID": 1101680,
+    "AUTOR_ID": 37542,
+    "IMIE": "Bogusław",
+    "NAZWISKO": "Paprocki"
+  },
+  {
+    "ZAPIS_ID": 173617,
+    "AUTOR_ID": 38387,
+    "IMIE": "Ion",
+    "NAZWISKO": "Petrica"
+  },
+  {
+    "ZAPIS_ID": 475411,
+    "AUTOR_ID": 67558,
+    "IMIE": "Maciej",
+    "NAZWISKO": "Janowski"
+  },
+  {
+    "ZAPIS_ID": 607998,
+    "AUTOR_ID": 75258,
+    "IMIE": "Arkadiusz",
+    "NAZWISKO": "Frania"
+  },
+  {
+    "ZAPIS_ID": 251888,
+    "AUTOR_ID": 72448,
+    "IMIE": "Jakub",
+    "NAZWISKO": "Aleksandrowicz"
+  },
+  {
+    "ZAPIS_ID": 614336,
+    "AUTOR_ID": 86092,
+    "IMIE": "Alina",
+    "NAZWISKO": "Rynio"
+  },
+  {
+    "ZAPIS_ID": 421874,
+    "AUTOR_ID": 86233,
+    "IMIE": "Christopher",
+    "NAZWISKO": "Kasparek"
+  },
+  {
+    "ZAPIS_ID": 830655,
+    "AUTOR_ID": 86292,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Maciąg"
+  },
+  {
+    "ZAPIS_ID": 978226,
+    "AUTOR_ID": 92752,
+    "IMIE": "Anna",
+    "NAZWISKO": "Wziątek"
+  },
+  {
+    "ZAPIS_ID": 366580,
+    "AUTOR_ID": 98685,
+    "IMIE": "M.",
+    "NAZWISKO": "Grigorova"
+  },
+  {
+    "ZAPIS_ID": 597348,
+    "AUTOR_ID": 103325,
+    "IMIE": "Maciej",
+    "NAZWISKO": "Gloger"
+  },
+  {
+    "ZAPIS_ID": 443417,
+    "AUTOR_ID": 110879,
+    "IMIE": "Adam",
+    "NAZWISKO": "Bystrzyca"
+  },
+  {
+    "ZAPIS_ID": 1068093,
+    "AUTOR_ID": 138509,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Paja"
+  },
+  {
+    "ZAPIS_ID": 520038,
+    "AUTOR_ID": 146258,
+    "IMIE": "Anna",
+    "NAZWISKO": "Sikora"
+  },
+  {
+    "ZAPIS_ID": 2006683,
+    "AUTOR_ID": 153261,
+    "IMIE": "Jarosław",
+    "NAZWISKO": "Hebel"
+  },
+  {
+    "ZAPIS_ID": 564576,
+    "AUTOR_ID": 167658,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 2012946,
+    "AUTOR_ID": 234705,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Szol"
+  },
+  {
+    "ZAPIS_ID": 1841512,
+    "AUTOR_ID": 295676,
+    "IMIE": "Anna",
+    "NAZWISKO": "Krupska-Perek"
+  },
+  {
+    "ZAPIS_ID": 1451318,
+    "AUTOR_ID": 347059,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Samborska-Kukuć"
+  },
+  {
+    "ZAPIS_ID": 1159830,
+    "AUTOR_ID": 462565,
+    "IMIE": "Katarzyna",
+    "NAZWISKO": "Borek"
+  },
+  {
+    "ZAPIS_ID": 1995749,
+    "AUTOR_ID": 551666,
+    "IMIE": "Dagmara",
+    "NAZWISKO": "Binkowska"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 552268,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Moraczewski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553823,
+    "IMIE": "Jan",
+    "NAZWISKO": "Jeleński"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553827,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Kiersnowski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553832,
+    "IMIE": "Józef",
+    "NAZWISKO": "Orlicki"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553835,
+    "IMIE": "Srefania",
+    "NAZWISKO": "Sempołowska"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553837,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Świderska"
+  },
+  {
+    "ZAPIS_ID": 1955810,
+    "AUTOR_ID": 563042,
+    "IMIE": "Sylwia",
+    "NAZWISKO": "Karpowicz-Słowikowska"
+  },
+  {
+    "ZAPIS_ID": 1532839,
+    "AUTOR_ID": 587211,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Pyszko"
+  },
+  {
+    "ZAPIS_ID": 1671853,
+    "AUTOR_ID": 629131,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Typek"
+  },
+  {
+    "ZAPIS_ID": 1936774,
+    "AUTOR_ID": 691832,
+    "IMIE": "Dariusz",
+    "NAZWISKO": "Piechota"
+  },
+  {
+    "ZAPIS_ID": 25325,
+    "AUTOR_ID": 1977,
+    "IMIE": "Monika",
+    "NAZWISKO": "Warneńska"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2128,
+    "IMIE": "Cyprian Kamil",
+    "NAZWISKO": "Norwid"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2768,
+    "IMIE": "Jan",
+    "NAZWISKO": "Błoński"
+  },
+  {
+    "ZAPIS_ID": 314484,
+    "AUTOR_ID": 931,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Starnawski"
+  },
+  {
+    "ZAPIS_ID": 1240100,
+    "AUTOR_ID": 1127,
+    "IMIE": "Elżbieta",
+    "NAZWISKO": "Sawicka"
+  },
+  {
+    "ZAPIS_ID": 1454759,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1434532,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1433507,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1432509,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1429070,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1422713,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1353009,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1353006,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1297867,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1294537,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1189677,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 869744,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 730196,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 495414,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 412838,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389202,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388987,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388984,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372477,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361728,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361538,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361492,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261416,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261403,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 252767,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212080,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211919,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 162189,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 162180,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 162163,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 162160,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120812,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90162,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 25225,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 18056,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 18054,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 606396,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 512690,
+    "AUTOR_ID": 1189,
+    "IMIE": "Weronika",
+    "NAZWISKO": "Kustanowiczowa"
+  },
+  {
+    "ZAPIS_ID": 90293,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 1174133,
+    "AUTOR_ID": 1260,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Kostrzewa"
+  },
+  {
+    "ZAPIS_ID": 421994,
+    "AUTOR_ID": 3321,
+    "IMIE": "Aneta",
+    "NAZWISKO": "Mazur"
+  },
+  {
+    "ZAPIS_ID": 236719,
+    "AUTOR_ID": 6063,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Wojda"
+  },
+  {
+    "ZAPIS_ID": 475498,
+    "AUTOR_ID": 6416,
+    "IMIE": "Hana",
+    "NAZWISKO": "Voisine-Jechova"
+  },
+  {
+    "ZAPIS_ID": 18094,
+    "AUTOR_ID": 6483,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Midzio"
+  },
+  {
+    "ZAPIS_ID": 73184,
+    "AUTOR_ID": 6485,
+    "IMIE": "Janina",
+    "NAZWISKO": "Szcześniak"
+  },
+  {
+    "ZAPIS_ID": 18080,
+    "AUTOR_ID": 4445,
+    "IMIE": "Eugeniusz",
+    "NAZWISKO": "Czaplejewicz"
+  },
+  {
+    "ZAPIS_ID": 18072,
+    "AUTOR_ID": 4618,
+    "IMIE": "Anna",
+    "NAZWISKO": "Horodecka"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 6727,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Tomaszewski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 8282,
+    "IMIE": "Edward",
+    "NAZWISKO": "Raczyński"
+  },
+  {
+    "ZAPIS_ID": 378033,
+    "AUTOR_ID": 4211,
+    "IMIE": "Małgorzata",
+    "NAZWISKO": "Musierowicz"
+  },
+  {
+    "ZAPIS_ID": 25229,
+    "AUTOR_ID": 8534,
+    "IMIE": "Antoni",
+    "NAZWISKO": "Baczewski"
+  },
+  {
+    "ZAPIS_ID": 25324,
+    "AUTOR_ID": 8565,
+    "IMIE": "Maria",
+    "NAZWISKO": "Zakrzewska"
+  },
+  {
+    "ZAPIS_ID": 1368748,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 1357546,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 25355,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 394003,
+    "AUTOR_ID": 10147,
+    "IMIE": "Leszek",
+    "NAZWISKO": "Mazan"
+  },
+  {
+    "ZAPIS_ID": 1172890,
+    "AUTOR_ID": 16906,
+    "IMIE": "Bronisław",
+    "NAZWISKO": "Gołębiowski"
+  },
+  {
+    "ZAPIS_ID": 991354,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 193370,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 228323,
+    "AUTOR_ID": 26358,
+    "IMIE": "Michael J.",
+    "NAZWISKO": "Mikoś"
+  },
+  {
+    "ZAPIS_ID": 2020246,
+    "AUTOR_ID": 37655,
+    "IMIE": "Cezary W.",
+    "NAZWISKO": "Domański"
+  },
+  {
+    "ZAPIS_ID": 1362793,
+    "AUTOR_ID": 37932,
+    "IMIE": "Paweł",
+    "NAZWISKO": "Waszak"
+  },
+  {
+    "ZAPIS_ID": 393999,
+    "AUTOR_ID": 40156,
+    "IMIE": "Katarzyna",
+    "NAZWISKO": "Siwiec"
+  },
+  {
+    "ZAPIS_ID": 179975,
+    "AUTOR_ID": 40630,
+    "IMIE": "Alicja",
+    "NAZWISKO": "Pihan-Kijasowa"
+  },
+  {
+    "ZAPIS_ID": 182002,
+    "AUTOR_ID": 41727,
+    "IMIE": "Tomasz",
+    "NAZWISKO": "Chludziński"
+  },
+  {
+    "ZAPIS_ID": 1023768,
+    "AUTOR_ID": 88373,
+    "IMIE": "Robert",
+    "NAZWISKO": "Papieski"
+  },
+  {
+    "ZAPIS_ID": 1142038,
+    "AUTOR_ID": 97134,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Michalska"
+  },
+  {
+    "ZAPIS_ID": 1462690,
+    "AUTOR_ID": 101255,
+    "IMIE": "Cezary",
+    "NAZWISKO": "Zalewski"
+  },
+  {
+    "ZAPIS_ID": 636555,
+    "AUTOR_ID": 109357,
+    "IMIE": "Teresa",
+    "NAZWISKO": "Smółkowa"
+  },
+  {
+    "ZAPIS_ID": 459644,
+    "AUTOR_ID": 119360,
+    "IMIE": "Elżbieta",
+    "NAZWISKO": "Pawlicka"
+  },
+  {
+    "ZAPIS_ID": 1127598,
+    "AUTOR_ID": 122018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Friedrich"
+  },
+  {
+    "ZAPIS_ID": 559552,
+    "AUTOR_ID": 164984,
+    "IMIE": "Violetta",
+    "NAZWISKO": "Machnicka"
+  },
+  {
+    "ZAPIS_ID": 1462423,
+    "AUTOR_ID": 172918,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Czachorowska"
+  },
+  {
+    "ZAPIS_ID": 1358998,
+    "AUTOR_ID": 172918,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Czachorowska"
+  },
+  {
+    "ZAPIS_ID": 832307,
+    "AUTOR_ID": 185519,
+    "IMIE": "Marta",
+    "NAZWISKO": "Cuber"
+  },
+  {
+    "ZAPIS_ID": 614336,
+    "AUTOR_ID": 193898,
+    "IMIE": "Małgorzata",
+    "NAZWISKO": "Kornafel"
+  },
+  {
+    "ZAPIS_ID": 935023,
+    "AUTOR_ID": 320511,
+    "IMIE": "Iza",
+    "NAZWISKO": "Krupa"
+  },
+  {
+    "ZAPIS_ID": 928638,
+    "AUTOR_ID": 343159,
+    "IMIE": "Agata",
+    "NAZWISKO": "Bogdańska"
+  },
+  {
+    "ZAPIS_ID": 1357957,
+    "AUTOR_ID": 530484,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Piersa"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553825,
+    "IMIE": "Walerian",
+    "NAZWISKO": "Kalinka"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553839,
+    "IMIE": "Aleksander",
+    "NAZWISKO": "Wielopolski"
+  },
+  {
+    "ZAPIS_ID": 1855431,
+    "AUTOR_ID": 672332,
+    "IMIE": "Sebastian",
+    "NAZWISKO": "Pawlina"
+  },
+  {
+    "ZAPIS_ID": 1923592,
+    "AUTOR_ID": 687511,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1997736,
+    "AUTOR_ID": 706602,
+    "IMIE": "Anna",
+    "NAZWISKO": "Wietecha"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 198,
+    "IMIE": "Teodor",
+    "NAZWISKO": "Jeske-Choiński"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2854,
+    "IMIE": "Adam",
+    "NAZWISKO": "Mickiewicz"
+  },
+  {
+    "ZAPIS_ID": 1857213,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1436878,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1436802,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1417969,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348627,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1303287,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1214360,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1049187,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 723514,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 495126,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389214,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 378915,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372122,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372118,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365376,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365370,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361491,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 287140,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 266345,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261430,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261429,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261415,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261404,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212698,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212638,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211958,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 163270,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 163265,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120852,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120843,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120828,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90141,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90119,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 57756,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 25212,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 334355,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 1981718,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 185835,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 1955807,
+    "AUTOR_ID": 3321,
+    "IMIE": "Aneta",
+    "NAZWISKO": "Mazur"
+  },
+  {
+    "ZAPIS_ID": 113992,
+    "AUTOR_ID": 1413,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Pomian"
+  },
+  {
+    "ZAPIS_ID": 373803,
+    "AUTOR_ID": 3877,
+    "IMIE": "Grzegorz",
+    "NAZWISKO": "Leszczyński"
+  },
+  {
+    "ZAPIS_ID": 25222,
+    "AUTOR_ID": 3479,
+    "IMIE": "Edward",
+    "NAZWISKO": "Pieścikowski"
+  },
+  {
+    "ZAPIS_ID": 447352,
+    "AUTOR_ID": 3558,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Paszek"
+  },
+  {
+    "ZAPIS_ID": 18086,
+    "AUTOR_ID": 6482,
+    "IMIE": "Andreas",
+    "NAZWISKO": "Lawaty"
+  },
+  {
+    "ZAPIS_ID": 177401,
+    "AUTOR_ID": 5430,
+    "IMIE": "Antoni",
+    "NAZWISKO": "Mackiewicz"
+  },
+  {
+    "ZAPIS_ID": 1362770,
+    "AUTOR_ID": 8295,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Paczoska"
+  },
+  {
+    "ZAPIS_ID": 106684,
+    "AUTOR_ID": 7780,
+    "IMIE": "Zdzisław",
+    "NAZWISKO": "Bradel"
+  },
+  {
+    "ZAPIS_ID": 1921158,
+    "AUTOR_ID": 8764,
+    "IMIE": "Svetlana",
+    "NAZWISKO": "Musienko"
+  },
+  {
+    "ZAPIS_ID": 37582,
+    "AUTOR_ID": 487,
+    "IMIE": "Krzysztof",
+    "NAZWISKO": "Stępnik"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 8951,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Kelles-Krauz"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2902,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Wierzyński"
+  },
+  {
+    "ZAPIS_ID": 316706,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 593564,
+    "AUTOR_ID": 13438,
+    "IMIE": "Edyta",
+    "NAZWISKO": "Wnuk"
+  },
+  {
+    "ZAPIS_ID": 58832,
+    "AUTOR_ID": 14263,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Falkowski"
+  },
+  {
+    "ZAPIS_ID": 533989,
+    "AUTOR_ID": 14272,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Bobrowska"
+  },
+  {
+    "ZAPIS_ID": 401079,
+    "AUTOR_ID": 20165,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 546351,
+    "AUTOR_ID": 26563,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Borowczyk"
+  },
+  {
+    "ZAPIS_ID": 144039,
+    "AUTOR_ID": 30237,
+    "IMIE": "Izydor",
+    "NAZWISKO": "Wiśniewski"
+  },
+  {
+    "ZAPIS_ID": 864539,
+    "AUTOR_ID": 37760,
+    "IMIE": "Kinga",
+    "NAZWISKO": "Dunin"
+  },
+  {
+    "ZAPIS_ID": 483124,
+    "AUTOR_ID": 53370,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Tokarzówna"
+  },
+  {
+    "ZAPIS_ID": 307561,
+    "AUTOR_ID": 53370,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Tokarzówna"
+  },
+  {
+    "ZAPIS_ID": 268045,
+    "AUTOR_ID": 79535,
+    "IMIE": "Gillian",
+    "NAZWISKO": "Olechno"
+  },
+  {
+    "ZAPIS_ID": 268047,
+    "AUTOR_ID": 79536,
+    "IMIE": "Gene H.",
+    "NAZWISKO": "Zygmont"
+  },
+  {
+    "ZAPIS_ID": 822273,
+    "AUTOR_ID": 85029,
+    "IMIE": "Zbigniew W.",
+    "NAZWISKO": "Fronczek"
+  },
+  {
+    "ZAPIS_ID": 421729,
+    "AUTOR_ID": 86233,
+    "IMIE": "Christopher",
+    "NAZWISKO": "Kasparek"
+  },
+  {
+    "ZAPIS_ID": 428320,
+    "AUTOR_ID": 86292,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Maciąg"
+  },
+  {
+    "ZAPIS_ID": 1362792,
+    "AUTOR_ID": 101255,
+    "IMIE": "Cezary",
+    "NAZWISKO": "Zalewski"
+  },
+  {
+    "ZAPIS_ID": 1068053,
+    "AUTOR_ID": 103325,
+    "IMIE": "Maciej",
+    "NAZWISKO": "Gloger"
+  },
+  {
+    "ZAPIS_ID": 514617,
+    "AUTOR_ID": 106269,
+    "IMIE": "Mirosław",
+    "NAZWISKO": "Łapot"
+  },
+  {
+    "ZAPIS_ID": 513278,
+    "AUTOR_ID": 107852,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Górniak"
+  },
+  {
+    "ZAPIS_ID": 1362771,
+    "AUTOR_ID": 107964,
+    "IMIE": "Tomasz",
+    "NAZWISKO": "Sobieraj"
+  },
+  {
+    "ZAPIS_ID": 901231,
+    "AUTOR_ID": 138509,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Paja"
+  },
+  {
+    "ZAPIS_ID": 505942,
+    "AUTOR_ID": 139736,
+    "IMIE": "Marta",
+    "NAZWISKO": "Chodorska"
+  },
+  {
+    "ZAPIS_ID": 594346,
+    "AUTOR_ID": 183540,
+    "IMIE": "Wiesław",
+    "NAZWISKO": "Sonczyk"
+  },
+  {
+    "ZAPIS_ID": 731877,
+    "AUTOR_ID": 187543,
+    "IMIE": "Katarzyna",
+    "NAZWISKO": "Szczerbowska"
+  },
+  {
+    "ZAPIS_ID": 604797,
+    "AUTOR_ID": 189033,
+    "IMIE": "Małgorzata",
+    "NAZWISKO": "Okulicz-Kozaryn"
+  },
+  {
+    "ZAPIS_ID": 1019026,
+    "AUTOR_ID": 193653,
+    "IMIE": "Anna",
+    "NAZWISKO": "Citkowska-Kimla"
+  },
+  {
+    "ZAPIS_ID": 951446,
+    "AUTOR_ID": 299291,
+    "IMIE": "Kamila",
+    "NAZWISKO": "Borysewicz"
+  },
+  {
+    "ZAPIS_ID": 1069828,
+    "AUTOR_ID": 337139,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Bilińska"
+  },
+  {
+    "ZAPIS_ID": 1069832,
+    "AUTOR_ID": 416659,
+    "IMIE": "Izabela",
+    "NAZWISKO": "Stachowiak"
+  },
+  {
+    "ZAPIS_ID": 1323169,
+    "AUTOR_ID": 520000,
+    "IMIE": "Katarzyna",
+    "NAZWISKO": "Rychta"
+  },
+  {
+    "ZAPIS_ID": 1365867,
+    "AUTOR_ID": 532413,
+    "IMIE": "Czesław",
+    "NAZWISKO": "Galek"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553824,
+    "IMIE": "Klemens",
+    "NAZWISKO": "Junosza-Szaniawski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553831,
+    "IMIE": "Walerian",
+    "NAZWISKO": "Łukasiński"
+  },
+  {
+    "ZAPIS_ID": 1704531,
+    "AUTOR_ID": 557921,
+    "IMIE": "Marcin",
+    "NAZWISKO": "Maron"
+  },
+  {
+    "ZAPIS_ID": 1451407,
+    "AUTOR_ID": 563042,
+    "IMIE": "Sylwia",
+    "NAZWISKO": "Karpowicz-Słowikowska"
+  },
+  {
+    "ZAPIS_ID": 2002589,
+    "AUTOR_ID": 605691,
+    "IMIE": "Joanna",
+    "NAZWISKO": "Krenz"
+  },
+  {
+    "ZAPIS_ID": 1987288,
+    "AUTOR_ID": 644091,
+    "IMIE": "Bogumiła",
+    "NAZWISKO": "Dragan-Szkodzińska"
+  },
+  {
+    "ZAPIS_ID": 1896732,
+    "AUTOR_ID": 644412,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Skubis-Rafalska"
+  },
+  {
+    "ZAPIS_ID": 1113581,
+    "AUTOR_ID": 122,
+    "IMIE": "Wojciech",
+    "NAZWISKO": "Janota"
+  },
+  {
+    "ZAPIS_ID": 599657,
+    "AUTOR_ID": 742,
+    "IMIE": "Tadeusz J.",
+    "NAZWISKO": "Żółciński"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 297,
+    "IMIE": "Konstanty Ildefons",
+    "NAZWISKO": "Gałczyński"
+  },
+  {
+    "ZAPIS_ID": 971506,
+    "AUTOR_ID": 301,
+    "IMIE": "Grażyna",
+    "NAZWISKO": "Borkowska"
+  },
+  {
+    "ZAPIS_ID": 207538,
+    "AUTOR_ID": 2405,
+    "IMIE": "Jan",
+    "NAZWISKO": "Kott"
+  },
+  {
+    "ZAPIS_ID": 731877,
+    "AUTOR_ID": 515,
+    "IMIE": "Anna",
+    "NAZWISKO": "Bernat"
+  },
+  {
+    "ZAPIS_ID": 1457647,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1456573,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1456501,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1455328,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1442640,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1436189,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1426110,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1421168,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1358241,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1352992,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1351061,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1351060,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348716,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348680,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1250060,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 590636,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 537316,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 413000,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389206,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388988,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388445,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372572,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365368,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361542,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316679,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 310963,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 266220,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212858,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 196978,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 163271,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120850,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120839,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90139,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 90122,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 33875,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 18057,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 2736,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 239131,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 166630,
+    "AUTOR_ID": 1107,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Budrewicz"
+  },
+  {
+    "ZAPIS_ID": 1437078,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 66300,
+    "AUTOR_ID": 3127,
+    "IMIE": "Józef",
+    "NAZWISKO": "Bachórz"
+  },
+  {
+    "ZAPIS_ID": 509825,
+    "AUTOR_ID": 1413,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Pomian"
+  },
+  {
+    "ZAPIS_ID": 291615,
+    "AUTOR_ID": 3479,
+    "IMIE": "Edward",
+    "NAZWISKO": "Pieścikowski"
+  },
+  {
+    "ZAPIS_ID": 284250,
+    "AUTOR_ID": 3487,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Bujnicki"
+  },
+  {
+    "ZAPIS_ID": 356145,
+    "AUTOR_ID": 4023,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Poklewska"
+  },
+  {
+    "ZAPIS_ID": 963091,
+    "AUTOR_ID": 5637,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Krajski"
+  },
+  {
+    "ZAPIS_ID": 109713,
+    "AUTOR_ID": 4428,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Warzenica-Zalewska"
+  },
+  {
+    "ZAPIS_ID": 18070,
+    "AUTOR_ID": 4445,
+    "IMIE": "Eugeniusz",
+    "NAZWISKO": "Czaplejewicz"
+  },
+  {
+    "ZAPIS_ID": 183104,
+    "AUTOR_ID": 7454,
+    "IMIE": "Mieczysław",
+    "NAZWISKO": "Jackiewicz"
+  },
+  {
+    "ZAPIS_ID": 541546,
+    "AUTOR_ID": 7500,
+    "IMIE": "Zdzisław Jerzy",
+    "NAZWISKO": "Adamczyk"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 7020,
+    "IMIE": "Ksawery",
+    "NAZWISKO": "Pruszyński"
+  },
+  {
+    "ZAPIS_ID": 1014087,
+    "AUTOR_ID": 8909,
+    "IMIE": "Olga",
+    "NAZWISKO": "Tokarczuk"
+  },
+  {
+    "ZAPIS_ID": 1185558,
+    "AUTOR_ID": 5858,
+    "IMIE": "Janina",
+    "NAZWISKO": "Kulczycka-Saloni"
+  },
+  {
+    "ZAPIS_ID": 410562,
+    "AUTOR_ID": 5858,
+    "IMIE": "Janina",
+    "NAZWISKO": "Kulczycka-Saloni"
+  },
+  {
+    "ZAPIS_ID": 828138,
+    "AUTOR_ID": 2983,
+    "IMIE": "Anna",
+    "NAZWISKO": "Tatarkiewicz"
+  },
+  {
+    "ZAPIS_ID": 73867,
+    "AUTOR_ID": 6481,
+    "IMIE": "Piotr",
+    "NAZWISKO": "Lehr-Spławiński"
+  },
+  {
+    "ZAPIS_ID": 1048211,
+    "AUTOR_ID": 8574,
+    "IMIE": "Halina",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 524798,
+    "AUTOR_ID": 10164,
+    "IMIE": "Bronisława",
+    "NAZWISKO": "Kulka"
+  },
+  {
+    "ZAPIS_ID": 1857214,
+    "AUTOR_ID": 10620,
+    "IMIE": "Marek",
+    "NAZWISKO": "Bieńczyk"
+  },
+  {
+    "ZAPIS_ID": 335271,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 284251,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 230899,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 194794,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 421992,
+    "AUTOR_ID": 14272,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Bobrowska"
+  },
+  {
+    "ZAPIS_ID": 71773,
+    "AUTOR_ID": 16646,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 828221,
+    "AUTOR_ID": 16906,
+    "IMIE": "Bronisław",
+    "NAZWISKO": "Gołębiowski"
+  },
+  {
+    "ZAPIS_ID": 602887,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 133895,
+    "AUTOR_ID": 26790,
+    "IMIE": "Tomasz",
+    "NAZWISKO": "Fiałkowski"
+  },
+  {
+    "ZAPIS_ID": 199298,
+    "AUTOR_ID": 28082,
+    "IMIE": "Louis J.",
+    "NAZWISKO": "Budd"
+  },
+  {
+    "ZAPIS_ID": 268073,
+    "AUTOR_ID": 32066,
+    "IMIE": "Jerzy R.",
+    "NAZWISKO": "Krzyżanowski"
+  },
+  {
+    "ZAPIS_ID": 1616707,
+    "AUTOR_ID": 42235,
+    "IMIE": "Paweł",
+    "NAZWISKO": "Dunin-Wąsowicz"
+  },
+  {
+    "ZAPIS_ID": 1616706,
+    "AUTOR_ID": 42235,
+    "IMIE": "Paweł",
+    "NAZWISKO": "Dunin-Wąsowicz"
+  },
+  {
+    "ZAPIS_ID": 422012,
+    "AUTOR_ID": 42819,
+    "IMIE": "Waldemar",
+    "NAZWISKO": "Klemm"
+  },
+  {
+    "ZAPIS_ID": 864405,
+    "AUTOR_ID": 44927,
+    "IMIE": "Dariusz",
+    "NAZWISKO": "Nowacki"
+  },
+  {
+    "ZAPIS_ID": 513407,
+    "AUTOR_ID": 91610,
+    "IMIE": "Filip",
+    "NAZWISKO": "Mazurkiewicz"
+  },
+  {
+    "ZAPIS_ID": 1936636,
+    "AUTOR_ID": 101255,
+    "IMIE": "Cezary",
+    "NAZWISKO": "Zalewski"
+  },
+  {
+    "ZAPIS_ID": 597767,
+    "AUTOR_ID": 102617,
+    "IMIE": "Gabriela",
+    "NAZWISKO": "Olchowa"
+  },
+  {
+    "ZAPIS_ID": 1357115,
+    "AUTOR_ID": 103325,
+    "IMIE": "Maciej",
+    "NAZWISKO": "Gloger"
+  },
+  {
+    "ZAPIS_ID": 553384,
+    "AUTOR_ID": 108539,
+    "IMIE": "Robert",
+    "NAZWISKO": "Piłat"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 111256,
+    "IMIE": "Irena",
+    "NAZWISKO": "Sendlerowa"
+  },
+  {
+    "ZAPIS_ID": 1098479,
+    "AUTOR_ID": 122018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Friedrich"
+  },
+  {
+    "ZAPIS_ID": 917781,
+    "AUTOR_ID": 122018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Friedrich"
+  },
+  {
+    "ZAPIS_ID": 1240827,
+    "AUTOR_ID": 125600,
+    "IMIE": "Klaudia",
+    "NAZWISKO": "Rumińska"
+  },
+  {
+    "ZAPIS_ID": 476452,
+    "AUTOR_ID": 127675,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 487126,
+    "AUTOR_ID": 131864,
+    "IMIE": "Wolfgang F.",
+    "NAZWISKO": "Schwarz"
+  },
+  {
+    "ZAPIS_ID": 493113,
+    "AUTOR_ID": 133916,
+    "IMIE": "Lucyna",
+    "NAZWISKO": "Muszyńska"
+  },
+  {
+    "ZAPIS_ID": 505941,
+    "AUTOR_ID": 139736,
+    "IMIE": "Marta",
+    "NAZWISKO": "Chodorska"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 148100,
+    "IMIE": null,
+    "NAZWISKO": "Jan Paweł II"
+  },
+  {
+    "ZAPIS_ID": 1450974,
+    "AUTOR_ID": 164984,
+    "IMIE": "Violetta",
+    "NAZWISKO": "Machnicka"
+  },
+  {
+    "ZAPIS_ID": 1140079,
+    "AUTOR_ID": 172918,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Czachorowska"
+  },
+  {
+    "ZAPIS_ID": 771336,
+    "AUTOR_ID": 183540,
+    "IMIE": "Wiesław",
+    "NAZWISKO": "Sonczyk"
+  },
+  {
+    "ZAPIS_ID": 1955808,
+    "AUTOR_ID": 198922,
+    "IMIE": "Anna",
+    "NAZWISKO": "Janicka"
+  },
+  {
+    "ZAPIS_ID": 1022168,
+    "AUTOR_ID": 283906,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 998831,
+    "AUTOR_ID": 382059,
+    "IMIE": "Magdalena",
+    "NAZWISKO": "Krzemińska"
+  },
+  {
+    "ZAPIS_ID": 1987291,
+    "AUTOR_ID": 532413,
+    "IMIE": "Czesław",
+    "NAZWISKO": "Galek"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553833,
+    "IMIE": "Konstanty",
+    "NAZWISKO": "Pathie"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553834,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Schmitt"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553836,
+    "IMIE": "Wawrzyniec",
+    "NAZWISKO": "Surowiecki"
+  },
+  {
+    "ZAPIS_ID": 1855392,
+    "AUTOR_ID": 664591,
+    "IMIE": "Ewa",
+    "NAZWISKO": "Sośnicka-Wojciechowska"
+  },
+  {
+    "ZAPIS_ID": 1943918,
+    "AUTOR_ID": 699173,
+    "IMIE": "Natalia",
+    "NAZWISKO": "Rowińska"
+  },
+  {
+    "ZAPIS_ID": 1987832,
+    "AUTOR_ID": 725859,
+    "IMIE": "Justyna",
+    "NAZWISKO": "Migas"
+  },
+  {
+    "ZAPIS_ID": 463844,
+    "AUTOR_ID": 3,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Milewski"
+  },
+  {
+    "ZAPIS_ID": 295376,
+    "AUTOR_ID": 178,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Markiewicz"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 196,
+    "IMIE": "Eliza",
+    "NAZWISKO": "Orzeszkowa"
+  },
+  {
+    "ZAPIS_ID": 674794,
+    "AUTOR_ID": 2673,
+    "IMIE": "Jan",
+    "NAZWISKO": "Tomkowski"
+  },
+  {
+    "ZAPIS_ID": 1445037,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1427051,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1358239,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1353011,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1353008,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348677,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348672,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348632,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1334834,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1333476,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1332837,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 735333,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 730211,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 495413,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 467333,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 389554,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388989,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388985,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 388451,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372597,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365371,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361291,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 324265,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316684,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 292056,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212738,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212058,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211939,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211839,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120849,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 35365,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1890538,
+    "AUTOR_ID": 2561,
+    "IMIE": "Zbigniew Włodzimierz",
+    "NAZWISKO": "Fronczek"
+  },
+  {
+    "ZAPIS_ID": 399751,
+    "AUTOR_ID": 2561,
+    "IMIE": "Zbigniew Włodzimierz",
+    "NAZWISKO": "Fronczek"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 1216,
+    "IMIE": "Antoni",
+    "NAZWISKO": "Słonimski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 5714,
+    "IMIE": "Adolf",
+    "NAZWISKO": "Nowaczyński"
+  },
+  {
+    "ZAPIS_ID": 27905,
+    "AUTOR_ID": 5857,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 1450478,
+    "AUTOR_ID": 9432,
+    "IMIE": "Zygmunt",
+    "NAZWISKO": "Kozak"
+  },
+  {
+    "ZAPIS_ID": 791079,
+    "AUTOR_ID": 5858,
+    "IMIE": "Janina",
+    "NAZWISKO": "Kulczycka-Saloni"
+  },
+  {
+    "ZAPIS_ID": 292052,
+    "AUTOR_ID": 5858,
+    "IMIE": "Janina",
+    "NAZWISKO": "Kulczycka-Saloni"
+  },
+  {
+    "ZAPIS_ID": 482940,
+    "AUTOR_ID": 2983,
+    "IMIE": "Anna",
+    "NAZWISKO": "Tatarkiewicz"
+  },
+  {
+    "ZAPIS_ID": 18076,
+    "AUTOR_ID": 6481,
+    "IMIE": "Piotr",
+    "NAZWISKO": "Lehr-Spławiński"
+  },
+  {
+    "ZAPIS_ID": 1934557,
+    "AUTOR_ID": 13265,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Surowiec"
+  },
+  {
+    "ZAPIS_ID": 74078,
+    "AUTOR_ID": 14272,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Bobrowska"
+  },
+  {
+    "ZAPIS_ID": 722335,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 91343,
+    "AUTOR_ID": 20460,
+    "IMIE": "Michał Jacek",
+    "NAZWISKO": "Mikoś"
+  },
+  {
+    "ZAPIS_ID": 603659,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 387796,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 105005,
+    "AUTOR_ID": 21453,
+    "IMIE": "Donata",
+    "NAZWISKO": "Dominik"
+  },
+  {
+    "ZAPIS_ID": 766276,
+    "AUTOR_ID": 22973,
+    "IMIE": "Józef",
+    "NAZWISKO": "Piłatowicz"
+  },
+  {
+    "ZAPIS_ID": 172681,
+    "AUTOR_ID": 24477,
+    "IMIE": "Maria",
+    "NAZWISKO": "Zarębina"
+  },
+  {
+    "ZAPIS_ID": 172678,
+    "AUTOR_ID": 24477,
+    "IMIE": "Maria",
+    "NAZWISKO": "Zarębina"
+  },
+  {
+    "ZAPIS_ID": 484691,
+    "AUTOR_ID": 26563,
+    "IMIE": "Jerzy",
+    "NAZWISKO": "Borowczyk"
+  },
+  {
+    "ZAPIS_ID": 212018,
+    "AUTOR_ID": 53370,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Tokarzówna"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 56672,
+    "IMIE": "Stefan",
+    "NAZWISKO": "Wilkanowicz"
+  },
+  {
+    "ZAPIS_ID": 1972512,
+    "AUTOR_ID": 74135,
+    "IMIE": "Czesława",
+    "NAZWISKO": "Rudnik"
+  },
+  {
+    "ZAPIS_ID": 1312008,
+    "AUTOR_ID": 95201,
+    "IMIE": "Ireneusz",
+    "NAZWISKO": "Gielata"
+  },
+  {
+    "ZAPIS_ID": 1947251,
+    "AUTOR_ID": 122018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Friedrich"
+  },
+  {
+    "ZAPIS_ID": 661332,
+    "AUTOR_ID": 122018,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Friedrich"
+  },
+  {
+    "ZAPIS_ID": 627136,
+    "AUTOR_ID": 137357,
+    "IMIE": "Jan Z.",
+    "NAZWISKO": "Słojewski"
+  },
+  {
+    "ZAPIS_ID": 597453,
+    "AUTOR_ID": 147019,
+    "IMIE": "Mariusz",
+    "NAZWISKO": "Grabowski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 151743,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Musiał"
+  },
+  {
+    "ZAPIS_ID": 599377,
+    "AUTOR_ID": 184440,
+    "IMIE": null,
+    "NAZWISKO": null
+  },
+  {
+    "ZAPIS_ID": 596747,
+    "AUTOR_ID": 184859,
+    "IMIE": "Grażyna",
+    "NAZWISKO": "Strauss"
+  },
+  {
+    "ZAPIS_ID": 1113040,
+    "AUTOR_ID": 192423,
+    "IMIE": "Jakub",
+    "NAZWISKO": "Momro"
+  },
+  {
+    "ZAPIS_ID": 1009689,
+    "AUTOR_ID": 202982,
+    "IMIE": "Elżbieta M.",
+    "NAZWISKO": "Kur"
+  },
+  {
+    "ZAPIS_ID": 1987289,
+    "AUTOR_ID": 272726,
+    "IMIE": "Waldemar",
+    "NAZWISKO": "Malinowski"
+  },
+  {
+    "ZAPIS_ID": 1359266,
+    "AUTOR_ID": 349139,
+    "IMIE": "Elżbieta",
+    "NAZWISKO": "Lubczyńska-Jeziorna"
+  },
+  {
+    "ZAPIS_ID": 978226,
+    "AUTOR_ID": 369919,
+    "IMIE": "Halina L.",
+    "NAZWISKO": "Bukowska"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 511118,
+    "IMIE": "Jan Niecisław",
+    "NAZWISKO": "Baudouin de Courtenay"
+  },
+  {
+    "ZAPIS_ID": 1303568,
+    "AUTOR_ID": 512963,
+    "IMIE": "Gustav-Adolf",
+    "NAZWISKO": "Krampitz"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553828,
+    "IMIE": "Kazimierz",
+    "NAZWISKO": "Krippendorf"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553838,
+    "IMIE": "Bohdan",
+    "NAZWISKO": "Wasiutyński"
+  },
+  {
+    "ZAPIS_ID": 1857622,
+    "AUTOR_ID": 557872,
+    "IMIE": "Wioletta",
+    "NAZWISKO": "Guzek"
+  },
+  {
+    "ZAPIS_ID": 1069852,
+    "AUTOR_ID": 649,
+    "IMIE": "Krystyna",
+    "NAZWISKO": "Kłosińska"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2073,
+    "IMIE": "Maria",
+    "NAZWISKO": "Janion"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 2396,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Vincenz"
+  },
+  {
+    "ZAPIS_ID": 1465021,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1455970,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1426304,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1348665,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1346523,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1333479,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1333477,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1332839,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1297872,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1297832,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1295600,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 1214377,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 862601,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 723515,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 589994,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 541464,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 412844,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372577,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 372492,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 365374,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361539,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 361536,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 328451,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 316683,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261427,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 261422,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 242187,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212898,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 212099,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 211859,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 163241,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120832,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 120811,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 85678,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 79349,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 2732,
+    "AUTOR_ID": 1082,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Prus"
+  },
+  {
+    "ZAPIS_ID": 18064,
+    "AUTOR_ID": 1805,
+    "IMIE": "Józef",
+    "NAZWISKO": "Rurawski"
+  },
+  {
+    "ZAPIS_ID": 458269,
+    "AUTOR_ID": 1830,
+    "IMIE": "Leszek",
+    "NAZWISKO": "Długosz"
+  },
+  {
+    "ZAPIS_ID": 389496,
+    "AUTOR_ID": 1531,
+    "IMIE": "Bolesław",
+    "NAZWISKO": "Faron"
+  },
+  {
+    "ZAPIS_ID": 111613,
+    "AUTOR_ID": 3487,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Bujnicki"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 3519,
+    "IMIE": "Andrzej",
+    "NAZWISKO": "Romanowski"
+  },
+  {
+    "ZAPIS_ID": 424818,
+    "AUTOR_ID": 5678,
+    "IMIE": "Henryk",
+    "NAZWISKO": "Gradkowski"
+  },
+  {
+    "ZAPIS_ID": 29624,
+    "AUTOR_ID": 5735,
+    "IMIE": "Eugenia",
+    "NAZWISKO": "Kochanowska"
+  },
+  {
+    "ZAPIS_ID": 1357467,
+    "AUTOR_ID": 4878,
+    "IMIE": "Grzegorz",
+    "NAZWISKO": "Łęcicki"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 5455,
+    "IMIE": "Jan Józef",
+    "NAZWISKO": "Lipski"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 5113,
+    "IMIE": "Teofil",
+    "NAZWISKO": "Lenartowicz"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 1186,
+    "IMIE": "Józef Ignacy",
+    "NAZWISKO": "Kraszewski"
+  },
+  {
+    "ZAPIS_ID": 28919,
+    "AUTOR_ID": 9435,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Adamczyk"
+  },
+  {
+    "ZAPIS_ID": 832306,
+    "AUTOR_ID": 5992,
+    "IMIE": "Tomasz",
+    "NAZWISKO": "Wroczyński"
+  },
+  {
+    "ZAPIS_ID": 136684,
+    "AUTOR_ID": 9697,
+    "IMIE": "Tomasz",
+    "NAZWISKO": "Jopkiewicz"
+  },
+  {
+    "ZAPIS_ID": 193402,
+    "AUTOR_ID": 13793,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Przybyła"
+  },
+  {
+    "ZAPIS_ID": 1310189,
+    "AUTOR_ID": 13976,
+    "IMIE": "Ludvik",
+    "NAZWISKO": "Stepan"
+  },
+  {
+    "ZAPIS_ID": 148111,
+    "AUTOR_ID": 18734,
+    "IMIE": "Zbigniew",
+    "NAZWISKO": "Klejn"
+  },
+  {
+    "ZAPIS_ID": 590489,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 561336,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 307253,
+    "AUTOR_ID": 18968,
+    "IMIE": "Danuta",
+    "NAZWISKO": "Wierzchołowska"
+  },
+  {
+    "ZAPIS_ID": 1358731,
+    "AUTOR_ID": 20703,
+    "IMIE": "Stanisław",
+    "NAZWISKO": "Fita"
+  },
+  {
+    "ZAPIS_ID": 1855411,
+    "AUTOR_ID": 27131,
+    "IMIE": "Kwiryna",
+    "NAZWISKO": "Handke"
+  },
+  {
+    "ZAPIS_ID": 2002837,
+    "AUTOR_ID": 36924,
+    "IMIE": "Wiesław",
+    "NAZWISKO": "Ratajczak"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 48768,
+    "IMIE": "Tadeusz",
+    "NAZWISKO": "Czacki"
+  },
+  {
+    "ZAPIS_ID": 613518,
+    "AUTOR_ID": 67439,
+    "IMIE": "Leszek",
+    "NAZWISKO": "Barszcz"
+  },
+  {
+    "ZAPIS_ID": 551981,
+    "AUTOR_ID": 75258,
+    "IMIE": "Arkadiusz",
+    "NAZWISKO": "Frania"
+  },
+  {
+    "ZAPIS_ID": 1359550,
+    "AUTOR_ID": 76774,
+    "IMIE": "Irena",
+    "NAZWISKO": "Nowacka"
+  },
+  {
+    "ZAPIS_ID": 1083074,
+    "AUTOR_ID": 86233,
+    "IMIE": "Christopher",
+    "NAZWISKO": "Kasparek"
+  },
+  {
+    "ZAPIS_ID": 537574,
+    "AUTOR_ID": 89998,
+    "IMIE": "Kazimiera",
+    "NAZWISKO": "Zapałowa"
+  },
+  {
+    "ZAPIS_ID": 527545,
+    "AUTOR_ID": 103274,
+    "IMIE": "Piotr",
+    "NAZWISKO": "Skrzypczak"
+  },
+  {
+    "ZAPIS_ID": 478043,
+    "AUTOR_ID": 106269,
+    "IMIE": "Mirosław",
+    "NAZWISKO": "Łapot"
+  },
+  {
+    "ZAPIS_ID": 487128,
+    "AUTOR_ID": 131864,
+    "IMIE": "Wolfgang F.",
+    "NAZWISKO": "Schwarz"
+  },
+  {
+    "ZAPIS_ID": 858533,
+    "AUTOR_ID": 139017,
+    "IMIE": "Adam",
+    "NAZWISKO": "Tyszka"
+  },
+  {
+    "ZAPIS_ID": 522258,
+    "AUTOR_ID": 146258,
+    "IMIE": "Anna",
+    "NAZWISKO": "Sikora"
+  },
+  {
+    "ZAPIS_ID": 1074426,
+    "AUTOR_ID": 164620,
+    "IMIE": "Aneta",
+    "NAZWISKO": "Garstka"
+  },
+  {
+    "ZAPIS_ID": 1420184,
+    "AUTOR_ID": 164984,
+    "IMIE": "Violetta",
+    "NAZWISKO": "Machnicka"
+  },
+  {
+    "ZAPIS_ID": 595048,
+    "AUTOR_ID": 184020,
+    "IMIE": "Anna",
+    "NAZWISKO": "Sierszecka"
+  },
+  {
+    "ZAPIS_ID": 1956430,
+    "AUTOR_ID": 347059,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Samborska-Kukuć"
+  },
+  {
+    "ZAPIS_ID": 1932139,
+    "AUTOR_ID": 347059,
+    "IMIE": "Dorota",
+    "NAZWISKO": "Samborska-Kukuć"
+  },
+  {
+    "ZAPIS_ID": 1127017,
+    "AUTOR_ID": 445639,
+    "IMIE": "Anna M.",
+    "NAZWISKO": "Drexlerowa"
+  },
+  {
+    "ZAPIS_ID": 1159830,
+    "AUTOR_ID": 462564,
+    "IMIE": "Katarzyna",
+    "NAZWISKO": "Celińska"
+  },
+  {
+    "ZAPIS_ID": 2019728,
+    "AUTOR_ID": 520000,
+    "IMIE": "Katarzyna",
+    "NAZWISKO": "Rychta"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 530425,
+    "IMIE": "Marta",
+    "NAZWISKO": "Kurkowska-Budzan"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553048,
+    "IMIE": "Zygmunt",
+    "NAZWISKO": "Balicki"
+  },
+  {
+    "ZAPIS_ID": 1426046,
+    "AUTOR_ID": 553830,
+    "IMIE": "Antoni",
+    "NAZWISKO": "Lesznowski"
+  },
+  {
+    "ZAPIS_ID": 1857622,
+    "AUTOR_ID": 557873,
+    "IMIE": "Joanna",
+    "NAZWISKO": "Popłońska"
+  },
+  {
+    "ZAPIS_ID": 1723313,
+    "AUTOR_ID": 644412,
+    "IMIE": "Agnieszka",
+    "NAZWISKO": "Skubis-Rafalska"
+  },
+  {
+    "ZAPIS_ID": 1899512,
+    "AUTOR_ID": 678531,
+    "IMIE": "Aldona",
+    "NAZWISKO": "Binda"
+  },
+  {
+    "ZAPIS_ID": 1933140,
+    "AUTOR_ID": 692011,
+    "IMIE": "Agata",
+    "NAZWISKO": "Buda"
+  },
+  {
+    "ZAPIS_ID": 2010966,
+    "AUTOR_ID": 736534,
+    "IMIE": "Barbara",
+    "NAZWISKO": "Śliż"
+  }
+]
