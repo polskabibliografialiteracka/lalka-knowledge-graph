@@ -109,7 +109,6 @@ def get_database_connection() -> oracledb.Connection:
             + ", ".join(missing_variables)
         )
 
-    # Oracle Instant Client
     oracle_client_path = os.environ[
         "PBL_ORACLE_LIB_DIR"
     ]
@@ -148,13 +147,11 @@ def get_database_connection() -> oracledb.Connection:
         service_name=service_name,
     )
 
-    connection = oracledb.connect(
+    return oracledb.connect(
         user=user,
         password=password,
         dsn=dsn,
     )
-
-    return connection
 
 
 # =============================================================================
@@ -356,8 +353,6 @@ def get_prus_record_ids(
     """
     Find records where Bolesław Prus appears
     as an author or creator.
-
-    The IDs are based on the existing PBL database exploration.
     """
 
     query = f"""
@@ -427,21 +422,17 @@ def get_full_records(
     """
     Retrieve the main fields of PBL records.
 
+    IMPORTANT:
+    Original PBL database column names are preserved.
+
+    In particular:
+
+        ZA_ZA_ZAPIS_ID
+
+    is NOT renamed to another field name.
+
     Authors, creators and publishers are retrieved separately
     to avoid multiplying records through multi-valued JOINs.
-
-    Record kind is retrieved from PBL_RODZAJE_ZAPISOW.
-
-    Important distinction:
-
-        ZA_TYPE
-            -> general PBL record type
-
-        ZA_RZ_RODZAJ1_ID
-            -> ID of the detailed record kind
-
-        RZ_NAZWA
-            -> name of the detailed record kind
     """
 
     ids = unique_ids(ids)
@@ -462,8 +453,7 @@ def get_full_records(
 
                 z.za_zapis_id,
 
-                z.za_za_zapis_id
-                    AS zapis_nadrzedny,
+                z.za_za_zapis_id,
 
                 z.za_type,
 
@@ -755,6 +745,207 @@ def get_publishers(
 
 
 # =============================================================================
+# Adaptation diagnostics
+# =============================================================================
+
+def print_adaptation_report(
+    adaptation_ids: list[int],
+    records_df: pd.DataFrame,
+) -> None:
+    """
+    Print a diagnostic report for the identified screen adaptations.
+
+    This function does NOT modify the extracted data.
+
+    It only helps us determine whether records such as reviews
+    are directly attached to the adaptation record in the
+    PBL hierarchy.
+    """
+
+    print()
+    print("=" * 80)
+    print("SCREEN ADAPTATION RECORD REPORT")
+    print("=" * 80)
+
+    if records_df.empty:
+        print()
+        print("No records were extracted.")
+        return
+
+    required_columns = {
+        "ZA_ZAPIS_ID",
+        "ZA_ZA_ZAPIS_ID",
+    }
+
+    missing_columns = [
+        column
+        for column in required_columns
+        if column not in records_df.columns
+    ]
+
+    if missing_columns:
+
+        print()
+        print(
+            "WARNING: Required columns are missing:"
+        )
+
+        for column in missing_columns:
+            print(
+                f"  - {column}"
+            )
+
+        return
+
+    for adaptation_id in adaptation_ids:
+
+        print()
+        print(
+            f"Adaptation root: {adaptation_id}"
+        )
+
+        # ---------------------------------------------------------------------
+        # Find the root record itself and its direct children.
+        # ---------------------------------------------------------------------
+
+        subset = records_df[
+            (
+                records_df["ZA_ZAPIS_ID"]
+                == adaptation_id
+            )
+            |
+            (
+                records_df["ZA_ZA_ZAPIS_ID"]
+                == adaptation_id
+            )
+        ].copy()
+
+        print(
+            f"  Records found: {len(subset)}"
+        )
+
+        # ---------------------------------------------------------------------
+        # Record kinds
+        # ---------------------------------------------------------------------
+
+        if (
+            not subset.empty
+            and "RZ_NAZWA" in subset.columns
+        ):
+
+            kinds = (
+                subset["RZ_NAZWA"]
+                .fillna("[brak typu]")
+                .astype(str)
+                .value_counts()
+            )
+
+            print()
+            print("  Record kinds:")
+
+            for kind, count in kinds.items():
+
+                print(
+                    f"       {count} × {kind}"
+                )
+
+        # ---------------------------------------------------------------------
+        # Sample records
+        # ---------------------------------------------------------------------
+
+        print()
+        print("  Sample records:")
+
+        if subset.empty:
+
+            print(
+                "       No records."
+            )
+
+            continue
+
+        for _, row in subset.head(20).iterrows():
+
+            print()
+
+            print(
+                f"       ID: "
+                f"{row.get('ZA_ZAPIS_ID')}"
+            )
+
+            print(
+                f"       Parent: "
+                f"{row.get('ZA_ZA_ZAPIS_ID')}"
+            )
+
+            print(
+                f"       Kind: "
+                f"{row.get('RZ_NAZWA')}"
+            )
+
+            print(
+                f"       Type: "
+                f"{row.get('ZA_TYPE')}"
+            )
+
+            print(
+                f"       Title: "
+                f"{row.get('ZA_TYTUL')}"
+            )
+
+            print(
+                f"       Source: "
+                f"{row.get('ZR_TYTUL')}"
+            )
+
+            print(
+                f"       Year: "
+                f"{row.get('ZA_ZRODLO_ROK')}"
+            )
+
+        # ---------------------------------------------------------------------
+        # Possible reviews
+        # ---------------------------------------------------------------------
+
+        if "RZ_NAZWA" in subset.columns:
+
+            review_mask = (
+                subset["RZ_NAZWA"]
+                .fillna("")
+                .astype(str)
+                .str.lower()
+                .str.contains(
+                    "recenz|review",
+                    regex=True,
+                )
+            )
+
+            reviews = subset[
+                review_mask
+            ]
+
+            print()
+            print(
+                f"  Possible reviews found: "
+                f"{len(reviews)}"
+            )
+
+            if not reviews.empty:
+
+                for _, row in reviews.head(20).iterrows():
+
+                    print(
+                        "       "
+                        f"{row.get('ZA_ZAPIS_ID')} | "
+                        f"{row.get('RZ_NAZWA')} | "
+                        f"{row.get('ZA_TYTUL')}"
+                    )
+
+    print()
+    print("=" * 80)
+
+
+# =============================================================================
 # JSON export
 # =============================================================================
 
@@ -895,7 +1086,20 @@ def main() -> None:
         )
 
         # ---------------------------------------------------------------------
-        # 6. Authors
+        # 6. Adaptation diagnostic report
+        #
+        # IMPORTANT:
+        # This is diagnostic only.
+        # It does not change the exported data.
+        # ---------------------------------------------------------------------
+
+        print_adaptation_report(
+            LALKA_SCREEN_ADAPTATION_IDS,
+            records_df,
+        )
+
+        # ---------------------------------------------------------------------
+        # 7. Authors
         # ---------------------------------------------------------------------
 
         print(
@@ -913,7 +1117,7 @@ def main() -> None:
         )
 
         # ---------------------------------------------------------------------
-        # 7. Creators
+        # 8. Creators
         # ---------------------------------------------------------------------
 
         print(
@@ -931,7 +1135,7 @@ def main() -> None:
         )
 
         # ---------------------------------------------------------------------
-        # 8. Publishers
+        # 9. Publishers
         # ---------------------------------------------------------------------
 
         print(
@@ -949,7 +1153,7 @@ def main() -> None:
         )
 
         # ---------------------------------------------------------------------
-        # 9. Save raw data
+        # 10. Save raw data
         # ---------------------------------------------------------------------
 
         print()
@@ -990,7 +1194,7 @@ def main() -> None:
         )
 
         # ---------------------------------------------------------------------
-        # 10. Metadata
+        # 11. Metadata
         # ---------------------------------------------------------------------
 
         metadata = {
@@ -1034,6 +1238,12 @@ def main() -> None:
             },
 
             "record_fields": {
+
+                "record_id":
+                    "ZA_ZAPIS_ID",
+
+                "parent_record_id":
+                    "ZA_ZA_ZAPIS_ID",
 
                 "record_type":
                     "ZA_TYPE",
@@ -1088,5 +1298,10 @@ def main() -> None:
         )
 
 
+# =============================================================================
+# RUN
+# =============================================================================
+
 if __name__ == "__main__":
     main()
+

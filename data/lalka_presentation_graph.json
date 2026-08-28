@@ -1,0 +1,6076 @@
+{
+  "metadata": {
+    "project": "Lalka Knowledge Graph",
+    "layer": "presentation",
+    "source": "Polska Bibliografia Literacka",
+    "source_graph": "lalka_graph.json",
+    "root": "record:109715",
+    "description": "A simplified presentation layer of the Lalka Knowledge Graph designed for interactive visual exploration.",
+    "model": {
+      "node_types": [
+        "Work",
+        "Person",
+        "Adaptation",
+        "Publication",
+        "Event",
+        "RelatedRecord",
+        "Publisher",
+        "Source"
+      ],
+      "relationships": [
+        "CREATED_BY",
+        "ADAPTED_AS",
+        "HAS_RECORD",
+        "RELATED_TO",
+        "AUTHORED_BY",
+        "PUBLISHED_BY",
+        "FROM_SOURCE"
+      ]
+    },
+    "manual_relationships": {
+      "adaptations": [
+        "record:304249",
+        "record:136679"
+      ]
+    },
+    "statistics": {
+      "nodes": 256,
+      "edges": 312,
+      "node_types": {
+        "Adaptation": 2,
+        "Person": 75,
+        "Publication": 10,
+        "Publisher": 10,
+        "RelatedRecord": 94,
+        "Source": 64,
+        "Work": 1
+      },
+      "relationships": {
+        "ADAPTED_AS": 2,
+        "AUTHORED_BY": 100,
+        "CREATED_BY": 1,
+        "FROM_SOURCE": 94,
+        "HAS_RECORD": 9,
+        "PUBLISHED_BY": 11,
+        "RELATED_TO": 95
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": "record:109715",
+      "type": "Work",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 109715,
+        "pbl_type": "KS",
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "role": "central_work"
+      },
+      "presentation_type": "Work",
+      "original_type": "LiteraryWork"
+    },
+    {
+      "id": "creator:3426",
+      "type": "Person",
+      "label": "Bolesław Prus",
+      "properties": {
+        "pbl_id": 3426,
+        "first_name": "Bolesław",
+        "last_name": "Prus",
+        "role": "work_creator"
+      },
+      "presentation_type": "Person",
+      "original_type": "Creator"
+    },
+    {
+      "id": "record:825595",
+      "type": "Publication",
+      "label": "Lalka i perła",
+      "properties": {
+        "pbl_id": 825595,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "publication_year": 2001.0,
+        "physical_description": "84 s.",
+        "annotation": "Wstęp. _ I. Czy istnieje coś takiego jak plan? II. Kim jest autor? III. \"Lalka\" - o czym jest ta powieść? IV. Wezwanie. V. Kim jest Wokulski? Syndrom Wokulskiego. VI. Kim jest Izabela? VII. Co to za dziwna para: Wokulski i Rzecki? VIII. Kosmos \"Lalki\". Mechanizmy. 1. czy to dobrze, ze boli? Idea rozwoju poprzez kryzysy. 2. Czy romantyzm jest chorobą? IX. Kosmos \"Lalki\". Trzy główne siły grawitacyjne 1. Obcość. 2. Próżność. 3. Miłość. X. Kosmos \"Lalki\". Wielość światów. XI. Kosmos \"Lalki\". Pierwiastek bezkobiecy. XII. Co się zdarzyło u Geista? XIII. Perła. Czego chce Wokulski?. - Appendix. Czesław Miłosz \"Hymn o Perle\".",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1359644",
+      "type": "Publication",
+      "label": "\"Lalka\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1359644,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "series": "(Biblioteczka Opracowań, z. nr 3)",
+        "publication_year": 2006.0,
+        "physical_description": "45, [3] s.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1362767",
+      "type": "Publication",
+      "label": "\"Lalka\". Historie z różnych światów",
+      "properties": {
+        "pbl_id": 1362767,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "publication_year": 2005.0,
+        "physical_description": "241, [2] s., il.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1362768",
+      "type": "Publication",
+      "label": "Świat \"Lalki\" :15 studiów",
+      "properties": {
+        "pbl_id": 1362768,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "series": "(Prace Wydziału Historyczno-Filologicznego / Towarzystwo Naukowe Katolickiego Uniwersytetu Lubelskiego, 117)",
+        "coauthors_description": "Red. Jakub A. Malik",
+        "physical_description": "[2005], 345, [2] s.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1362769",
+      "type": "Publication",
+      "label": "Lalka i perła",
+      "properties": {
+        "pbl_id": 1362769,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "publication_year": 2006.0,
+        "physical_description": "84, [3] s., il.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1362770",
+      "type": "Publication",
+      "label": "\"Lalka\" czyli Rozpad świata",
+      "properties": {
+        "pbl_id": 1362770,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "physical_description": "[2008], 192, [2] s.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1362793",
+      "type": "Publication",
+      "label": "Między Kopernikiem a Zygmuntem czyli Tło warszawskie w Lalce Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1362793,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "publication_year": 2006.0,
+        "physical_description": "120 s., il.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1437078",
+      "type": "Publication",
+      "label": "Spotkania z \"Lalką\". Mendel studiów i szkiców o powieści Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1437078,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "series": "(Studia Literackie i Artystyczne)",
+        "physical_description": "[2010], 385, [6] s.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1451318",
+      "type": "Publication",
+      "label": "\"Lalka\" Bolesława Prusa - pamięć tragedii greckiej. Z problemów intertekstualności",
+      "properties": {
+        "pbl_id": 1451318,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "publication_year": 2011.0,
+        "physical_description": "118 s.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1451370",
+      "type": "Publication",
+      "label": "Leksykon \"Lalki\"",
+      "properties": {
+        "pbl_id": 1451370,
+        "pbl_type": "KS",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "coauthors_description": "Red. Agnieszka Magdalena Bąbel, Alina Kowalczykowa",
+        "publication_year": 2011.0,
+        "physical_description": "193 s., il.",
+        "role": "publication",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "Publication",
+      "original_type": "BookRecord"
+    },
+    {
+      "id": "record:1231878",
+      "type": "RelatedRecord",
+      "label": "Kilka myśli o Wokulskim",
+      "properties": {
+        "pbl_id": 1231878,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 22677.0,
+        "source": "Tydzień Polski [Londyn, 2001-2015]",
+        "source_year": 2003.0,
+        "source_number": "nr 12",
+        "source_pages": "s. 14",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1764892",
+      "type": "RelatedRecord",
+      "label": "Słowa, obrazy, dźwięki [z tego cyklu:] Krakowskie Przedmieście dzisiaj...",
+      "properties": {
+        "pbl_id": 1764892,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 22677.0,
+        "source": "Tydzień Polski [Londyn, 2001-2015]",
+        "source_year": 2010.0,
+        "source_number": "nr 18",
+        "source_pages": "s. 2",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1932139",
+      "type": "RelatedRecord",
+      "label": "Moje czytanie \"Lalki\"",
+      "properties": {
+        "pbl_id": 1932139,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 20108.0,
+        "source": "Czytanie Literatury",
+        "source_year": 2012.0,
+        "source_number": "nr 1",
+        "source_pages": "s. 171-178",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1899512",
+      "type": "RelatedRecord",
+      "label": "Piękna wymyślona",
+      "properties": {
+        "pbl_id": 1899512,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 19993.0,
+        "source": "PaperMint",
+        "source_year": 2012.0,
+        "source_number": "nr 7/8",
+        "source_pages": "s. 47-48",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:2006683",
+      "type": "RelatedRecord",
+      "label": "O Wokulskim na Placu Bankowym",
+      "properties": {
+        "pbl_id": 2006683,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 19991.0,
+        "source": "Nowa Gazeta Literacka",
+        "source_year": 2010.0,
+        "source_number": "nr 3",
+        "source_pages": "s. 10",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1616706",
+      "type": "RelatedRecord",
+      "label": "Nie przemilczać Godlewskiego!",
+      "properties": {
+        "pbl_id": 1616706,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 18817.0,
+        "source": "Lampa",
+        "source_year": 2007.0,
+        "source_number": "nr 1",
+        "source_pages": "s. 17-19",
+        "annotation": "dot. recepcji powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1714371",
+      "type": "RelatedRecord",
+      "label": "Pamięc miejsca. Wokulski i Wawera - ucieleśnienia świadomości przestrzeni?",
+      "properties": {
+        "pbl_id": 1714371,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 16677.0,
+        "source": "Aspekty Filozoficzno-Prozatorskie",
+        "source_year": 2007.0,
+        "source_number": "nr 17/23 (2006/2007)",
+        "source_pages": "s. 204-206",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1312008",
+      "type": "RelatedRecord",
+      "label": "\"Nie-samowite\" lustra. Z rozmyślań nad \"Lalką\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1312008,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 17818.0,
+        "source": "Świat i Słowo",
+        "source_year": 2004.0,
+        "source_number": "nr 1",
+        "source_pages": "s. 185-200",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1159830",
+      "type": "RelatedRecord",
+      "label": "Czy rozumiemy tekst \"Lalki\"? Kilka uwag o archaizmach językowych w najpopularniejszej powieści Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1159830,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 17677.0,
+        "source": "Do źródeł",
+        "source_year": 2003.0,
+        "source_number": "z. 1",
+        "source_pages": "s. 158-164",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1323169",
+      "type": "RelatedRecord",
+      "label": "Postać Żyda w literaturze pozytywizmu ze szczególnym uwzględnieniem \"Lalki\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1323169,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 17677.0,
+        "source": "Do źródeł",
+        "source_year": 2004.0,
+        "source_number": "z. 2",
+        "source_pages": "s. 87-102",
+        "annotation": "z fot. i notą o autorce",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1933140",
+      "type": "RelatedRecord",
+      "label": "Ancient, gothic and romantic influences in \"Lalka\" by Bolesław Prus as examples of intertextual interdependence",
+      "properties": {
+        "pbl_id": 1933140,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 17457.0,
+        "source": "Zeszyty Naukowe Uniwersytetu Rzeszowskiego. Seria Filologiczna. Studia Anglica Resoviensia",
+        "source_year": 2009.0,
+        "source_number": "z. 6",
+        "source_pages": "s. 132-140",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1934557",
+      "type": "RelatedRecord",
+      "label": "Miłość i pieniądze. O finansowej karierze Stanisława Wokulskiego",
+      "properties": {
+        "pbl_id": 1934557,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 16618.0,
+        "source": "Zeszyty Naukowe Uniwersytetu Rzeszowskiego. Seria Filologiczna. Historia Literatury",
+        "source_year": 2010.0,
+        "source_number": "z. 5",
+        "source_pages": "s. 208-226",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1937797",
+      "type": "RelatedRecord",
+      "label": "\"Skąpy Litwin\". Poezja Adama Mickiewicza w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1937797,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 16417.0,
+        "source": "Słupskie Prace Filologiczne. Seria Filologia Polska",
+        "source_year": 2010.0,
+        "source_number": "nr 8",
+        "source_pages": "s. 99-115",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:2020246",
+      "type": "RelatedRecord",
+      "label": "Niezwykły doktor Ochocki",
+      "properties": {
+        "pbl_id": 2020246,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 13957.0,
+        "source": "Charaktery",
+        "source_year": 2007.0,
+        "source_number": "nr 10",
+        "source_pages": "s. 38-40",
+        "annotation": "postać Juliana Ochockiego wzorowana na przyjacielu ze szkolnej ławy - Julianie Ochorowiczu",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:294728",
+      "type": "RelatedRecord",
+      "label": "O Prusowskiej interpretacji tytułu \"Lalki\"",
+      "properties": {
+        "pbl_id": 294728,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 11099.0,
+        "source": "Zeszyty Naukowe Uniwersytetu Jagiellońskiego. Prace Historycznoliterackie",
+        "source_year": 1994.0,
+        "source_number": "z. 88 (1136)",
+        "source_pages": "s. 61-82",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:135412",
+      "type": "RelatedRecord",
+      "label": "\"Panie Wokulski\", czyli o pewnym typie form adresatywnych w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 135412,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 11421.0,
+        "source": "Rocznik Naukowo-Dydaktyczny [Wyższa Szkoła Pedagogiczna w Krakowie]. Prace Językoznawcze",
+        "source_year": 1991.0,
+        "source_number": "z. 6 (137)",
+        "source_pages": "s. 227-236",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:843019",
+      "type": "RelatedRecord",
+      "label": "Narodziny i śmierć wieku",
+      "properties": {
+        "pbl_id": 843019,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 10177.0,
+        "source": "Życie",
+        "source_year": 1999.0,
+        "source_number": "nr 231",
+        "source_pages": "s. 18-19",
+        "annotation": "dot. modelu nowoczesności w XX wieku",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1144561",
+      "type": "RelatedRecord",
+      "label": "Polskie powieści. \"Lalka\"",
+      "properties": {
+        "pbl_id": 1144561,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 8358.0,
+        "source": "Dziennik Kijowski",
+        "source_year": 2003.0,
+        "source_number": "nr 12",
+        "source_pages": "s. 8",
+        "annotation": "nota o utworze",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:493113",
+      "type": "RelatedRecord",
+      "label": "Piwo i prawda o Wokulskim",
+      "properties": {
+        "pbl_id": 493113,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 8212.0,
+        "source": "PAL Przegląd Artystyczno-Literacki",
+        "source_year": 1998.0,
+        "source_number": "nr 11",
+        "source_pages": "s. 98-111",
+        "annotation": "nt. picia piwa i scen w piwiarni w powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:2012946",
+      "type": "RelatedRecord",
+      "label": "Record 2012946",
+      "properties": {
+        "pbl_id": 2012946,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 8179.0,
+        "source": "Polonia Włoska",
+        "source_year": 2006.0,
+        "source_number": "nr 4",
+        "source_pages": "s. 28",
+        "annotation": "not. o wykładzie Anny Tylusińskiej nt. powieści na Uniwersytecie Turyńskim, 14 XI 2006",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:597767",
+      "type": "RelatedRecord",
+      "label": "Losy wybranych wyrazów na przykładzie słownictwa \"Lalki\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 597767,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 7002.0,
+        "source": "Zeszyty Naukowe. Uniwersytet Opolski. Językoznawstwo",
+        "source_year": 1998.0,
+        "source_number": "[z.] 17",
+        "source_pages": "s. 101-126",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1981718",
+      "type": "RelatedRecord",
+      "label": "O pieniądzach i kwestiach ekonomicznych w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1981718,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 6967.0,
+        "source": "Parnasik",
+        "source_year": 2008.0,
+        "source_number": "nr 3/4 (2007/2008)",
+        "source_pages": "s. 46-49",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:405083",
+      "type": "RelatedRecord",
+      "label": "Ciało wyparte",
+      "properties": {
+        "pbl_id": 405083,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2221.0,
+        "source": "Kresy",
+        "source_year": 1996.0,
+        "source_number": "nr 25",
+        "source_pages": "s. 39-43",
+        "annotation": "konfrontacja  zjawiska prostytucji przedstawionego w \"Lalce\" i innych utworach Prusa z realiami Warszawy schyłku XIX w.",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:636555",
+      "type": "RelatedRecord",
+      "label": "Budowa słowotwórcza rzeczowników w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 636555,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 146.0,
+        "source": "Prace Filologiczne",
+        "source_year": 2000.0,
+        "source_number": "t. 45",
+        "source_pages": "s. 567-572",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:330663",
+      "type": "RelatedRecord",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 330663,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 223.0,
+        "source": "Powściągliwość i Praca",
+        "source_year": 1995.0,
+        "source_number": "nr 7/8",
+        "source_pages": "s. 23",
+        "annotation": "fel.",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:334355",
+      "type": "RelatedRecord",
+      "label": "Złudzenia, przywidzenia i obserwacje starego subiekta",
+      "properties": {
+        "pbl_id": 334355,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 6883.0,
+        "source": "Wiadomości Kulturalne",
+        "source_year": 1995.0,
+        "source_number": "nr 44",
+        "source_pages": "s. 9",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:595048",
+      "type": "RelatedRecord",
+      "label": "Słownictwo dotyczące nakryć głowy w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 595048,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 6776.0,
+        "source": "Studia i Materiały Polonistyczne",
+        "source_year": 1999.0,
+        "source_number": "t. 4",
+        "source_pages": "s. 237-247",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:290238",
+      "type": "RelatedRecord",
+      "label": "\"Skała ludzkiego wyrobu\"? Myślenie o mieście w \"Lalace\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 290238,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 6737.0,
+        "source": "Ojczyzna Polszczyzna",
+        "source_year": 1993.0,
+        "source_number": "nr 1",
+        "source_pages": "s. 70-75",
+        "annotation": "z notą",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:224964",
+      "type": "RelatedRecord",
+      "label": "Metafizyka przypadku w \"Lalce\" Prusa",
+      "properties": {
+        "pbl_id": 224964,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2181.0,
+        "source": "Teksty Drugie",
+        "source_year": 1993.0,
+        "source_number": "nr 2",
+        "source_pages": "s. 77-83",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:251888",
+      "type": "RelatedRecord",
+      "label": "Prusa ofiary szaleństwa",
+      "properties": {
+        "pbl_id": 251888,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2364.0,
+        "source": "Przedproża",
+        "source_year": 1994.0,
+        "source_number": "nr 2",
+        "source_pages": "s. 94-99",
+        "annotation": "z not. o Jakubie Aleksandrowiczu na s. 171",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:407265",
+      "type": "RelatedRecord",
+      "label": "Jan Mincel - prawda i zmyślenie",
+      "properties": {
+        "pbl_id": 407265,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 5407.0,
+        "source": "Na przykład [Lublin]",
+        "source_year": 1997.0,
+        "source_number": "nr 47",
+        "source_pages": "s. 13-15",
+        "annotation": "nt. pierwowzoru bohatera powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:428320",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\" Bolesława Prusa dzisiaj",
+      "properties": {
+        "pbl_id": 428320,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 521.0,
+        "source": "Język Polski w Szkole Średniej",
+        "source_year": 1997.0,
+        "source_number": "z. 2 (1997/1998)",
+        "source_pages": "s. 68-72",
+        "annotation": "współczesne interpretacje powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:188059",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\", een omvangrijk werk",
+      "properties": {
+        "pbl_id": 188059,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 4727.0,
+        "source": "Biuletyn PN [Pools-Nederlandse Kulturele Vereinining = Polsko-Niderlandzkie Stowarzyszenie Kulturalne]",
+        "source_year": 1991.0,
+        "source_number": "nr 3",
+        "source_pages": "s. 20-21",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:504894",
+      "type": "RelatedRecord",
+      "label": "Analiza stylów odbiorców \"Lalki\" B. Prusa na podstawie eksperymentu",
+      "properties": {
+        "pbl_id": 504894,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 4367.0,
+        "source": "Lampa i Iskra Boża",
+        "source_year": 1998.0,
+        "source_number": "nr 14",
+        "source_pages": "s. 124-125",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:177401",
+      "type": "RelatedRecord",
+      "label": "Pokój starego subiekta. Próbka językowej eksplikacji kilku zdań z \"Lalki\"",
+      "properties": {
+        "pbl_id": 177401,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 4068.0,
+        "source": "Warsztaty Polonistyczne",
+        "source_year": 1992.0,
+        "source_number": "nr 3",
+        "source_pages": "s. 61-66",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:553384",
+      "type": "RelatedRecord",
+      "label": "Kupiec galanteryjny i machina dziejów",
+      "properties": {
+        "pbl_id": 553384,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 3932.0,
+        "source": "Res Publica Nowa",
+        "source_year": 1999.0,
+        "source_number": "nr 5/6",
+        "source_pages": "s. 39-42",
+        "annotation": "m.in. lekceważenie i wzgarda w stosunku do bohatera powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:199298",
+      "type": "RelatedRecord",
+      "label": "A Polish realist-naturalist and American exceptionalism: Prus's \"Lalka\"",
+      "properties": {
+        "pbl_id": 199298,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 3547.0,
+        "source": "Polish Anglosaxon Studies",
+        "source_year": 1992.0,
+        "source_number": "t. 3/4",
+        "source_pages": "s. 65-80",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:291614",
+      "type": "RelatedRecord",
+      "label": "Najważniejszy dzień w życiu Ignacego Rzeckiego, czyli Bolesław Prus o wojnie",
+      "properties": {
+        "pbl_id": 291614,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 1994.0,
+        "source_number": "nr 8",
+        "source_pages": "s. 451-456",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:292052",
+      "type": "RelatedRecord",
+      "label": "Habent sua fata libelli. Z dziejów \"Lalki\"",
+      "properties": {
+        "pbl_id": 292052,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 1994.0,
+        "source_number": "nr 8",
+        "source_pages": "s. 462-470",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:613518",
+      "type": "RelatedRecord",
+      "label": "Małgorzata Minclowa, czyli drugie ja Stanisława Wokulskiego",
+      "properties": {
+        "pbl_id": 613518,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 2000.0,
+        "source_number": "nr 7",
+        "source_pages": "s. 407-411",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1069832",
+      "type": "RelatedRecord",
+      "label": "Izabeli Łęckiej nieznane oblicze",
+      "properties": {
+        "pbl_id": 1069832,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 2003.0,
+        "source_number": "nr 8",
+        "source_pages": "s. 477-480",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1995749",
+      "type": "RelatedRecord",
+      "label": "Gdy zasypia rozum. Bohaterowie \"Lalki\" w świetle swoich snów",
+      "properties": {
+        "pbl_id": 1995749,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 2008.0,
+        "source_number": "nr 8",
+        "source_pages": "s. 25-30",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:2002582",
+      "type": "RelatedRecord",
+      "label": "Labirynt rzeczywistości w \"Lalce\"",
+      "properties": {
+        "pbl_id": 2002582,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 2009.0,
+        "source_number": "nr 3",
+        "source_pages": "s. 29-34",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:2002837",
+      "type": "RelatedRecord",
+      "label": "Spiskowcy: Kordian i Wokulski",
+      "properties": {
+        "pbl_id": 2002837,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 2009.0,
+        "source_number": "nr 11",
+        "source_pages": "s. 12-16",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:2005993",
+      "type": "RelatedRecord",
+      "label": "Jakie tajemnice kryje przestrzeń kościoła w \"Lalce\"?",
+      "properties": {
+        "pbl_id": 2005993,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 61.0,
+        "source": "Polonistyka",
+        "source_year": 2011.0,
+        "source_number": "nr 6",
+        "source_pages": "s. 38-41",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:158728",
+      "type": "RelatedRecord",
+      "label": "\"Kukla\" Boleslava Prusa i \"Anna Karenina\" L'va Tolstogo",
+      "properties": {
+        "pbl_id": 158728,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2419.0,
+        "source": "x",
+        "source_year": 1991.0,
+        "annotation": "[w czasopiśmie:] <i>Vestnik Moskovskogo Universiteta</i> Ser. 9: Filologija (Moskva) 1991 nr 1 s. 33-40 [informacja własna]",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:239131",
+      "type": "RelatedRecord",
+      "label": "W kamienicy Łęckich. O \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 239131,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2419.0,
+        "source": "x",
+        "source_year": 1992.0,
+        "annotation": "[W ks. zb.:] Od Koźmiana do Czernika. Studia i szkice o literaturze polskiej XIX i XX wieku. Rzeszów 1992 s. 73-91",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:366580",
+      "type": "RelatedRecord",
+      "label": "Dialogichnijat model na sahnanueto i elementaht na zagadkata v romana na Prust \"Kukla\"",
+      "properties": {
+        "pbl_id": 366580,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2419.0,
+        "source": "x",
+        "source_year": 1993.0,
+        "annotation": "[W ks. zb.:] Slavistichni prouchvanija. Veliko Tahrnovo 1993 s. 149-156 [<i>New Contents Slavistics</i> 1993]",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:791079",
+      "type": "RelatedRecord",
+      "label": "Paris du XIXe siecle vu par un Polonais",
+      "properties": {
+        "pbl_id": 791079,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2419.0,
+        "source": "x",
+        "source_number": "nr",
+        "source_pages": "s.",
+        "annotation": "Le livre et l'art. Etudes offertes en hommage a Pierre Lelievre reunies par Therese Kleindienst. Paris 2000",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1051343",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\" - epizod czy nazwa?",
+      "properties": {
+        "pbl_id": 1051343,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2419.0,
+        "source": "x",
+        "source_year": 2003.0,
+        "annotation": "[w ks.:] Zofia Mitosek: Poznanie (w) powieści. Od Balzaka do Masłowskiej. Kraków 2003 s. 57-67",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1923592",
+      "type": "RelatedRecord",
+      "label": "W niewielkim nakładzie (\"Lalka\" Prusa po chińsku)",
+      "properties": {
+        "pbl_id": 1923592,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2339.0,
+        "source": "Kurier Wileński",
+        "source_year": 2005.0,
+        "source_number": "nr 224",
+        "source_pages": "s. 12",
+        "annotation": "nota",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1092767",
+      "type": "RelatedRecord",
+      "label": "Lalka i lalki",
+      "properties": {
+        "pbl_id": 1092767,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2141.0,
+        "source": "Metafora",
+        "source_year": 2003.0,
+        "source_number": "nr 51/55(2002/2003)",
+        "source_pages": "s. 119-120",
+        "coauthors_description": "Tł. Irena Pyszko",
+        "annotation": "m.in. nt. dwóch czeskich powieści bliskich typologii powieści Bolesława Prusa: Jan Vrchlicky wydał w 1908 roku powieść \"Lalki\", F.X Salda powieść \"Lalki i robotnicy boży\" (1917 r.)",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1009689",
+      "type": "RelatedRecord",
+      "label": "Panna Dandys i inni (mysli nad lekturą \"Lalki\" B. Prusa)",
+      "properties": {
+        "pbl_id": 1009689,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 2121.0,
+        "source": "Zeszyty Naukowe Katolickiego Uniwersytetu Lubelskiego",
+        "source_year": 2002.0,
+        "source_number": "r. 45 nr 1/2",
+        "source_pages": "s. 23-36",
+        "annotation": "spojrzenie na kreację postaci Izabeli Łęckiej w kontekście zjawiska dandyzmu",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:66300",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\" czyli pozytywizm w aliażu z romantyzmem",
+      "properties": {
+        "pbl_id": 66300,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 1557.0,
+        "source": "Zeszyty Naukowe Wydziału Humanistycznego. Uniwersytet Gdański. Prace Historycznoliterackie",
+        "source_year": 1989.0,
+        "source_number": "z. 15",
+        "source_pages": "s. 47-60",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1857214",
+      "type": "RelatedRecord",
+      "label": "Ciastka za szybą",
+      "properties": {
+        "pbl_id": 1857214,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 1123.0,
+        "source": "Stolica",
+        "source_year": 2012.0,
+        "source_number": "nr 10",
+        "source_pages": "s. 22",
+        "annotation": "nt. sceny, w której bohaterka powieści - Izabela Łęcka siedzi w cukierni i zauważa za szybą gromadkę dzieci",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:43354",
+      "type": "RelatedRecord",
+      "label": "Sto lat z \"Lalką\".",
+      "properties": {
+        "pbl_id": 43354,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 830.0,
+        "source": "Odrodzenie",
+        "source_year": 1989.0,
+        "source_number": "nr 10",
+        "source_pages": "s. 8",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:394003",
+      "type": "RelatedRecord",
+      "label": "Zęby barona Krzeszowskiego",
+      "properties": {
+        "pbl_id": 394003,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 861.0,
+        "source": "Przekrój",
+        "source_year": 1996.0,
+        "source_number": "nr 38",
+        "source_pages": "s. 40-41",
+        "annotation": "próba wirtualnego \"leczenia\" bohatera powieści wg wiedzy współczesnej medycyny",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:606396",
+      "type": "RelatedRecord",
+      "label": "Brylanty zdradzają... (Z prof. Tadeuszem Budrewiczem o savoir-vivrze w \"Lalce\")",
+      "properties": {
+        "pbl_id": 606396,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 861.0,
+        "source": "Przekrój",
+        "source_year": 2000.0,
+        "source_number": "nr 20",
+        "source_pages": "s. 37",
+        "annotation": "wywiad z profesorem Akademii Pedagogicznej w Krakowie; not. Teresa Bętkowska",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1966233",
+      "type": "RelatedRecord",
+      "label": "Ignacy Rzecki - kreacja biedermeierowska?",
+      "properties": {
+        "pbl_id": 1966233,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 671.0,
+        "source": "Sprawozdania z Czynności i Posiedzeń Naukowych [Łódzkie Towarzystwo Naukowe]",
+        "source_year": 2011.0,
+        "source_number": "t. 65",
+        "source_pages": "s. 219-228",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:230897",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\" w kontekście \"Trylogii\" [Henryka Sienkiewicza]",
+      "properties": {
+        "pbl_id": 230897,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 355.0,
+        "source": "Rocznik Towarzystwa Literackiego imienia Adama Mickiewicza",
+        "source_year": 1993.0,
+        "source_number": "r. 26/27 (1991/1992)",
+        "source_pages": "s. 27-40",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:230899",
+      "type": "RelatedRecord",
+      "label": "Płaszczyzny interpretacyjne tytułu \"Lalki\" Prusa",
+      "properties": {
+        "pbl_id": 230899,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 355.0,
+        "source": "Rocznik Towarzystwa Literackiego imienia Adama Mickiewicza",
+        "source_year": 1993.0,
+        "source_number": "r. 26/27 (1991/1992)",
+        "source_pages": "s. 41-50",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:166630",
+      "type": "RelatedRecord",
+      "label": "\"Jak się jada ryby nożem\". Savoir-vivre w \"Lalce\"",
+      "properties": {
+        "pbl_id": 166630,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 314.0,
+        "source": "Rocznik Komisji Historycznoliterackiej",
+        "source_year": 1992.0,
+        "source_number": "t. 28",
+        "source_pages": "s. 129-138",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:302256",
+      "type": "RelatedRecord",
+      "label": "Polisemia tytułu \"Lalki\" Prusa",
+      "properties": {
+        "pbl_id": 302256,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 314.0,
+        "source": "Rocznik Komisji Historycznoliterackiej",
+        "source_year": 1994.0,
+        "source_number": "t. 29/30",
+        "source_pages": "s. 33-40",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:55916",
+      "type": "RelatedRecord",
+      "label": "Uczony wśród aniołów i samic (O stylu miłosnym \"Lalki\")",
+      "properties": {
+        "pbl_id": 55916,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 414.0,
+        "source": "Ruch Literacki",
+        "source_year": 1989.0,
+        "source_number": "z. 2",
+        "source_pages": "s. 141-156",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:194794",
+      "type": "RelatedRecord",
+      "label": "Świat lalek starego subiekta Rzeckiego",
+      "properties": {
+        "pbl_id": 194794,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 414.0,
+        "source": "Ruch Literacki",
+        "source_year": 1992.0,
+        "source_number": "z. 3",
+        "source_pages": "s. 191-202",
+        "annotation": "nt. lalkowo-marionetkowej interpretacji tytułu powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:284251",
+      "type": "RelatedRecord",
+      "label": "O kupieckim fachu Stanisława Wokulskiego",
+      "properties": {
+        "pbl_id": 284251,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 414.0,
+        "source": "Ruch Literacki",
+        "source_year": 1994.0,
+        "source_number": "z. 3/4",
+        "source_pages": "s. 247-262",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1083152",
+      "type": "RelatedRecord",
+      "label": "Stanisław Wokulski's Semi-Voluntary Exile: Exporing the Hero's Journey to Emigration in Bolesław Prus' \"Lalka\"",
+      "properties": {
+        "pbl_id": 1083152,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 143.0,
+        "source": "The Polish Review",
+        "source_year": 2003.0,
+        "source_number": "t. 48 nr 2",
+        "source_pages": "s. 165-184",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:295376",
+      "type": "RelatedRecord",
+      "label": "Co się stało z \"Lalką\"?",
+      "properties": {
+        "pbl_id": 295376,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 230.0,
+        "source": "Twórczość",
+        "source_year": 1994.0,
+        "source_number": "nr 7",
+        "source_pages": "s. 69-86",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1023768",
+      "type": "RelatedRecord",
+      "label": "Ćwiczenia z patrzenia",
+      "properties": {
+        "pbl_id": 1023768,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 230.0,
+        "source": "Twórczość",
+        "source_year": 2002.0,
+        "source_number": "nr 7/8",
+        "source_pages": "s. 76-93",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1051958",
+      "type": "RelatedRecord",
+      "label": "Co dalej z Lalką?",
+      "properties": {
+        "pbl_id": 1051958,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 230.0,
+        "source": "Twórczość",
+        "source_year": 2003.0,
+        "source_number": "nr 10",
+        "source_pages": "s. 123-126",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:97861",
+      "type": "RelatedRecord",
+      "label": "Żydzi u Prusa i Żeromskiego",
+      "properties": {
+        "pbl_id": 97861,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 221.0,
+        "source": "Powiększenie",
+        "source_year": 1990.0,
+        "source_number": "nr 1/4",
+        "source_pages": "s. 11-14",
+        "annotation": "obraz Żydów w \"Lalce\" Bolesława Prusa oraz \"Ludziach bezdomnych\" i \"Przedwiośniu\" Stefana Żeromskiego",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1014087",
+      "type": "RelatedRecord",
+      "label": "Lalka Olgi",
+      "properties": {
+        "pbl_id": 1014087,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 76.0,
+        "source": "Polityka",
+        "source_year": 2001.0,
+        "source_number": "nr 15",
+        "source_pages": "s. 60-62",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:18094",
+      "type": "RelatedRecord",
+      "label": "Ignacy Rzecki na Węgrzech",
+      "properties": {
+        "pbl_id": 18094,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 211.0,
+        "source": "Tygodnik Polski",
+        "source_year": 1988.0,
+        "source_number": "nr 11",
+        "source_pages": "s. 9, 14",
+        "annotation": "węgierski epizod w życiu Rzeckiego",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:186977",
+      "type": "RelatedRecord",
+      "label": "Rodowód marionetek Ignacego Rzeckiego",
+      "properties": {
+        "pbl_id": 186977,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 163.0,
+        "source": "Prace Polonistyczne",
+        "source_year": 1992.0,
+        "source_number": "seria 47 (1991/1992)",
+        "source_pages": "s. 167-174",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:356145",
+      "type": "RelatedRecord",
+      "label": "Ignacy Rzecki i Andrzej Rzeski. O wpływie powieści \"Ci i tamci\" T.T. Jeża na epizod węgierski w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 356145,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 163.0,
+        "source": "Prace Polonistyczne",
+        "source_year": 1995.0,
+        "source_number": "seria 50",
+        "source_pages": "s. 77-89",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:148111",
+      "type": "RelatedRecord",
+      "label": "Prus w zbożu",
+      "properties": {
+        "pbl_id": 148111,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 197.0,
+        "source": "Przegląd Tygodniowy",
+        "source_year": 1991.0,
+        "source_number": "nr 13",
+        "source_pages": "s. 12",
+        "annotation": "postać i działaln. Jakuba Langego, prawdopodobnie pierwowzoru Stanisława Wokulskiego",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:150218",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\" czytana dzisiaj",
+      "properties": {
+        "pbl_id": 150218,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 188.0,
+        "source": "Przegląd Polski = Polish Review",
+        "source_year": 1991.0,
+        "source_number": "z 4 IV",
+        "source_pages": "s. 13, 15",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:207538",
+      "type": "RelatedRecord",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 207538,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 188.0,
+        "source": "Przegląd Polski = Polish Review",
+        "source_year": 1993.0,
+        "source_number": "nr z 9 IX",
+        "source_pages": "s. 4",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:422012",
+      "type": "RelatedRecord",
+      "label": "\"Panna Leokadia widzi cały garnitur\". O ubraniach w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 422012,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 82.0,
+        "source": "Pamiętnik Literacki",
+        "source_year": 1997.0,
+        "source_number": "z. 4",
+        "source_pages": "s. 53-74",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:597348",
+      "type": "RelatedRecord",
+      "label": "Determinizm w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 597348,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 82.0,
+        "source": "Pamiętnik Literacki",
+        "source_year": 2000.0,
+        "source_number": "z. 2",
+        "source_pages": "s. 19-44",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1068091",
+      "type": "RelatedRecord",
+      "label": "Funkcje podania ludowego w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 1068091,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 82.0,
+        "source": "Pamiętnik Literacki",
+        "source_year": 2003.0,
+        "source_number": "z. 2",
+        "source_pages": "s. 43-54",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:951446",
+      "type": "RelatedRecord",
+      "label": "Światy zastępcze w \"Lalce\" Bolesława Prusa",
+      "properties": {
+        "pbl_id": 951446,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 40.0,
+        "source": "Akcent",
+        "source_year": 2002.0,
+        "source_number": "nr 1/2",
+        "source_pages": " 29-36",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:109714",
+      "type": "RelatedRecord",
+      "label": "Paryska utopia Bolesława Prusa",
+      "properties": {
+        "pbl_id": 109714,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 177.0,
+        "source": "Przegląd Humanistyczny",
+        "source_year": 1990.0,
+        "source_number": "nr 7",
+        "source_pages": "s. 123-131",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:135579",
+      "type": "RelatedRecord",
+      "label": "Polski realizm i naturalizm a specyficzność amerykańska: \"Lalka\" Prusa",
+      "properties": {
+        "pbl_id": 135579,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 177.0,
+        "source": "Przegląd Humanistyczny",
+        "source_year": 1991.0,
+        "source_number": "nr 1",
+        "source_pages": "s. 61-75",
+        "coauthors_description": "Tł. Anna Przybysz",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:185835",
+      "type": "RelatedRecord",
+      "label": "Oswajanie miasta",
+      "properties": {
+        "pbl_id": 185835,
+        "pbl_type": "IZA",
+        "parent_id": 109715.0,
+        "section_id": 9060,
+        "section_name": "Hasła osobowe (literatura polska) - P",
+        "source_id": 177.0,
+        "source": "Przegląd Humanistyczny",
+        "source_year": 1992.0,
+        "source_number": "nr 6",
+        "source_pages": "s. 65-76",
+        "annotation": "wątek Warszawy i Paryża w powieści",
+        "role": "related_record",
+        "root_relation": "direct_child_of_lalka"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:304249",
+      "type": "Adaptation",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 304249,
+        "pbl_type": "FI",
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "role": "screen_adaptation",
+        "root_relation": "manually_verified"
+      },
+      "presentation_type": "Adaptation",
+      "original_type": "ScreenAdaptation"
+    },
+    {
+      "id": "record:136679",
+      "type": "Adaptation",
+      "label": "Lalka (TV)",
+      "properties": {
+        "pbl_id": 136679,
+        "pbl_type": "FI",
+        "section_id": 287,
+        "section_name": "Filmy telewizyjne",
+        "annotation": "(Serial).",
+        "role": "screen_adaptation",
+        "root_relation": "manually_verified"
+      },
+      "presentation_type": "Adaptation",
+      "original_type": "ScreenAdaptation"
+    },
+    {
+      "id": "record:1704531",
+      "type": "RelatedRecord",
+      "label": "Miłość w \"Lalce\" Hasa",
+      "properties": {
+        "pbl_id": 1704531,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 18817.0,
+        "source": "Lampa",
+        "source_year": 2010.0,
+        "source_number": "nr 3",
+        "source_pages": "s. 34-35",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:527545",
+      "type": "RelatedRecord",
+      "label": "\"Lalka\" w reżyserii Wojciecha J. Hasa - inspiracja tematem literackim",
+      "properties": {
+        "pbl_id": 527545,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 11017.0,
+        "source": "Acta Universitatis Nicolai Copernici. Nauki Humanistyczno-Społeczne. Filologia Polska",
+        "source_year": 1998.0,
+        "source_number": "z. 51 (325)",
+        "source_pages": "s. 127-148",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:505941",
+      "type": "RelatedRecord",
+      "label": "Próba uaktualnienia problematyki \"Lalki\" Bolesława Prusa przez W. Hasa i R. Bera w adaptacjach filmowych",
+      "properties": {
+        "pbl_id": 505941,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 8211.0,
+        "source": "Młoda Polonistyka",
+        "source_year": 1998.0,
+        "source_number": "nr 2",
+        "source_pages": "s. 23-33",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:1148961",
+      "type": "RelatedRecord",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 1148961,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 452.0,
+        "source": "Rzeczpospolita",
+        "source_year": 2003.0,
+        "source_number": "nr 152",
+        "source_pages": "s. D4",
+        "annotation": "nota przed emisją telewizyjną",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:304250",
+      "type": "RelatedRecord",
+      "label": "Dramat Wokulskiego według Hassa [!]",
+      "properties": {
+        "pbl_id": 304250,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 847.0,
+        "source": "Życie Warszawy",
+        "source_year": 1994.0,
+        "source_number": "nr 60 dod.",
+        "source_pages": "s. 9",
+        "annotation": "art. przed emisją tv",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:401079",
+      "type": "RelatedRecord",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 401079,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 472.0,
+        "source": "Film",
+        "source_year": 1996.0,
+        "source_number": "nr 6",
+        "source_pages": "s. 76",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:498326",
+      "type": "RelatedRecord",
+      "label": "[Trzydzieści] ...30 lat minęło",
+      "properties": {
+        "pbl_id": 498326,
+        "pbl_type": "IZA",
+        "parent_id": 304249.0,
+        "section_id": 286,
+        "section_name": "Filmy fabularne pełnometrażowe",
+        "source_id": 472.0,
+        "source": "Film",
+        "source_year": 1998.0,
+        "source_number": "nr 11",
+        "source_pages": "s. 16",
+        "annotation": "nt. filmu w 30. rocznicę premiery",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:304249"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:505942",
+      "type": "RelatedRecord",
+      "label": "Próba uaktualnienia problematyki \"Lalki\" Bolesława Prusa przez W. Hasa i R. Bera w adaptacjach filmowych",
+      "properties": {
+        "pbl_id": 505942,
+        "pbl_type": "IZA",
+        "parent_id": 136679.0,
+        "section_id": 287,
+        "section_name": "Filmy telewizyjne",
+        "source_id": 8211.0,
+        "source": "Młoda Polonistyka",
+        "source_year": 1998.0,
+        "source_number": "nr 2",
+        "source_pages": "s. 23-33",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:136679"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "record:136684",
+      "type": "RelatedRecord",
+      "label": "Lalka",
+      "properties": {
+        "pbl_id": 136684,
+        "pbl_type": "IZA",
+        "parent_id": 136679.0,
+        "section_id": 287,
+        "section_name": "Filmy telewizyjne",
+        "source_id": 472.0,
+        "source": "Film",
+        "source_year": 1991.0,
+        "source_number": "nr 46",
+        "source_pages": "s. 23",
+        "annotation": "dot. 1. odc.",
+        "role": "related_record",
+        "root_relation": "child_of_adaptation",
+        "parent_presentation_id": "record:136679"
+      },
+      "presentation_type": "RelatedRecord",
+      "original_type": "OtherRecord"
+    },
+    {
+      "id": "author:8909",
+      "type": "Person",
+      "label": "Olga Tokarczuk",
+      "properties": {
+        "pbl_id": 8909,
+        "first_name": "Olga",
+        "last_name": "Tokarczuk",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:2",
+      "type": "Publisher",
+      "label": "Wydawnictwo Literackie",
+      "properties": {
+        "pbl_id": 2,
+        "city": "Kraków",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:89789",
+      "type": "Person",
+      "label": "Józef Osmoła",
+      "properties": {
+        "pbl_id": 89789,
+        "first_name": "Józef",
+        "last_name": "Osmoła",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:129955",
+      "type": "Publisher",
+      "label": "Wydawnictwo Biblios",
+      "properties": {
+        "pbl_id": 129955,
+        "city": "Lublin",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:104140",
+      "type": "Person",
+      "label": "Jakub A. Malik",
+      "properties": {
+        "pbl_id": 104140,
+        "first_name": "Jakub A.",
+        "last_name": "Malik",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:123004",
+      "type": "Publisher",
+      "label": "Wydawnictwo KUL",
+      "properties": {
+        "pbl_id": 123004,
+        "city": "Lublin",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "publisher:4883",
+      "type": "Publisher",
+      "label": "Towarzystwo Naukowe Katolickiego Uniwersytetu Lubelskiego",
+      "properties": {
+        "pbl_id": 4883,
+        "city": "Lublin",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:8295",
+      "type": "Person",
+      "label": "Ewa Paczoska",
+      "properties": {
+        "pbl_id": 8295,
+        "first_name": "Ewa",
+        "last_name": "Paczoska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:130132",
+      "type": "Publisher",
+      "label": "Wydawnictwa Akademickie i Profesjonalne",
+      "properties": {
+        "pbl_id": 130132,
+        "city": "Warszawa",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:37932",
+      "type": "Person",
+      "label": "Paweł Waszak",
+      "properties": {
+        "pbl_id": 37932,
+        "first_name": "Paweł",
+        "last_name": "Waszak",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:131010",
+      "type": "Publisher",
+      "label": "Muzeum Historyczne m. st. Warszawy",
+      "properties": {
+        "pbl_id": 131010,
+        "city": "Warszawa",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:3127",
+      "type": "Person",
+      "label": "Józef Bachórz",
+      "properties": {
+        "pbl_id": 3127,
+        "first_name": "Józef",
+        "last_name": "Bachórz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:123759",
+      "type": "Publisher",
+      "label": "Wydawnictwo Słowo/Obraz Terytoria",
+      "properties": {
+        "pbl_id": 123759,
+        "city": "Gdańsk",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:347059",
+      "type": "Person",
+      "label": "Dorota Samborska-Kukuć",
+      "properties": {
+        "pbl_id": 347059,
+        "first_name": "Dorota",
+        "last_name": "Samborska-Kukuć",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "publisher:144993",
+      "type": "Publisher",
+      "label": "Wydawnictwo Primum Verbum",
+      "properties": {
+        "pbl_id": 144993,
+        "city": "Łódź",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "publisher:106617",
+      "type": "Publisher",
+      "label": "Fundacja Akademia Humanistyczna",
+      "properties": {
+        "pbl_id": 106617,
+        "city": "Warszawa",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "publisher:129852",
+      "type": "Publisher",
+      "label": "Instytut Badań Literackich PAN. Wydawnictwo",
+      "properties": {
+        "pbl_id": 129852,
+        "city": "Warszawa",
+        "role": "record_publisher"
+      },
+      "presentation_type": "Publisher",
+      "original_type": "Publisher"
+    },
+    {
+      "id": "author:174398",
+      "type": "Person",
+      "label": "Maja E. Cybulska",
+      "properties": {
+        "pbl_id": 174398,
+        "first_name": "Maja E.",
+        "last_name": "Cybulska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:22677",
+      "type": "Source",
+      "label": "Tydzień Polski [Londyn, 2001-2015]",
+      "properties": {
+        "pbl_id": 22677,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:76668",
+      "type": "Person",
+      "label": "Ewa Lewandowska-Tarasiuk",
+      "properties": {
+        "pbl_id": 76668,
+        "first_name": "Ewa",
+        "last_name": "Lewandowska-Tarasiuk",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:20108",
+      "type": "Source",
+      "label": "Czytanie Literatury",
+      "properties": {
+        "pbl_id": 20108,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:678531",
+      "type": "Person",
+      "label": "Aldona Binda",
+      "properties": {
+        "pbl_id": 678531,
+        "first_name": "Aldona",
+        "last_name": "Binda",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:19993",
+      "type": "Source",
+      "label": "PaperMint",
+      "properties": {
+        "pbl_id": 19993,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:153261",
+      "type": "Person",
+      "label": "Jarosław Hebel",
+      "properties": {
+        "pbl_id": 153261,
+        "first_name": "Jarosław",
+        "last_name": "Hebel",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:19991",
+      "type": "Source",
+      "label": "Nowa Gazeta Literacka",
+      "properties": {
+        "pbl_id": 19991,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:42235",
+      "type": "Person",
+      "label": "Paweł Dunin-Wąsowicz",
+      "properties": {
+        "pbl_id": 42235,
+        "first_name": "Paweł",
+        "last_name": "Dunin-Wąsowicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:18817",
+      "type": "Source",
+      "label": "Lampa",
+      "properties": {
+        "pbl_id": 18817,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:16677",
+      "type": "Source",
+      "label": "Aspekty Filozoficzno-Prozatorskie",
+      "properties": {
+        "pbl_id": 16677,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:95201",
+      "type": "Person",
+      "label": "Ireneusz Gielata",
+      "properties": {
+        "pbl_id": 95201,
+        "first_name": "Ireneusz",
+        "last_name": "Gielata",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:17818",
+      "type": "Source",
+      "label": "Świat i Słowo",
+      "properties": {
+        "pbl_id": 17818,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:462565",
+      "type": "Person",
+      "label": "Katarzyna Borek",
+      "properties": {
+        "pbl_id": 462565,
+        "first_name": "Katarzyna",
+        "last_name": "Borek",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:462564",
+      "type": "Person",
+      "label": "Katarzyna Celińska",
+      "properties": {
+        "pbl_id": 462564,
+        "first_name": "Katarzyna",
+        "last_name": "Celińska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:17677",
+      "type": "Source",
+      "label": "Do źródeł",
+      "properties": {
+        "pbl_id": 17677,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:520000",
+      "type": "Person",
+      "label": "Katarzyna Rychta",
+      "properties": {
+        "pbl_id": 520000,
+        "first_name": "Katarzyna",
+        "last_name": "Rychta",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:692011",
+      "type": "Person",
+      "label": "Agata Buda",
+      "properties": {
+        "pbl_id": 692011,
+        "first_name": "Agata",
+        "last_name": "Buda",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:17457",
+      "type": "Source",
+      "label": "Zeszyty Naukowe Uniwersytetu Rzeszowskiego. Seria Filologiczna. Studia Anglica Resoviensia",
+      "properties": {
+        "pbl_id": 17457,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:13265",
+      "type": "Person",
+      "label": "Kazimierz Surowiec",
+      "properties": {
+        "pbl_id": 13265,
+        "first_name": "Kazimierz",
+        "last_name": "Surowiec",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:16618",
+      "type": "Source",
+      "label": "Zeszyty Naukowe Uniwersytetu Rzeszowskiego. Seria Filologiczna. Historia Literatury",
+      "properties": {
+        "pbl_id": 16618,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:101255",
+      "type": "Person",
+      "label": "Cezary Zalewski",
+      "properties": {
+        "pbl_id": 101255,
+        "first_name": "Cezary",
+        "last_name": "Zalewski",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:16417",
+      "type": "Source",
+      "label": "Słupskie Prace Filologiczne. Seria Filologia Polska",
+      "properties": {
+        "pbl_id": 16417,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:37655",
+      "type": "Person",
+      "label": "Cezary W. Domański",
+      "properties": {
+        "pbl_id": 37655,
+        "first_name": "Cezary W.",
+        "last_name": "Domański",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:13957",
+      "type": "Source",
+      "label": "Charaktery",
+      "properties": {
+        "pbl_id": 13957,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:13793",
+      "type": "Person",
+      "label": "Zbigniew Przybyła",
+      "properties": {
+        "pbl_id": 13793,
+        "first_name": "Zbigniew",
+        "last_name": "Przybyła",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:11099",
+      "type": "Source",
+      "label": "Zeszyty Naukowe Uniwersytetu Jagiellońskiego. Prace Historycznoliterackie",
+      "properties": {
+        "pbl_id": 11099,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:28032",
+      "type": "Person",
+      "label": "Maria Rachwałowa",
+      "properties": {
+        "pbl_id": 28032,
+        "first_name": "Maria",
+        "last_name": "Rachwałowa",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:11421",
+      "type": "Source",
+      "label": "Rocznik Naukowo-Dydaktyczny [Wyższa Szkoła Pedagogiczna w Krakowie]. Prace Językoznawcze",
+      "properties": {
+        "pbl_id": 11421,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:9174",
+      "type": "Person",
+      "label": "Dariusz Gawin",
+      "properties": {
+        "pbl_id": 9174,
+        "first_name": "Dariusz",
+        "last_name": "Gawin",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:10177",
+      "type": "Source",
+      "label": "Życie",
+      "properties": {
+        "pbl_id": 10177,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:8358",
+      "type": "Source",
+      "label": "Dziennik Kijowski",
+      "properties": {
+        "pbl_id": 8358,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:133916",
+      "type": "Person",
+      "label": "Lucyna Muszyńska",
+      "properties": {
+        "pbl_id": 133916,
+        "first_name": "Lucyna",
+        "last_name": "Muszyńska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:8212",
+      "type": "Source",
+      "label": "PAL Przegląd Artystyczno-Literacki",
+      "properties": {
+        "pbl_id": 8212,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:234705",
+      "type": "Person",
+      "label": "Agnieszka Szol",
+      "properties": {
+        "pbl_id": 234705,
+        "first_name": "Agnieszka",
+        "last_name": "Szol",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:8179",
+      "type": "Source",
+      "label": "Polonia Włoska",
+      "properties": {
+        "pbl_id": 8179,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:102617",
+      "type": "Person",
+      "label": "Gabriela Olchowa",
+      "properties": {
+        "pbl_id": 102617,
+        "first_name": "Gabriela",
+        "last_name": "Olchowa",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:7002",
+      "type": "Source",
+      "label": "Zeszyty Naukowe. Uniwersytet Opolski. Językoznawstwo",
+      "properties": {
+        "pbl_id": 7002,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:6967",
+      "type": "Source",
+      "label": "Parnasik",
+      "properties": {
+        "pbl_id": 6967,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:20751",
+      "type": "Person",
+      "label": "Danuta Sosnowska",
+      "properties": {
+        "pbl_id": 20751,
+        "first_name": "Danuta",
+        "last_name": "Sosnowska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:2221",
+      "type": "Source",
+      "label": "Kresy",
+      "properties": {
+        "pbl_id": 2221,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:109357",
+      "type": "Person",
+      "label": "Teresa Smółkowa",
+      "properties": {
+        "pbl_id": 109357,
+        "first_name": "Teresa",
+        "last_name": "Smółkowa",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:146",
+      "type": "Source",
+      "label": "Prace Filologiczne",
+      "properties": {
+        "pbl_id": 146,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:31398",
+      "type": "Person",
+      "label": "Piotr Podziomek-Zakrzewski",
+      "properties": {
+        "pbl_id": 31398,
+        "first_name": "Piotr",
+        "last_name": "Podziomek-Zakrzewski",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:223",
+      "type": "Source",
+      "label": "Powściągliwość i Praca",
+      "properties": {
+        "pbl_id": 223,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:1107",
+      "type": "Person",
+      "label": "Tadeusz Budrewicz",
+      "properties": {
+        "pbl_id": 1107,
+        "first_name": "Tadeusz",
+        "last_name": "Budrewicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:6883",
+      "type": "Source",
+      "label": "Wiadomości Kulturalne",
+      "properties": {
+        "pbl_id": 6883,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:184020",
+      "type": "Person",
+      "label": "Anna Sierszecka",
+      "properties": {
+        "pbl_id": 184020,
+        "first_name": "Anna",
+        "last_name": "Sierszecka",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:6776",
+      "type": "Source",
+      "label": "Studia i Materiały Polonistyczne",
+      "properties": {
+        "pbl_id": 6776,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:6737",
+      "type": "Source",
+      "label": "Ojczyzna Polszczyzna",
+      "properties": {
+        "pbl_id": 6737,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:2181",
+      "type": "Source",
+      "label": "Teksty Drugie",
+      "properties": {
+        "pbl_id": 2181,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:72448",
+      "type": "Person",
+      "label": "Jakub Aleksandrowicz",
+      "properties": {
+        "pbl_id": 72448,
+        "first_name": "Jakub",
+        "last_name": "Aleksandrowicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:2364",
+      "type": "Source",
+      "label": "Przedproża",
+      "properties": {
+        "pbl_id": 2364,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:6357",
+      "type": "Person",
+      "label": "Marta Denys",
+      "properties": {
+        "pbl_id": 6357,
+        "first_name": "Marta",
+        "last_name": "Denys",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:5407",
+      "type": "Source",
+      "label": "Na przykład [Lublin]",
+      "properties": {
+        "pbl_id": 5407,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:86292",
+      "type": "Person",
+      "label": "Kazimierz Maciąg",
+      "properties": {
+        "pbl_id": 86292,
+        "first_name": "Kazimierz",
+        "last_name": "Maciąg",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:521",
+      "type": "Source",
+      "label": "Język Polski w Szkole Średniej",
+      "properties": {
+        "pbl_id": 521,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:43494",
+      "type": "Person",
+      "label": "Pszisko Jacobs",
+      "properties": {
+        "pbl_id": 43494,
+        "first_name": "Pszisko",
+        "last_name": "Jacobs",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:4727",
+      "type": "Source",
+      "label": "Biuletyn PN [Pools-Nederlandse Kulturele Vereinining = Polsko-Niderlandzkie Stowarzyszenie Kulturalne]",
+      "properties": {
+        "pbl_id": 4727,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:4367",
+      "type": "Source",
+      "label": "Lampa i Iskra Boża",
+      "properties": {
+        "pbl_id": 4367,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:5430",
+      "type": "Person",
+      "label": "Antoni Mackiewicz",
+      "properties": {
+        "pbl_id": 5430,
+        "first_name": "Antoni",
+        "last_name": "Mackiewicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:4068",
+      "type": "Source",
+      "label": "Warsztaty Polonistyczne",
+      "properties": {
+        "pbl_id": 4068,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:108539",
+      "type": "Person",
+      "label": "Robert Piłat",
+      "properties": {
+        "pbl_id": 108539,
+        "first_name": "Robert",
+        "last_name": "Piłat",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:3932",
+      "type": "Source",
+      "label": "Res Publica Nowa",
+      "properties": {
+        "pbl_id": 3932,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:28082",
+      "type": "Person",
+      "label": "Louis J. Budd",
+      "properties": {
+        "pbl_id": 28082,
+        "first_name": "Louis J.",
+        "last_name": "Budd",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:3547",
+      "type": "Source",
+      "label": "Polish Anglosaxon Studies",
+      "properties": {
+        "pbl_id": 3547,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:61",
+      "type": "Source",
+      "label": "Polonistyka",
+      "properties": {
+        "pbl_id": 61,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:5858",
+      "type": "Person",
+      "label": "Janina Kulczycka-Saloni",
+      "properties": {
+        "pbl_id": 5858,
+        "first_name": "Janina",
+        "last_name": "Kulczycka-Saloni",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:67439",
+      "type": "Person",
+      "label": "Leszek Barszcz",
+      "properties": {
+        "pbl_id": 67439,
+        "first_name": "Leszek",
+        "last_name": "Barszcz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:416659",
+      "type": "Person",
+      "label": "Izabela Stachowiak",
+      "properties": {
+        "pbl_id": 416659,
+        "first_name": "Izabela",
+        "last_name": "Stachowiak",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:551666",
+      "type": "Person",
+      "label": "Dagmara Binkowska",
+      "properties": {
+        "pbl_id": 551666,
+        "first_name": "Dagmara",
+        "last_name": "Binkowska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:733700",
+      "type": "Person",
+      "label": "Anna Wodzyńska",
+      "properties": {
+        "pbl_id": 733700,
+        "first_name": "Anna",
+        "last_name": "Wodzyńska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:36924",
+      "type": "Person",
+      "label": "Wiesław Ratajczak",
+      "properties": {
+        "pbl_id": 36924,
+        "first_name": "Wiesław",
+        "last_name": "Ratajczak",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:735339",
+      "type": "Person",
+      "label": "Renata Pałka",
+      "properties": {
+        "pbl_id": 735339,
+        "first_name": "Renata",
+        "last_name": "Pałka",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:24597",
+      "type": "Person",
+      "label": "Elena Cybenko",
+      "properties": {
+        "pbl_id": 24597,
+        "first_name": "Elena",
+        "last_name": "Cybenko",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:2419",
+      "type": "Source",
+      "label": "x",
+      "properties": {
+        "pbl_id": 2419,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:98685",
+      "type": "Person",
+      "label": "M. Grigorova",
+      "properties": {
+        "pbl_id": 98685,
+        "first_name": "M.",
+        "last_name": "Grigorova",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:232",
+      "type": "Person",
+      "label": "Zofia Mitosek",
+      "properties": {
+        "pbl_id": 232,
+        "first_name": "Zofia",
+        "last_name": "Mitosek",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:687511",
+      "type": "Person",
+      "label": "Author 687511",
+      "properties": {
+        "pbl_id": 687511,
+        "first_name": "",
+        "last_name": "",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:2339",
+      "type": "Source",
+      "label": "Kurier Wileński",
+      "properties": {
+        "pbl_id": 2339,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:19071",
+      "type": "Person",
+      "label": "Frantisek Vseticka",
+      "properties": {
+        "pbl_id": 19071,
+        "first_name": "Frantisek",
+        "last_name": "Vseticka",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:2141",
+      "type": "Source",
+      "label": "Metafora",
+      "properties": {
+        "pbl_id": 2141,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:202982",
+      "type": "Person",
+      "label": "Elżbieta M. Kur",
+      "properties": {
+        "pbl_id": 202982,
+        "first_name": "Elżbieta M.",
+        "last_name": "Kur",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:2121",
+      "type": "Source",
+      "label": "Zeszyty Naukowe Katolickiego Uniwersytetu Lubelskiego",
+      "properties": {
+        "pbl_id": 2121,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:1557",
+      "type": "Source",
+      "label": "Zeszyty Naukowe Wydziału Humanistycznego. Uniwersytet Gdański. Prace Historycznoliterackie",
+      "properties": {
+        "pbl_id": 1557,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:10620",
+      "type": "Person",
+      "label": "Marek Bieńczyk",
+      "properties": {
+        "pbl_id": 10620,
+        "first_name": "Marek",
+        "last_name": "Bieńczyk",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:1123",
+      "type": "Source",
+      "label": "Stolica",
+      "properties": {
+        "pbl_id": 1123,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:1210",
+      "type": "Person",
+      "label": "Maciej Krassowski",
+      "properties": {
+        "pbl_id": 1210,
+        "first_name": "Maciej",
+        "last_name": "Krassowski",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:830",
+      "type": "Source",
+      "label": "Odrodzenie",
+      "properties": {
+        "pbl_id": 830,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:10147",
+      "type": "Person",
+      "label": "Leszek Mazan",
+      "properties": {
+        "pbl_id": 10147,
+        "first_name": "Leszek",
+        "last_name": "Mazan",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:861",
+      "type": "Source",
+      "label": "Przekrój",
+      "properties": {
+        "pbl_id": 861,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:671",
+      "type": "Source",
+      "label": "Sprawozdania z Czynności i Posiedzeń Naukowych [Łódzkie Towarzystwo Naukowe]",
+      "properties": {
+        "pbl_id": 671,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:355",
+      "type": "Source",
+      "label": "Rocznik Towarzystwa Literackiego imienia Adama Mickiewicza",
+      "properties": {
+        "pbl_id": 355,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:314",
+      "type": "Source",
+      "label": "Rocznik Komisji Historycznoliterackiej",
+      "properties": {
+        "pbl_id": 314,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:414",
+      "type": "Source",
+      "label": "Ruch Literacki",
+      "properties": {
+        "pbl_id": 414,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:424199",
+      "type": "Person",
+      "label": "Elizabeth Blake",
+      "properties": {
+        "pbl_id": 424199,
+        "first_name": "Elizabeth",
+        "last_name": "Blake",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:143",
+      "type": "Source",
+      "label": "The Polish Review",
+      "properties": {
+        "pbl_id": 143,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:178",
+      "type": "Person",
+      "label": "Henryk Markiewicz",
+      "properties": {
+        "pbl_id": 178,
+        "first_name": "Henryk",
+        "last_name": "Markiewicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:230",
+      "type": "Source",
+      "label": "Twórczość",
+      "properties": {
+        "pbl_id": 230,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:88373",
+      "type": "Person",
+      "label": "Robert Papieski",
+      "properties": {
+        "pbl_id": 88373,
+        "first_name": "Robert",
+        "last_name": "Papieski",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:2768",
+      "type": "Person",
+      "label": "Jan Błoński",
+      "properties": {
+        "pbl_id": 2768,
+        "first_name": "Jan",
+        "last_name": "Błoński",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:221",
+      "type": "Source",
+      "label": "Powiększenie",
+      "properties": {
+        "pbl_id": 221,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:76",
+      "type": "Source",
+      "label": "Polityka",
+      "properties": {
+        "pbl_id": 76,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:6483",
+      "type": "Person",
+      "label": "Jerzy Midzio",
+      "properties": {
+        "pbl_id": 6483,
+        "first_name": "Jerzy",
+        "last_name": "Midzio",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:211",
+      "type": "Source",
+      "label": "Tygodnik Polski",
+      "properties": {
+        "pbl_id": 211,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:163",
+      "type": "Source",
+      "label": "Prace Polonistyczne",
+      "properties": {
+        "pbl_id": 163,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:4023",
+      "type": "Person",
+      "label": "Krystyna Poklewska",
+      "properties": {
+        "pbl_id": 4023,
+        "first_name": "Krystyna",
+        "last_name": "Poklewska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:18734",
+      "type": "Person",
+      "label": "Zbigniew Klejn",
+      "properties": {
+        "pbl_id": 18734,
+        "first_name": "Zbigniew",
+        "last_name": "Klejn",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:197",
+      "type": "Source",
+      "label": "Przegląd Tygodniowy",
+      "properties": {
+        "pbl_id": 197,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:24261",
+      "type": "Person",
+      "label": "Andrzej Józef Dąbrowski",
+      "properties": {
+        "pbl_id": 24261,
+        "first_name": "Andrzej Józef",
+        "last_name": "Dąbrowski",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:188",
+      "type": "Source",
+      "label": "Przegląd Polski = Polish Review",
+      "properties": {
+        "pbl_id": 188,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:2405",
+      "type": "Person",
+      "label": "Jan Kott",
+      "properties": {
+        "pbl_id": 2405,
+        "first_name": "Jan",
+        "last_name": "Kott",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:42819",
+      "type": "Person",
+      "label": "Waldemar Klemm",
+      "properties": {
+        "pbl_id": 42819,
+        "first_name": "Waldemar",
+        "last_name": "Klemm",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:82",
+      "type": "Source",
+      "label": "Pamiętnik Literacki",
+      "properties": {
+        "pbl_id": 82,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:103325",
+      "type": "Person",
+      "label": "Maciej Gloger",
+      "properties": {
+        "pbl_id": 103325,
+        "first_name": "Maciej",
+        "last_name": "Gloger",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:299291",
+      "type": "Person",
+      "label": "Kamila Borysewicz",
+      "properties": {
+        "pbl_id": 299291,
+        "first_name": "Kamila",
+        "last_name": "Borysewicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:40",
+      "type": "Source",
+      "label": "Akcent",
+      "properties": {
+        "pbl_id": 40,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:6440",
+      "type": "Person",
+      "label": "Tomasz Wójcik",
+      "properties": {
+        "pbl_id": 6440,
+        "first_name": "Tomasz",
+        "last_name": "Wójcik",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:177",
+      "type": "Source",
+      "label": "Przegląd Humanistyczny",
+      "properties": {
+        "pbl_id": 177,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:557921",
+      "type": "Person",
+      "label": "Marcin Maron",
+      "properties": {
+        "pbl_id": 557921,
+        "first_name": "Marcin",
+        "last_name": "Maron",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:103274",
+      "type": "Person",
+      "label": "Piotr Skrzypczak",
+      "properties": {
+        "pbl_id": 103274,
+        "first_name": "Piotr",
+        "last_name": "Skrzypczak",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:11017",
+      "type": "Source",
+      "label": "Acta Universitatis Nicolai Copernici. Nauki Humanistyczno-Społeczne. Filologia Polska",
+      "properties": {
+        "pbl_id": 11017,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:139736",
+      "type": "Person",
+      "label": "Marta Chodorska",
+      "properties": {
+        "pbl_id": 139736,
+        "first_name": "Marta",
+        "last_name": "Chodorska",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:8211",
+      "type": "Source",
+      "label": "Młoda Polonistyka",
+      "properties": {
+        "pbl_id": 8211,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "source:452",
+      "type": "Source",
+      "label": "Rzeczpospolita",
+      "properties": {
+        "pbl_id": 452,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:31907",
+      "type": "Person",
+      "label": "Justyna Kobus",
+      "properties": {
+        "pbl_id": 31907,
+        "first_name": "Justyna",
+        "last_name": "Kobus",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:847",
+      "type": "Source",
+      "label": "Życie Warszawy",
+      "properties": {
+        "pbl_id": 847,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:20165",
+      "type": "Person",
+      "label": "Author 20165",
+      "properties": {
+        "pbl_id": 20165,
+        "first_name": "",
+        "last_name": "",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "source:472",
+      "type": "Source",
+      "label": "Film",
+      "properties": {
+        "pbl_id": 472,
+        "role": "bibliographic_source"
+      },
+      "presentation_type": "Source",
+      "original_type": "PBLSource"
+    },
+    {
+      "id": "author:134935",
+      "type": "Person",
+      "label": "Author 134935",
+      "properties": {
+        "pbl_id": 134935,
+        "first_name": "",
+        "last_name": "",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    },
+    {
+      "id": "author:9697",
+      "type": "Person",
+      "label": "Tomasz Jopkiewicz",
+      "properties": {
+        "pbl_id": 9697,
+        "first_name": "Tomasz",
+        "last_name": "Jopkiewicz",
+        "role": "record_author"
+      },
+      "presentation_type": "Person",
+      "original_type": "Author"
+    }
+  ],
+  "edges": [
+    {
+      "source": "record:109715",
+      "target": "creator:3426",
+      "relationship": "CREATED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:825595",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1359644",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1362767",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1362768",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1362769",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1362770",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1362793",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1437078",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1451318",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1451370",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1231878",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1764892",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1932139",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1899512",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:2006683",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1616706",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1714371",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1312008",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1159830",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1323169",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1933140",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1934557",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1937797",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:2020246",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:294728",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:135412",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:843019",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1144561",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:493113",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:2012946",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:597767",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1981718",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:405083",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:636555",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:330663",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:334355",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:595048",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:290238",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:224964",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:251888",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:407265",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:428320",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:188059",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:504894",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:177401",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:553384",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:199298",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:291614",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:292052",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:613518",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1069832",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1995749",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:2002582",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:2002837",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:2005993",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:158728",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:239131",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:366580",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:791079",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1051343",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1923592",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1092767",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1009689",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:66300",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1857214",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:43354",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:394003",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:606396",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1966233",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:230897",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:230899",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:166630",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:302256",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:55916",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:194794",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:284251",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1083152",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:295376",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1023768",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1051958",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:97861",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1014087",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:18094",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:186977",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:356145",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:148111",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:150218",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:207538",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:422012",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:597348",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:1068091",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:951446",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:109714",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:135579",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:185835",
+      "relationship": "RELATED_TO",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:304249",
+      "relationship": "ADAPTED_AS",
+      "relation_source": "manual"
+    },
+    {
+      "source": "record:109715",
+      "target": "record:136679",
+      "relationship": "ADAPTED_AS",
+      "relation_source": "manual"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:1704531",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:527545",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:505941",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:1148961",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:304250",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:401079",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:304249",
+      "target": "record:498326",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:136679",
+      "target": "record:505942",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:136679",
+      "target": "record:136684",
+      "relationship": "HAS_RECORD",
+      "relation_source": "pbl_hierarchy",
+      "source_relationship": "CHILD_OF"
+    },
+    {
+      "source": "record:825595",
+      "target": "author:8909",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:825595",
+      "target": "publisher:2",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1359644",
+      "target": "author:89789",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1359644",
+      "target": "publisher:129955",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362767",
+      "target": "author:104140",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362767",
+      "target": "publisher:123004",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362768",
+      "target": "publisher:4883",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362769",
+      "target": "author:8909",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362769",
+      "target": "publisher:2",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362770",
+      "target": "author:8295",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362770",
+      "target": "publisher:130132",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362793",
+      "target": "author:37932",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1362793",
+      "target": "publisher:131010",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1437078",
+      "target": "author:3127",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1437078",
+      "target": "publisher:123759",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1451318",
+      "target": "author:347059",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1451318",
+      "target": "publisher:144993",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1451370",
+      "target": "publisher:106617",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1451370",
+      "target": "publisher:129852",
+      "relationship": "PUBLISHED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1231878",
+      "target": "author:174398",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1231878",
+      "target": "source:22677",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1764892",
+      "target": "author:76668",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1764892",
+      "target": "source:22677",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1932139",
+      "target": "author:347059",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1932139",
+      "target": "source:20108",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1899512",
+      "target": "author:678531",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1899512",
+      "target": "source:19993",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2006683",
+      "target": "author:153261",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2006683",
+      "target": "source:19991",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1616706",
+      "target": "author:42235",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1616706",
+      "target": "source:18817",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1714371",
+      "target": "author:347059",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1714371",
+      "target": "source:16677",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1312008",
+      "target": "author:95201",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1312008",
+      "target": "source:17818",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1159830",
+      "target": "author:462565",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1159830",
+      "target": "author:462564",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1159830",
+      "target": "source:17677",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1323169",
+      "target": "author:520000",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1323169",
+      "target": "source:17677",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1933140",
+      "target": "author:692011",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1933140",
+      "target": "source:17457",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1934557",
+      "target": "author:13265",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1934557",
+      "target": "source:16618",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1937797",
+      "target": "author:101255",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1937797",
+      "target": "source:16417",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2020246",
+      "target": "author:37655",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2020246",
+      "target": "source:13957",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:294728",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:294728",
+      "target": "source:11099",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:135412",
+      "target": "author:28032",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:135412",
+      "target": "source:11421",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:843019",
+      "target": "author:9174",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:843019",
+      "target": "source:10177",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1144561",
+      "target": "source:8358",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:493113",
+      "target": "author:133916",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:493113",
+      "target": "source:8212",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2012946",
+      "target": "author:234705",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2012946",
+      "target": "source:8179",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:597767",
+      "target": "author:102617",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:597767",
+      "target": "source:7002",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1981718",
+      "target": "author:3127",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1981718",
+      "target": "source:6967",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:405083",
+      "target": "author:20751",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:405083",
+      "target": "source:2221",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:636555",
+      "target": "author:109357",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:636555",
+      "target": "source:146",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:330663",
+      "target": "author:31398",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:330663",
+      "target": "source:223",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:334355",
+      "target": "author:1107",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:334355",
+      "target": "source:6883",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:595048",
+      "target": "author:184020",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:595048",
+      "target": "source:6776",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:290238",
+      "target": "author:1107",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:290238",
+      "target": "source:6737",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:224964",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:224964",
+      "target": "source:2181",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:251888",
+      "target": "author:72448",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:251888",
+      "target": "source:2364",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:407265",
+      "target": "author:6357",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:407265",
+      "target": "source:5407",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:428320",
+      "target": "author:86292",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:428320",
+      "target": "source:521",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:188059",
+      "target": "author:43494",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:188059",
+      "target": "source:4727",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:504894",
+      "target": "source:4367",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:177401",
+      "target": "author:5430",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:177401",
+      "target": "source:4068",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:553384",
+      "target": "author:108539",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:553384",
+      "target": "source:3932",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:199298",
+      "target": "author:28082",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:199298",
+      "target": "source:3547",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:291614",
+      "target": "author:3127",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:291614",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:292052",
+      "target": "author:5858",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:292052",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:613518",
+      "target": "author:67439",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:613518",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1069832",
+      "target": "author:416659",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1069832",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1995749",
+      "target": "author:551666",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1995749",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2002582",
+      "target": "author:733700",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2002582",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2002837",
+      "target": "author:36924",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2002837",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2005993",
+      "target": "author:735339",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:2005993",
+      "target": "source:61",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:158728",
+      "target": "author:24597",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:158728",
+      "target": "source:2419",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:239131",
+      "target": "author:1107",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:239131",
+      "target": "source:2419",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:366580",
+      "target": "author:98685",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:366580",
+      "target": "source:2419",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:791079",
+      "target": "author:5858",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:791079",
+      "target": "source:2419",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1051343",
+      "target": "author:232",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1051343",
+      "target": "source:2419",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1923592",
+      "target": "author:687511",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1923592",
+      "target": "source:2339",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1092767",
+      "target": "author:19071",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1092767",
+      "target": "source:2141",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1009689",
+      "target": "author:202982",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1009689",
+      "target": "source:2121",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:66300",
+      "target": "author:3127",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:66300",
+      "target": "source:1557",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1857214",
+      "target": "author:10620",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1857214",
+      "target": "source:1123",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:43354",
+      "target": "author:1210",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:43354",
+      "target": "source:830",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:394003",
+      "target": "author:10147",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:394003",
+      "target": "source:861",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:606396",
+      "target": "author:1107",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:606396",
+      "target": "source:861",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1966233",
+      "target": "author:347059",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1966233",
+      "target": "source:671",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:230897",
+      "target": "author:3127",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:230897",
+      "target": "source:355",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:230899",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:230899",
+      "target": "source:355",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:166630",
+      "target": "author:1107",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:166630",
+      "target": "source:314",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:302256",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:302256",
+      "target": "source:314",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:55916",
+      "target": "author:1107",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:55916",
+      "target": "source:414",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:194794",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:194794",
+      "target": "source:414",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:284251",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:284251",
+      "target": "source:414",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1083152",
+      "target": "author:424199",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1083152",
+      "target": "source:143",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:295376",
+      "target": "author:178",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:295376",
+      "target": "source:230",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1023768",
+      "target": "author:88373",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1023768",
+      "target": "source:230",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1051958",
+      "target": "author:178",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1051958",
+      "target": "source:230",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:97861",
+      "target": "author:2768",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:97861",
+      "target": "source:221",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1014087",
+      "target": "author:8909",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1014087",
+      "target": "source:76",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:18094",
+      "target": "author:6483",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:18094",
+      "target": "source:211",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:186977",
+      "target": "author:13793",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:186977",
+      "target": "source:163",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:356145",
+      "target": "author:4023",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:356145",
+      "target": "source:163",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:148111",
+      "target": "author:18734",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:148111",
+      "target": "source:197",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:150218",
+      "target": "author:24261",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:150218",
+      "target": "source:188",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:207538",
+      "target": "author:2405",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:207538",
+      "target": "source:188",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:422012",
+      "target": "author:42819",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:422012",
+      "target": "source:82",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:597348",
+      "target": "author:103325",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:597348",
+      "target": "source:82",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1068091",
+      "target": "author:347059",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1068091",
+      "target": "source:82",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:951446",
+      "target": "author:299291",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:951446",
+      "target": "source:40",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:109714",
+      "target": "author:6440",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:109714",
+      "target": "source:177",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:135579",
+      "target": "author:28082",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:135579",
+      "target": "source:177",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:185835",
+      "target": "author:3127",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:185835",
+      "target": "source:177",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1704531",
+      "target": "author:557921",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1704531",
+      "target": "source:18817",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:527545",
+      "target": "author:103274",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:527545",
+      "target": "source:11017",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:505941",
+      "target": "author:139736",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:505941",
+      "target": "source:8211",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:1148961",
+      "target": "source:452",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:304250",
+      "target": "author:31907",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:304250",
+      "target": "source:847",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:401079",
+      "target": "author:20165",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:401079",
+      "target": "source:472",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:498326",
+      "target": "author:134935",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:498326",
+      "target": "source:472",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:505942",
+      "target": "author:139736",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:505942",
+      "target": "source:8211",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:136684",
+      "target": "author:9697",
+      "relationship": "AUTHORED_BY",
+      "relation_source": "pbl"
+    },
+    {
+      "source": "record:136684",
+      "target": "source:472",
+      "relationship": "FROM_SOURCE",
+      "relation_source": "pbl"
+    }
+  ]
+}

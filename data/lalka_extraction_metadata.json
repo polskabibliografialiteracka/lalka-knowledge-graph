@@ -1,7 +1,7 @@
 {
   "project": "Lalka Knowledge Graph",
   "source": "Polska Bibliografia Literacka",
-  "extracted_at": "2026-08-25T09:24:40.588454+00:00",
+  "extracted_at": "2026-08-28T10:29:59.272190+00:00",
   "root_ids": {
     "lalka": 109715,
     "prus_tworca": 3426,
@@ -17,6 +17,8 @@
     "screen_adaptations": 1
   },
   "record_fields": {
+    "record_id": "ZA_ZAPIS_ID",
+    "parent_record_id": "ZA_ZA_ZAPIS_ID",
     "record_type": "ZA_TYPE",
     "record_kind_id": "ZA_RZ_RODZAJ1_ID",
     "record_kind_name": "RZ_NAZWA"

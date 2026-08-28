@@ -1,7 +1,7 @@
 [
   {
     "ZA_ZAPIS_ID": 136679,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "FI",
     "ZA_RZ_RODZAJ1_ID": 246,
     "RZ_NAZWA": "film",
@@ -24,7 +24,7 @@
   },
   {
     "ZA_ZAPIS_ID": 505942,
-    "ZAPIS_NADRZEDNY": 136679.0,
+    "ZA_ZA_ZAPIS_ID": 136679.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -47,7 +47,7 @@
   },
   {
     "ZA_ZAPIS_ID": 136684,
-    "ZAPIS_NADRZEDNY": 136679.0,
+    "ZA_ZA_ZAPIS_ID": 136679.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -70,7 +70,7 @@
   },
   {
     "ZA_ZAPIS_ID": 21045,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -93,7 +93,7 @@
   },
   {
     "ZA_ZAPIS_ID": 21046,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -116,7 +116,7 @@
   },
   {
     "ZA_ZAPIS_ID": 21047,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -139,7 +139,7 @@
   },
   {
     "ZA_ZAPIS_ID": 35364,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -162,7 +162,7 @@
   },
   {
     "ZA_ZAPIS_ID": 35365,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -185,7 +185,7 @@
   },
   {
     "ZA_ZAPIS_ID": 85678,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -208,7 +208,7 @@
   },
   {
     "ZA_ZAPIS_ID": 119997,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -231,7 +231,7 @@
   },
   {
     "ZA_ZAPIS_ID": 119998,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -254,7 +254,7 @@
   },
   {
     "ZA_ZAPIS_ID": 196978,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -277,7 +277,7 @@
   },
   {
     "ZA_ZAPIS_ID": 199137,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -300,7 +300,7 @@
   },
   {
     "ZA_ZAPIS_ID": 242185,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -323,7 +323,7 @@
   },
   {
     "ZA_ZAPIS_ID": 242186,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -346,7 +346,7 @@
   },
   {
     "ZA_ZAPIS_ID": 242187,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -369,7 +369,7 @@
   },
   {
     "ZA_ZAPIS_ID": 310963,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -392,7 +392,7 @@
   },
   {
     "ZA_ZAPIS_ID": 364636,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -415,7 +415,7 @@
   },
   {
     "ZA_ZAPIS_ID": 378914,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -438,7 +438,7 @@
   },
   {
     "ZA_ZAPIS_ID": 378915,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -461,7 +461,7 @@
   },
   {
     "ZA_ZAPIS_ID": 378916,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -484,7 +484,7 @@
   },
   {
     "ZA_ZAPIS_ID": 413000,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -507,7 +507,7 @@
   },
   {
     "ZA_ZAPIS_ID": 413972,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -530,7 +530,7 @@
   },
   {
     "ZA_ZAPIS_ID": 862601,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -553,7 +553,7 @@
   },
   {
     "ZA_ZAPIS_ID": 869744,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -576,7 +576,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1050921,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -599,7 +599,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1051082,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -622,7 +622,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1250060,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -645,7 +645,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1250227,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "AU",
     "ZA_RZ_RODZAJ1_ID": 362,
     "RZ_NAZWA": "audycja radiowa",
@@ -668,7 +668,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1073369,
-    "ZAPIS_NADRZEDNY": 869744.0,
+    "ZA_ZA_ZAPIS_ID": 869744.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -691,7 +691,7 @@
   },
   {
     "ZA_ZAPIS_ID": 197962,
-    "ZAPIS_NADRZEDNY": 196978.0,
+    "ZA_ZA_ZAPIS_ID": 196978.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -714,7 +714,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348713,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 21,
     "RZ_NAZWA": "książka w haśle rzeczowym",
@@ -737,7 +737,7 @@
   },
   {
     "ZA_ZAPIS_ID": 27030,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "SZ",
     "ZA_RZ_RODZAJ1_ID": 291,
     "RZ_NAZWA": "sztuka teatralna",
@@ -760,7 +760,7 @@
   },
   {
     "ZA_ZAPIS_ID": 85017,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "SZ",
     "ZA_RZ_RODZAJ1_ID": 291,
     "RZ_NAZWA": "sztuka teatralna",
@@ -783,7 +783,7 @@
   },
   {
     "ZA_ZAPIS_ID": 252767,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "SZ",
     "ZA_RZ_RODZAJ1_ID": 291,
     "RZ_NAZWA": "sztuka teatralna",
@@ -806,7 +806,7 @@
   },
   {
     "ZA_ZAPIS_ID": 27905,
-    "ZAPIS_NADRZEDNY": 27030.0,
+    "ZA_ZA_ZAPIS_ID": 27030.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -829,7 +829,7 @@
   },
   {
     "ZA_ZAPIS_ID": 304249,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "FI",
     "ZA_RZ_RODZAJ1_ID": 246,
     "RZ_NAZWA": "film",
@@ -852,7 +852,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1704531,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -875,7 +875,7 @@
   },
   {
     "ZA_ZAPIS_ID": 527545,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -898,7 +898,7 @@
   },
   {
     "ZA_ZAPIS_ID": 505941,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -921,7 +921,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1148961,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -944,7 +944,7 @@
   },
   {
     "ZA_ZAPIS_ID": 304250,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -967,7 +967,7 @@
   },
   {
     "ZA_ZAPIS_ID": 401079,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -990,7 +990,7 @@
   },
   {
     "ZA_ZAPIS_ID": 498326,
-    "ZAPIS_NADRZEDNY": 304249.0,
+    "ZA_ZA_ZAPIS_ID": 304249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -1013,7 +1013,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1513883,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "SZ",
     "ZA_RZ_RODZAJ1_ID": 291,
     "RZ_NAZWA": "sztuka teatralna",
@@ -1036,7 +1036,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2010966,
-    "ZAPIS_NADRZEDNY": 1513883.0,
+    "ZA_ZA_ZAPIS_ID": 1513883.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -1059,7 +1059,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1972487,
-    "ZAPIS_NADRZEDNY": 1513883.0,
+    "ZA_ZA_ZAPIS_ID": 1513883.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 165,
     "RZ_NAZWA": "artykuł w haśle rzeczowym",
@@ -1082,7 +1082,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1972512,
-    "ZAPIS_NADRZEDNY": 1513883.0,
+    "ZA_ZA_ZAPIS_ID": 1513883.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -1105,7 +1105,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2716,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1128,7 +1128,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2720,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1151,7 +1151,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2732,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1174,7 +1174,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2736,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1197,7 +1197,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18062,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1220,7 +1220,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25210,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1243,7 +1243,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25211,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1266,7 +1266,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25212,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1289,7 +1289,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25213,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1312,7 +1312,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25222,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1335,7 +1335,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25225,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1358,7 +1358,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25229,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1381,7 +1381,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25324,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1404,7 +1404,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25325,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1427,7 +1427,7 @@
   },
   {
     "ZA_ZAPIS_ID": 25355,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1450,7 +1450,7 @@
   },
   {
     "ZA_ZAPIS_ID": 70929,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -1473,7 +1473,7 @@
   },
   {
     "ZA_ZAPIS_ID": 79349,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1496,7 +1496,7 @@
   },
   {
     "ZA_ZAPIS_ID": 79371,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1519,7 +1519,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90119,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1542,7 +1542,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90121,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1565,7 +1565,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90122,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1588,7 +1588,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90139,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1611,7 +1611,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90141,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1634,7 +1634,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90160,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1657,7 +1657,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90162,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1680,7 +1680,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90170,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1703,7 +1703,7 @@
   },
   {
     "ZA_ZAPIS_ID": 90293,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -1726,7 +1726,7 @@
   },
   {
     "ZA_ZAPIS_ID": 91342,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -1749,7 +1749,7 @@
   },
   {
     "ZA_ZAPIS_ID": 94702,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1772,7 +1772,7 @@
   },
   {
     "ZA_ZAPIS_ID": 109715,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -1795,7 +1795,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120811,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1818,7 +1818,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120812,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1841,7 +1841,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120828,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1864,7 +1864,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120832,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1887,7 +1887,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120833,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1910,7 +1910,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120839,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1933,7 +1933,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120843,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1956,7 +1956,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120847,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -1979,7 +1979,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120848,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2002,7 +2002,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120849,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2025,7 +2025,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120850,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2048,7 +2048,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120852,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2071,7 +2071,7 @@
   },
   {
     "ZA_ZAPIS_ID": 120854,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2094,7 +2094,7 @@
   },
   {
     "ZA_ZAPIS_ID": 161999,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2117,7 +2117,7 @@
   },
   {
     "ZA_ZAPIS_ID": 162153,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2140,7 +2140,7 @@
   },
   {
     "ZA_ZAPIS_ID": 162158,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2163,7 +2163,7 @@
   },
   {
     "ZA_ZAPIS_ID": 162160,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2186,7 +2186,7 @@
   },
   {
     "ZA_ZAPIS_ID": 162163,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2209,7 +2209,7 @@
   },
   {
     "ZA_ZAPIS_ID": 162180,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2232,7 +2232,7 @@
   },
   {
     "ZA_ZAPIS_ID": 162189,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2255,7 +2255,7 @@
   },
   {
     "ZA_ZAPIS_ID": 163241,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2278,7 +2278,7 @@
   },
   {
     "ZA_ZAPIS_ID": 163256,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2301,7 +2301,7 @@
   },
   {
     "ZA_ZAPIS_ID": 163265,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2324,7 +2324,7 @@
   },
   {
     "ZA_ZAPIS_ID": 163270,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2347,7 +2347,7 @@
   },
   {
     "ZA_ZAPIS_ID": 163271,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2370,7 +2370,7 @@
   },
   {
     "ZA_ZAPIS_ID": 167437,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2393,7 +2393,7 @@
   },
   {
     "ZA_ZAPIS_ID": 172672,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -2416,7 +2416,7 @@
   },
   {
     "ZA_ZAPIS_ID": 172674,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -2439,7 +2439,7 @@
   },
   {
     "ZA_ZAPIS_ID": 186880,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -2462,7 +2462,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211839,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2485,7 +2485,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211858,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2508,7 +2508,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211859,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2531,7 +2531,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211878,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2554,7 +2554,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211919,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2577,7 +2577,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211920,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2600,7 +2600,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211938,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2623,7 +2623,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211939,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2646,7 +2646,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211958,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2669,7 +2669,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211979,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2692,7 +2692,7 @@
   },
   {
     "ZA_ZAPIS_ID": 211980,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2715,7 +2715,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212018,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -2738,7 +2738,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212058,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2761,7 +2761,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212080,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2784,7 +2784,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212099,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2807,7 +2807,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212638,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2830,7 +2830,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212698,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2853,7 +2853,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212738,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2876,7 +2876,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212858,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2899,7 +2899,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212878,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2922,7 +2922,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212898,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2945,7 +2945,7 @@
   },
   {
     "ZA_ZAPIS_ID": 212918,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -2968,7 +2968,7 @@
   },
   {
     "ZA_ZAPIS_ID": 213058,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -2991,7 +2991,7 @@
   },
   {
     "ZA_ZAPIS_ID": 236194,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -3014,7 +3014,7 @@
   },
   {
     "ZA_ZAPIS_ID": 236718,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -3037,7 +3037,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261403,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3060,7 +3060,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261404,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3083,7 +3083,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261406,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3106,7 +3106,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261412,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3129,7 +3129,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261414,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3152,7 +3152,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261415,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3175,7 +3175,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261416,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3198,7 +3198,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261419,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3221,7 +3221,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261422,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3244,7 +3244,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261423,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3267,7 +3267,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261425,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3290,7 +3290,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261427,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3313,7 +3313,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261429,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3336,7 +3336,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261430,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3359,7 +3359,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261437,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3382,7 +3382,7 @@
   },
   {
     "ZA_ZAPIS_ID": 261439,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3405,7 +3405,7 @@
   },
   {
     "ZA_ZAPIS_ID": 266215,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3428,7 +3428,7 @@
   },
   {
     "ZA_ZAPIS_ID": 266220,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3451,7 +3451,7 @@
   },
   {
     "ZA_ZAPIS_ID": 266225,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3474,7 +3474,7 @@
   },
   {
     "ZA_ZAPIS_ID": 266345,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3497,7 +3497,7 @@
   },
   {
     "ZA_ZAPIS_ID": 284249,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -3520,7 +3520,7 @@
   },
   {
     "ZA_ZAPIS_ID": 287140,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3543,7 +3543,7 @@
   },
   {
     "ZA_ZAPIS_ID": 302260,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -3566,7 +3566,7 @@
   },
   {
     "ZA_ZAPIS_ID": 307251,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -3589,7 +3589,7 @@
   },
   {
     "ZA_ZAPIS_ID": 314822,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3612,7 +3612,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316670,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3635,7 +3635,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316672,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3658,7 +3658,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316679,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3681,7 +3681,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316683,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3704,7 +3704,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316684,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3727,7 +3727,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316687,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3750,7 +3750,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316706,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -3773,7 +3773,7 @@
   },
   {
     "ZA_ZAPIS_ID": 316722,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3796,7 +3796,7 @@
   },
   {
     "ZA_ZAPIS_ID": 324264,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3819,7 +3819,7 @@
   },
   {
     "ZA_ZAPIS_ID": 324265,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3842,7 +3842,7 @@
   },
   {
     "ZA_ZAPIS_ID": 342843,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -3865,7 +3865,7 @@
   },
   {
     "ZA_ZAPIS_ID": 356146,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -3888,7 +3888,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361291,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3911,7 +3911,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361491,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3934,7 +3934,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361492,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3957,7 +3957,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361536,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -3980,7 +3980,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361537,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4003,7 +4003,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361538,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4026,7 +4026,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361539,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4049,7 +4049,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361540,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4072,7 +4072,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361541,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4095,7 +4095,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361542,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4118,7 +4118,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361546,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4141,7 +4141,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361547,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4164,7 +4164,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361548,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4187,7 +4187,7 @@
   },
   {
     "ZA_ZAPIS_ID": 361728,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4210,7 +4210,7 @@
   },
   {
     "ZA_ZAPIS_ID": 363987,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -4233,7 +4233,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365368,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4256,7 +4256,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365370,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4279,7 +4279,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365371,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4302,7 +4302,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365372,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4325,7 +4325,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365374,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4348,7 +4348,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365376,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4371,7 +4371,7 @@
   },
   {
     "ZA_ZAPIS_ID": 365728,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4394,7 +4394,7 @@
   },
   {
     "ZA_ZAPIS_ID": 368306,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4417,7 +4417,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372092,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4440,7 +4440,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372093,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4463,7 +4463,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372115,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4486,7 +4486,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372116,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4509,7 +4509,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372118,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4532,7 +4532,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372122,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4555,7 +4555,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372477,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4578,7 +4578,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372492,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4601,7 +4601,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372499,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4624,7 +4624,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372572,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4647,7 +4647,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372577,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4670,7 +4670,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372578,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4693,7 +4693,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372590,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4716,7 +4716,7 @@
   },
   {
     "ZA_ZAPIS_ID": 372597,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4739,7 +4739,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388445,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4762,7 +4762,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388451,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4785,7 +4785,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388819,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4808,7 +4808,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388820,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4831,7 +4831,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388984,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4854,7 +4854,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388985,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4877,7 +4877,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388986,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4900,7 +4900,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388987,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4923,7 +4923,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388988,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4946,7 +4946,7 @@
   },
   {
     "ZA_ZAPIS_ID": 388989,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4969,7 +4969,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389198,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -4992,7 +4992,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389200,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5015,7 +5015,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389201,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5038,7 +5038,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389202,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5061,7 +5061,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389206,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5084,7 +5084,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389214,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5107,7 +5107,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389554,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5130,7 +5130,7 @@
   },
   {
     "ZA_ZAPIS_ID": 392486,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5153,7 +5153,7 @@
   },
   {
     "ZA_ZAPIS_ID": 406152,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5176,7 +5176,7 @@
   },
   {
     "ZA_ZAPIS_ID": 408829,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5199,7 +5199,7 @@
   },
   {
     "ZA_ZAPIS_ID": 412838,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5222,7 +5222,7 @@
   },
   {
     "ZA_ZAPIS_ID": 412844,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5245,7 +5245,7 @@
   },
   {
     "ZA_ZAPIS_ID": 445021,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -5268,7 +5268,7 @@
   },
   {
     "ZA_ZAPIS_ID": 458616,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -5291,7 +5291,7 @@
   },
   {
     "ZA_ZAPIS_ID": 461180,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -5314,7 +5314,7 @@
   },
   {
     "ZA_ZAPIS_ID": 466295,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5337,7 +5337,7 @@
   },
   {
     "ZA_ZAPIS_ID": 467319,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5360,7 +5360,7 @@
   },
   {
     "ZA_ZAPIS_ID": 467333,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5383,7 +5383,7 @@
   },
   {
     "ZA_ZAPIS_ID": 471996,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -5406,7 +5406,7 @@
   },
   {
     "ZA_ZAPIS_ID": 472496,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -5429,7 +5429,7 @@
   },
   {
     "ZA_ZAPIS_ID": 476449,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -5452,7 +5452,7 @@
   },
   {
     "ZA_ZAPIS_ID": 476683,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -5475,7 +5475,7 @@
   },
   {
     "ZA_ZAPIS_ID": 487110,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -5498,7 +5498,7 @@
   },
   {
     "ZA_ZAPIS_ID": 487112,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -5521,7 +5521,7 @@
   },
   {
     "ZA_ZAPIS_ID": 495126,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5544,7 +5544,7 @@
   },
   {
     "ZA_ZAPIS_ID": 495136,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5567,7 +5567,7 @@
   },
   {
     "ZA_ZAPIS_ID": 495412,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5590,7 +5590,7 @@
   },
   {
     "ZA_ZAPIS_ID": 495413,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5613,7 +5613,7 @@
   },
   {
     "ZA_ZAPIS_ID": 495414,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5636,7 +5636,7 @@
   },
   {
     "ZA_ZAPIS_ID": 495523,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5659,7 +5659,7 @@
   },
   {
     "ZA_ZAPIS_ID": 513406,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -5682,7 +5682,7 @@
   },
   {
     "ZA_ZAPIS_ID": 514614,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -5705,7 +5705,7 @@
   },
   {
     "ZA_ZAPIS_ID": 533989,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -5728,7 +5728,7 @@
   },
   {
     "ZA_ZAPIS_ID": 537316,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5751,7 +5751,7 @@
   },
   {
     "ZA_ZAPIS_ID": 541452,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5774,7 +5774,7 @@
   },
   {
     "ZA_ZAPIS_ID": 541464,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5797,7 +5797,7 @@
   },
   {
     "ZA_ZAPIS_ID": 589994,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5820,7 +5820,7 @@
   },
   {
     "ZA_ZAPIS_ID": 590636,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5843,7 +5843,7 @@
   },
   {
     "ZA_ZAPIS_ID": 594346,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -5866,7 +5866,7 @@
   },
   {
     "ZA_ZAPIS_ID": 604796,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -5889,7 +5889,7 @@
   },
   {
     "ZA_ZAPIS_ID": 722335,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -5912,7 +5912,7 @@
   },
   {
     "ZA_ZAPIS_ID": 723514,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5935,7 +5935,7 @@
   },
   {
     "ZA_ZAPIS_ID": 723515,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5958,7 +5958,7 @@
   },
   {
     "ZA_ZAPIS_ID": 724015,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -5981,7 +5981,7 @@
   },
   {
     "ZA_ZAPIS_ID": 729514,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6004,7 +6004,7 @@
   },
   {
     "ZA_ZAPIS_ID": 730196,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6027,7 +6027,7 @@
   },
   {
     "ZA_ZAPIS_ID": 730211,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6050,7 +6050,7 @@
   },
   {
     "ZA_ZAPIS_ID": 735333,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6073,7 +6073,7 @@
   },
   {
     "ZA_ZAPIS_ID": 825595,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -6096,7 +6096,7 @@
   },
   {
     "ZA_ZAPIS_ID": 828848,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6119,7 +6119,7 @@
   },
   {
     "ZA_ZAPIS_ID": 893799,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -6142,7 +6142,7 @@
   },
   {
     "ZA_ZAPIS_ID": 904266,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6165,7 +6165,7 @@
   },
   {
     "ZA_ZAPIS_ID": 935021,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -6188,7 +6188,7 @@
   },
   {
     "ZA_ZAPIS_ID": 992861,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -6211,7 +6211,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1048211,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -6234,7 +6234,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1048216,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -6257,7 +6257,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1049186,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6280,7 +6280,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1049187,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6303,7 +6303,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1068092,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -6326,7 +6326,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1113039,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -6349,7 +6349,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1189677,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6372,7 +6372,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1209337,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -6395,7 +6395,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1210137,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -6418,7 +6418,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1214360,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6441,7 +6441,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1214377,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6464,7 +6464,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1214380,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6487,7 +6487,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1294488,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6510,7 +6510,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1294537,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6533,7 +6533,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1295600,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6556,7 +6556,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1297832,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6579,7 +6579,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1297867,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6602,7 +6602,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1297872,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6625,7 +6625,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1299283,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -6648,7 +6648,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1303287,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6671,7 +6671,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1303315,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6694,7 +6694,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1303568,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -6717,7 +6717,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1332837,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6740,7 +6740,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1332838,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6763,7 +6763,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1332839,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6786,7 +6786,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1333476,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6809,7 +6809,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1333477,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6832,7 +6832,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1333478,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6855,7 +6855,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1333479,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6878,7 +6878,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1334834,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6901,7 +6901,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1335876,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6924,7 +6924,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1346523,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6947,7 +6947,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348589,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6970,7 +6970,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348627,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -6993,7 +6993,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348632,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7016,7 +7016,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348646,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7039,7 +7039,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348655,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7062,7 +7062,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348656,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7085,7 +7085,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348665,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7108,7 +7108,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348669,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7131,7 +7131,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348671,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7154,7 +7154,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348672,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7177,7 +7177,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348677,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7200,7 +7200,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348678,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7223,7 +7223,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348680,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7246,7 +7246,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348684,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7269,7 +7269,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348686,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7292,7 +7292,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348715,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7315,7 +7315,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1348716,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7338,7 +7338,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1351060,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7361,7 +7361,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1351061,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7384,7 +7384,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1352992,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7407,7 +7407,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1353006,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7430,7 +7430,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1353008,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7453,7 +7453,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1353009,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7476,7 +7476,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1353011,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7499,7 +7499,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1357115,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7522,7 +7522,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1357467,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7545,7 +7545,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1357545,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7568,7 +7568,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1357546,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7591,7 +7591,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1357957,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7614,7 +7614,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1358239,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7637,7 +7637,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1358241,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7660,7 +7660,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1358257,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -7683,7 +7683,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1358731,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7706,7 +7706,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1358998,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7729,7 +7729,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1359266,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7752,7 +7752,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1359550,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7775,7 +7775,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1359573,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7798,7 +7798,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1359644,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7821,7 +7821,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362767,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7844,7 +7844,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362768,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7867,7 +7867,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362769,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7890,7 +7890,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362770,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7913,7 +7913,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362771,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7936,7 +7936,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362792,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -7959,7 +7959,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362793,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -7982,7 +7982,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1362936,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8005,7 +8005,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1365867,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8028,7 +8028,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1368747,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8051,7 +8051,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1368748,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8074,7 +8074,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1371629,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8097,7 +8097,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1380912,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8120,7 +8120,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1417969,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8143,7 +8143,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1419268,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8166,7 +8166,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1419868,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8189,7 +8189,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1420184,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8212,7 +8212,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1420509,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8235,7 +8235,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1421168,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8258,7 +8258,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1422667,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8281,7 +8281,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1422691,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8304,7 +8304,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1422692,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8327,7 +8327,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1422713,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8350,7 +8350,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1424028,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8373,7 +8373,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1426110,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8396,7 +8396,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1426304,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8419,7 +8419,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1427051,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8442,7 +8442,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1429070,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8465,7 +8465,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1429962,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8488,7 +8488,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1432509,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8511,7 +8511,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1433507,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8534,7 +8534,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1434532,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8557,7 +8557,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1434852,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8580,7 +8580,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1436189,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8603,7 +8603,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1436802,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8626,7 +8626,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1436878,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8649,7 +8649,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1437078,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -8672,7 +8672,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1437341,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8695,7 +8695,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1438913,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8718,7 +8718,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1442640,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8741,7 +8741,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1445037,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8764,7 +8764,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1446333,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8787,7 +8787,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1448435,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8810,7 +8810,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1450301,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8833,7 +8833,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1450478,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8856,7 +8856,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1450974,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8879,7 +8879,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1451318,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -8902,7 +8902,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1451370,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 764,
     "RZ_NAZWA": "książka o utworze",
@@ -8925,7 +8925,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1451407,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -8948,7 +8948,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1454759,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8971,7 +8971,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1455328,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -8994,7 +8994,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1455970,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9017,7 +9017,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1456501,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9040,7 +9040,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1456573,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9063,7 +9063,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1457647,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9086,7 +9086,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1457851,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9109,7 +9109,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1461042,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9132,7 +9132,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1461959,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -9155,7 +9155,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1462423,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -9178,7 +9178,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1462690,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -9201,7 +9201,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1463331,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -9224,7 +9224,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1465021,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 1,
     "RZ_NAZWA": "książka twórcy (podmiotowa)",
@@ -9247,7 +9247,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1672491,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9270,7 +9270,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1744451,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9293,7 +9293,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1800936,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9316,7 +9316,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857619,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9339,7 +9339,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857621,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9362,7 +9362,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1872772,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9385,7 +9385,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1907792,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9408,7 +9408,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1921278,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9431,7 +9431,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1936635,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 741,
     "RZ_NAZWA": "utwór",
@@ -9454,7 +9454,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1943916,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9477,7 +9477,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1956455,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IR",
     "ZA_RZ_RODZAJ1_ID": 601,
     "RZ_NAZWA": "impreza.",
@@ -9500,7 +9500,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2012003,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "KS",
     "ZA_RZ_RODZAJ1_ID": 2,
     "RZ_NAZWA": "książka o twórcy (przedmiotowa)",
@@ -9523,7 +9523,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1231878,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -9546,7 +9546,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1764892,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -9569,7 +9569,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1800612,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -9592,7 +9592,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1933570,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -9615,7 +9615,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1936774,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -9638,7 +9638,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1936779,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -9661,7 +9661,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1951914,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -9684,7 +9684,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1961537,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -9707,7 +9707,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1928691,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -9730,7 +9730,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1938152,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -9753,7 +9753,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1872773,
-    "ZAPIS_NADRZEDNY": 1872772.0,
+    "ZA_ZA_ZAPIS_ID": 1872772.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -9776,7 +9776,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1932139,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -9799,7 +9799,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1934616,
-    "ZAPIS_NADRZEDNY": 1451318.0,
+    "ZA_ZA_ZAPIS_ID": 1451318.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -9822,7 +9822,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1955791,
-    "ZAPIS_NADRZEDNY": 1419868.0,
+    "ZA_ZA_ZAPIS_ID": 1419868.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -9845,7 +9845,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1955807,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -9868,7 +9868,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1955808,
-    "ZAPIS_NADRZEDNY": 1936635.0,
+    "ZA_ZA_ZAPIS_ID": 1936635.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -9891,7 +9891,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1955810,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -9914,7 +9914,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1956097,
-    "ZAPIS_NADRZEDNY": 1451318.0,
+    "ZA_ZA_ZAPIS_ID": 1451318.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -9937,7 +9937,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1956430,
-    "ZAPIS_NADRZEDNY": 1437078.0,
+    "ZA_ZA_ZAPIS_ID": 1437078.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -9960,7 +9960,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1956456,
-    "ZAPIS_NADRZEDNY": 1956455.0,
+    "ZA_ZA_ZAPIS_ID": 1956455.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -9983,7 +9983,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1899512,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10006,7 +10006,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2006683,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10029,7 +10029,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1876931,
-    "ZAPIS_NADRZEDNY": 284249.0,
+    "ZA_ZA_ZAPIS_ID": 284249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10052,7 +10052,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1890538,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10075,7 +10075,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1898112,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10098,7 +10098,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1921158,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10121,7 +10121,7 @@
   },
   {
     "ZA_ZAPIS_ID": 802889,
-    "ZAPIS_NADRZEDNY": 674794.0,
+    "ZA_ZA_ZAPIS_ID": 674794.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 129,
     "RZ_NAZWA": "nawiązanie",
@@ -10144,7 +10144,7 @@
   },
   {
     "ZA_ZAPIS_ID": 992863,
-    "ZAPIS_NADRZEDNY": 992861.0,
+    "ZA_ZA_ZAPIS_ID": 992861.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -10167,7 +10167,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1616706,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10190,7 +10190,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1616707,
-    "ZAPIS_NADRZEDNY": 1362793.0,
+    "ZA_ZA_ZAPIS_ID": 1362793.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10213,7 +10213,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1717072,
-    "ZAPIS_NADRZEDNY": 1438913.0,
+    "ZA_ZA_ZAPIS_ID": 1438913.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10236,7 +10236,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1532839,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10259,7 +10259,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1714371,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10282,7 +10282,7 @@
   },
   {
     "ZA_ZAPIS_ID": 996862,
-    "ZAPIS_NADRZEDNY": 533989.0,
+    "ZA_ZA_ZAPIS_ID": 533989.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10305,7 +10305,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1140079,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10328,7 +10328,7 @@
   },
   {
     "ZA_ZAPIS_ID": 978226,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -10351,7 +10351,7 @@
   },
   {
     "ZA_ZAPIS_ID": 998831,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10374,7 +10374,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1240827,
-    "ZAPIS_NADRZEDNY": 1113039.0,
+    "ZA_ZA_ZAPIS_ID": 1113039.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10397,7 +10397,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1238892,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10420,7 +10420,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1312008,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10443,7 +10443,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1159830,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10466,7 +10466,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1323169,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10489,7 +10489,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1841512,
-    "ZAPIS_NADRZEDNY": 1450974.0,
+    "ZA_ZA_ZAPIS_ID": 1450974.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10512,7 +10512,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2019728,
-    "ZAPIS_NADRZEDNY": 302260.0,
+    "ZA_ZA_ZAPIS_ID": 302260.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10535,7 +10535,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1933140,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10558,7 +10558,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1147922,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10581,7 +10581,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1896732,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10604,7 +10604,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1934557,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10627,7 +10627,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1936636,
-    "ZAPIS_NADRZEDNY": 1936635.0,
+    "ZA_ZA_ZAPIS_ID": 1936635.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10650,7 +10650,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1937797,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10673,7 +10673,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1074426,
-    "ZAPIS_NADRZEDNY": 722335.0,
+    "ZA_ZA_ZAPIS_ID": 722335.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10696,7 +10696,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1143679,
-    "ZAPIS_NADRZEDNY": 172674.0,
+    "ZA_ZA_ZAPIS_ID": 172674.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10719,7 +10719,7 @@
   },
   {
     "ZA_ZAPIS_ID": 771336,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10742,7 +10742,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1228206,
-    "ZAPIS_NADRZEDNY": 594346.0,
+    "ZA_ZA_ZAPIS_ID": 594346.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10765,7 +10765,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1921280,
-    "ZAPIS_NADRZEDNY": 1921278.0,
+    "ZA_ZA_ZAPIS_ID": 1921278.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -10788,7 +10788,7 @@
   },
   {
     "ZA_ZAPIS_ID": 760123,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10811,7 +10811,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1982647,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10834,7 +10834,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1997736,
-    "ZAPIS_NADRZEDNY": 1419868.0,
+    "ZA_ZA_ZAPIS_ID": 1419868.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -10857,7 +10857,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2020246,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -10880,7 +10880,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1723313,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10903,7 +10903,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987287,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 248,
     "RZ_NAZWA": "ikonografia",
@@ -10926,7 +10926,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987288,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10949,7 +10949,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987289,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10972,7 +10972,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987290,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -10995,7 +10995,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987291,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11018,7 +11018,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987827,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 248,
     "RZ_NAZWA": "ikonografia",
@@ -11041,7 +11041,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987829,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11064,7 +11064,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987831,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11087,7 +11087,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987832,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11110,7 +11110,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987847,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 248,
     "RZ_NAZWA": "ikonografia",
@@ -11133,7 +11133,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1987849,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 248,
     "RZ_NAZWA": "ikonografia",
@@ -11156,7 +11156,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1174133,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11179,7 +11179,7 @@
   },
   {
     "ZA_ZAPIS_ID": 919495,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -11202,7 +11202,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1908933,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11225,7 +11225,7 @@
   },
   {
     "ZA_ZAPIS_ID": 828138,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -11248,7 +11248,7 @@
   },
   {
     "ZA_ZAPIS_ID": 294728,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11271,7 +11271,7 @@
   },
   {
     "ZA_ZAPIS_ID": 916913,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -11294,7 +11294,7 @@
   },
   {
     "ZA_ZAPIS_ID": 561336,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11317,7 +11317,7 @@
   },
   {
     "ZA_ZAPIS_ID": 602887,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11340,7 +11340,7 @@
   },
   {
     "ZA_ZAPIS_ID": 593564,
-    "ZAPIS_NADRZEDNY": 172674.0,
+    "ZA_ZA_ZAPIS_ID": 172674.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11363,7 +11363,7 @@
   },
   {
     "ZA_ZAPIS_ID": 864539,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -11386,7 +11386,7 @@
   },
   {
     "ZA_ZAPIS_ID": 307253,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11409,7 +11409,7 @@
   },
   {
     "ZA_ZAPIS_ID": 307342,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11432,7 +11432,7 @@
   },
   {
     "ZA_ZAPIS_ID": 415721,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11455,7 +11455,7 @@
   },
   {
     "ZA_ZAPIS_ID": 590489,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11478,7 +11478,7 @@
   },
   {
     "ZA_ZAPIS_ID": 105219,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11501,7 +11501,7 @@
   },
   {
     "ZA_ZAPIS_ID": 135412,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11524,7 +11524,7 @@
   },
   {
     "ZA_ZAPIS_ID": 523772,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11547,7 +11547,7 @@
   },
   {
     "ZA_ZAPIS_ID": 970168,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11570,7 +11570,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1019026,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11593,7 +11593,7 @@
   },
   {
     "ZA_ZAPIS_ID": 674794,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11616,7 +11616,7 @@
   },
   {
     "ZA_ZAPIS_ID": 731877,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11639,7 +11639,7 @@
   },
   {
     "ZA_ZAPIS_ID": 843019,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11662,7 +11662,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1708651,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11685,7 +11685,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1185558,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -11708,7 +11708,7 @@
   },
   {
     "ZA_ZAPIS_ID": 597453,
-    "ZAPIS_NADRZEDNY": 25325.0,
+    "ZA_ZA_ZAPIS_ID": 25325.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -11731,7 +11731,7 @@
   },
   {
     "ZA_ZAPIS_ID": 599377,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11754,7 +11754,7 @@
   },
   {
     "ZA_ZAPIS_ID": 822273,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11777,7 +11777,7 @@
   },
   {
     "ZA_ZAPIS_ID": 963091,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11800,7 +11800,7 @@
   },
   {
     "ZA_ZAPIS_ID": 974030,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11823,7 +11823,7 @@
   },
   {
     "ZA_ZAPIS_ID": 992866,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -11846,7 +11846,7 @@
   },
   {
     "ZA_ZAPIS_ID": 520038,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11869,7 +11869,7 @@
   },
   {
     "ZA_ZAPIS_ID": 522258,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11892,7 +11892,7 @@
   },
   {
     "ZA_ZAPIS_ID": 917781,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11915,7 +11915,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1943918,
-    "ZAPIS_NADRZEDNY": 1943916.0,
+    "ZA_ZA_ZAPIS_ID": 1943916.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -11938,7 +11938,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1127598,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -11961,7 +11961,7 @@
   },
   {
     "ZA_ZAPIS_ID": 599657,
-    "ZAPIS_NADRZEDNY": 472496.0,
+    "ZA_ZA_ZAPIS_ID": 472496.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -11984,7 +11984,7 @@
   },
   {
     "ZA_ZAPIS_ID": 986032,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12007,7 +12007,7 @@
   },
   {
     "ZA_ZAPIS_ID": 538762,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12030,7 +12030,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1144561,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12053,7 +12053,7 @@
   },
   {
     "ZA_ZAPIS_ID": 493113,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12076,7 +12076,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2012946,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12099,7 +12099,7 @@
   },
   {
     "ZA_ZAPIS_ID": 443417,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12122,7 +12122,7 @@
   },
   {
     "ZA_ZAPIS_ID": 447352,
-    "ZAPIS_NADRZEDNY": 342843.0,
+    "ZA_ZA_ZAPIS_ID": 342843.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12145,7 +12145,7 @@
   },
   {
     "ZA_ZAPIS_ID": 918418,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12168,7 +12168,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1110101,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12191,7 +12191,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1113581,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12214,7 +12214,7 @@
   },
   {
     "ZA_ZAPIS_ID": 597767,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12237,7 +12237,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1972209,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12260,7 +12260,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1981718,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12283,7 +12283,7 @@
   },
   {
     "ZA_ZAPIS_ID": 760306,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12306,7 +12306,7 @@
   },
   {
     "ZA_ZAPIS_ID": 893800,
-    "ZAPIS_NADRZEDNY": 893799.0,
+    "ZA_ZA_ZAPIS_ID": 893799.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -12329,7 +12329,7 @@
   },
   {
     "ZA_ZAPIS_ID": 405083,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12352,7 +12352,7 @@
   },
   {
     "ZA_ZAPIS_ID": 236719,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12375,7 +12375,7 @@
   },
   {
     "ZA_ZAPIS_ID": 484691,
-    "ZAPIS_NADRZEDNY": 471996.0,
+    "ZA_ZA_ZAPIS_ID": 471996.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12398,7 +12398,7 @@
   },
   {
     "ZA_ZAPIS_ID": 546351,
-    "ZAPIS_NADRZEDNY": 472496.0,
+    "ZA_ZA_ZAPIS_ID": 472496.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12421,7 +12421,7 @@
   },
   {
     "ZA_ZAPIS_ID": 603659,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12444,7 +12444,7 @@
   },
   {
     "ZA_ZAPIS_ID": 604797,
-    "ZAPIS_NADRZEDNY": 604796.0,
+    "ZA_ZA_ZAPIS_ID": 604796.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12467,7 +12467,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1069852,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12490,7 +12490,7 @@
   },
   {
     "ZA_ZAPIS_ID": 475498,
-    "ZAPIS_NADRZEDNY": 316706.0,
+    "ZA_ZA_ZAPIS_ID": 316706.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12513,7 +12513,7 @@
   },
   {
     "ZA_ZAPIS_ID": 37582,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12536,7 +12536,7 @@
   },
   {
     "ZA_ZAPIS_ID": 636555,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12559,7 +12559,7 @@
   },
   {
     "ZA_ZAPIS_ID": 330663,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12582,7 +12582,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1127017,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 141,
     "RZ_NAZWA": "omówienie (artykułu, książki)",
@@ -12605,7 +12605,7 @@
   },
   {
     "ZA_ZAPIS_ID": 334355,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12628,7 +12628,7 @@
   },
   {
     "ZA_ZAPIS_ID": 389496,
-    "ZAPIS_NADRZEDNY": 342843.0,
+    "ZA_ZA_ZAPIS_ID": 342843.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12651,7 +12651,7 @@
   },
   {
     "ZA_ZAPIS_ID": 445022,
-    "ZAPIS_NADRZEDNY": 445021.0,
+    "ZA_ZA_ZAPIS_ID": 445021.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -12674,7 +12674,7 @@
   },
   {
     "ZA_ZAPIS_ID": 595048,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12697,7 +12697,7 @@
   },
   {
     "ZA_ZAPIS_ID": 928638,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12720,7 +12720,7 @@
   },
   {
     "ZA_ZAPIS_ID": 935023,
-    "ZAPIS_NADRZEDNY": 935021.0,
+    "ZA_ZA_ZAPIS_ID": 935021.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -12743,7 +12743,7 @@
   },
   {
     "ZA_ZAPIS_ID": 901231,
-    "ZAPIS_NADRZEDNY": 284249.0,
+    "ZA_ZA_ZAPIS_ID": 284249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12766,7 +12766,7 @@
   },
   {
     "ZA_ZAPIS_ID": 290238,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12789,7 +12789,7 @@
   },
   {
     "ZA_ZAPIS_ID": 383242,
-    "ZAPIS_NADRZEDNY": 342843.0,
+    "ZA_ZA_ZAPIS_ID": 342843.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12812,7 +12812,7 @@
   },
   {
     "ZA_ZAPIS_ID": 531000,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12835,7 +12835,7 @@
   },
   {
     "ZA_ZAPIS_ID": 137430,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -12858,7 +12858,7 @@
   },
   {
     "ZA_ZAPIS_ID": 224961,
-    "ZAPIS_NADRZEDNY": 120847.0,
+    "ZA_ZA_ZAPIS_ID": 120847.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12881,7 +12881,7 @@
   },
   {
     "ZA_ZAPIS_ID": 224964,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12904,7 +12904,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2010971,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -12927,7 +12927,7 @@
   },
   {
     "ZA_ZAPIS_ID": 251888,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -12950,7 +12950,7 @@
   },
   {
     "ZA_ZAPIS_ID": 268045,
-    "ZAPIS_NADRZEDNY": 120839.0,
+    "ZA_ZA_ZAPIS_ID": 120839.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12973,7 +12973,7 @@
   },
   {
     "ZA_ZAPIS_ID": 268047,
-    "ZAPIS_NADRZEDNY": 212058.0,
+    "ZA_ZA_ZAPIS_ID": 212058.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -12996,7 +12996,7 @@
   },
   {
     "ZA_ZAPIS_ID": 268073,
-    "ZAPIS_NADRZEDNY": 212058.0,
+    "ZA_ZA_ZAPIS_ID": 212058.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13019,7 +13019,7 @@
   },
   {
     "ZA_ZAPIS_ID": 458269,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -13042,7 +13042,7 @@
   },
   {
     "ZA_ZAPIS_ID": 512127,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13065,7 +13065,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1724553,
-    "ZAPIS_NADRZEDNY": 1744451.0,
+    "ZA_ZA_ZAPIS_ID": 1744451.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -13088,7 +13088,7 @@
   },
   {
     "ZA_ZAPIS_ID": 407265,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13111,7 +13111,7 @@
   },
   {
     "ZA_ZAPIS_ID": 110832,
-    "ZAPIS_NADRZEDNY": 90160.0,
+    "ZA_ZA_ZAPIS_ID": 90160.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13134,7 +13134,7 @@
   },
   {
     "ZA_ZAPIS_ID": 185306,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13157,7 +13157,7 @@
   },
   {
     "ZA_ZAPIS_ID": 537574,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13180,7 +13180,7 @@
   },
   {
     "ZA_ZAPIS_ID": 73184,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13203,7 +13203,7 @@
   },
   {
     "ZA_ZAPIS_ID": 513407,
-    "ZAPIS_NADRZEDNY": 513406.0,
+    "ZA_ZA_ZAPIS_ID": 513406.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13226,7 +13226,7 @@
   },
   {
     "ZA_ZAPIS_ID": 307561,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13249,7 +13249,7 @@
   },
   {
     "ZA_ZAPIS_ID": 991354,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13272,7 +13272,7 @@
   },
   {
     "ZA_ZAPIS_ID": 399751,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13295,7 +13295,7 @@
   },
   {
     "ZA_ZAPIS_ID": 28919,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13318,7 +13318,7 @@
   },
   {
     "ZA_ZAPIS_ID": 428320,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13341,7 +13341,7 @@
   },
   {
     "ZA_ZAPIS_ID": 458617,
-    "ZAPIS_NADRZEDNY": 458616.0,
+    "ZA_ZA_ZAPIS_ID": 458616.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -13364,7 +13364,7 @@
   },
   {
     "ZA_ZAPIS_ID": 483192,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13387,7 +13387,7 @@
   },
   {
     "ZA_ZAPIS_ID": 188059,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13410,7 +13410,7 @@
   },
   {
     "ZA_ZAPIS_ID": 476452,
-    "ZAPIS_NADRZEDNY": 476449.0,
+    "ZA_ZA_ZAPIS_ID": 476449.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -13433,7 +13433,7 @@
   },
   {
     "ZA_ZAPIS_ID": 512034,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13456,7 +13456,7 @@
   },
   {
     "ZA_ZAPIS_ID": 512690,
-    "ZAPIS_NADRZEDNY": 512034.0,
+    "ZA_ZA_ZAPIS_ID": 512034.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 129,
     "RZ_NAZWA": "nawiązanie",
@@ -13479,7 +13479,7 @@
   },
   {
     "ZA_ZAPIS_ID": 504894,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13502,7 +13502,7 @@
   },
   {
     "ZA_ZAPIS_ID": 614336,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13525,7 +13525,7 @@
   },
   {
     "ZA_ZAPIS_ID": 177401,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13548,7 +13548,7 @@
   },
   {
     "ZA_ZAPIS_ID": 398558,
-    "ZAPIS_NADRZEDNY": 335271.0,
+    "ZA_ZA_ZAPIS_ID": 335271.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 141,
     "RZ_NAZWA": "omówienie (artykułu, książki)",
@@ -13571,7 +13571,7 @@
   },
   {
     "ZA_ZAPIS_ID": 424818,
-    "ZAPIS_NADRZEDNY": 316706.0,
+    "ZA_ZA_ZAPIS_ID": 316706.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13594,7 +13594,7 @@
   },
   {
     "ZA_ZAPIS_ID": 513278,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13617,7 +13617,7 @@
   },
   {
     "ZA_ZAPIS_ID": 596747,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -13640,7 +13640,7 @@
   },
   {
     "ZA_ZAPIS_ID": 553384,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13663,7 +13663,7 @@
   },
   {
     "ZA_ZAPIS_ID": 971506,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13686,7 +13686,7 @@
   },
   {
     "ZA_ZAPIS_ID": 94453,
-    "ZAPIS_NADRZEDNY": 90121.0,
+    "ZA_ZA_ZAPIS_ID": 90121.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13709,7 +13709,7 @@
   },
   {
     "ZA_ZAPIS_ID": 182002,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13732,7 +13732,7 @@
   },
   {
     "ZA_ZAPIS_ID": 830655,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13755,7 +13755,7 @@
   },
   {
     "ZA_ZAPIS_ID": 463844,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13778,7 +13778,7 @@
   },
   {
     "ZA_ZAPIS_ID": 832307,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13801,7 +13801,7 @@
   },
   {
     "ZA_ZAPIS_ID": 199298,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13824,7 +13824,7 @@
   },
   {
     "ZA_ZAPIS_ID": 58832,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13847,7 +13847,7 @@
   },
   {
     "ZA_ZAPIS_ID": 291614,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13870,7 +13870,7 @@
   },
   {
     "ZA_ZAPIS_ID": 291615,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -13893,7 +13893,7 @@
   },
   {
     "ZA_ZAPIS_ID": 292052,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13916,7 +13916,7 @@
   },
   {
     "ZA_ZAPIS_ID": 292056,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 88,
     "RZ_NAZWA": "tekst paraliteracki twórcy",
@@ -13939,7 +13939,7 @@
   },
   {
     "ZA_ZAPIS_ID": 613518,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -13962,7 +13962,7 @@
   },
   {
     "ZA_ZAPIS_ID": 910433,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -13985,7 +13985,7 @@
   },
   {
     "ZA_ZAPIS_ID": 971745,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14008,7 +14008,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1069828,
-    "ZAPIS_NADRZEDNY": 284249.0,
+    "ZA_ZA_ZAPIS_ID": 284249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14031,7 +14031,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1069832,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14054,7 +14054,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1988016,
-    "ZAPIS_NADRZEDNY": 236194.0,
+    "ZA_ZA_ZAPIS_ID": 236194.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14077,7 +14077,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1995749,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14100,7 +14100,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2002582,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14123,7 +14123,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2002589,
-    "ZAPIS_NADRZEDNY": 1362770.0,
+    "ZA_ZA_ZAPIS_ID": 1362770.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -14146,7 +14146,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2002837,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14169,7 +14169,7 @@
   },
   {
     "ZA_ZAPIS_ID": 2005993,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14192,7 +14192,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18086,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14215,7 +14215,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18100,
-    "ZAPIS_NADRZEDNY": 172674.0,
+    "ZA_ZA_ZAPIS_ID": 172674.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14238,7 +14238,7 @@
   },
   {
     "ZA_ZAPIS_ID": 29624,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14261,7 +14261,7 @@
   },
   {
     "ZA_ZAPIS_ID": 117342,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14284,7 +14284,7 @@
   },
   {
     "ZA_ZAPIS_ID": 158728,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14307,7 +14307,7 @@
   },
   {
     "ZA_ZAPIS_ID": 239131,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14330,7 +14330,7 @@
   },
   {
     "ZA_ZAPIS_ID": 366580,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14353,7 +14353,7 @@
   },
   {
     "ZA_ZAPIS_ID": 487126,
-    "ZAPIS_NADRZEDNY": 487110.0,
+    "ZA_ZA_ZAPIS_ID": 487110.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14376,7 +14376,7 @@
   },
   {
     "ZA_ZAPIS_ID": 487128,
-    "ZAPIS_NADRZEDNY": 487112.0,
+    "ZA_ZA_ZAPIS_ID": 487112.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14399,7 +14399,7 @@
   },
   {
     "ZA_ZAPIS_ID": 661332,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14422,7 +14422,7 @@
   },
   {
     "ZA_ZAPIS_ID": 791079,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14445,7 +14445,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1051343,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14468,7 +14468,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1310189,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14491,7 +14491,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1317391,
-    "ZAPIS_NADRZEDNY": 307251.0,
+    "ZA_ZA_ZAPIS_ID": 307251.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14514,7 +14514,7 @@
   },
   {
     "ZA_ZAPIS_ID": 183104,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14537,7 +14537,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1923592,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14560,7 +14560,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1160765,
-    "ZAPIS_NADRZEDNY": 1023768.0,
+    "ZA_ZA_ZAPIS_ID": 1023768.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 84,
     "RZ_NAZWA": "sprostowanie",
@@ -14583,7 +14583,7 @@
   },
   {
     "ZA_ZAPIS_ID": 813195,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14606,7 +14606,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1101680,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -14629,7 +14629,7 @@
   },
   {
     "ZA_ZAPIS_ID": 166656,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14652,7 +14652,7 @@
   },
   {
     "ZA_ZAPIS_ID": 300433,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -14675,7 +14675,7 @@
   },
   {
     "ZA_ZAPIS_ID": 300434,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -14698,7 +14698,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1092767,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14721,7 +14721,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1009689,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14744,7 +14744,7 @@
   },
   {
     "ZA_ZAPIS_ID": 524798,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14767,7 +14767,7 @@
   },
   {
     "ZA_ZAPIS_ID": 66300,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -14790,7 +14790,7 @@
   },
   {
     "ZA_ZAPIS_ID": 832306,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -14813,7 +14813,7 @@
   },
   {
     "ZA_ZAPIS_ID": 179975,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14836,7 +14836,7 @@
   },
   {
     "ZA_ZAPIS_ID": 864405,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -14859,7 +14859,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1022168,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -14882,7 +14882,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1142038,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14905,7 +14905,7 @@
   },
   {
     "ZA_ZAPIS_ID": 70930,
-    "ZAPIS_NADRZEDNY": 70929.0,
+    "ZA_ZA_ZAPIS_ID": 70929.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -14928,7 +14928,7 @@
   },
   {
     "ZA_ZAPIS_ID": 71182,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -14951,7 +14951,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1855392,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14974,7 +14974,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1855411,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -14997,7 +14997,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1855431,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15020,7 +15020,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1855531,
-    "ZAPIS_NADRZEDNY": 1451370.0,
+    "ZA_ZA_ZAPIS_ID": 1451370.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15043,7 +15043,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857211,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -15066,7 +15066,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857213,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15089,7 +15089,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857214,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15112,7 +15112,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857620,
-    "ZAPIS_NADRZEDNY": 1857619.0,
+    "ZA_ZA_ZAPIS_ID": 1857619.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -15135,7 +15135,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1857622,
-    "ZAPIS_NADRZEDNY": 1857621.0,
+    "ZA_ZA_ZAPIS_ID": 1857621.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -15158,7 +15158,7 @@
   },
   {
     "ZA_ZAPIS_ID": 71773,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -15181,7 +15181,7 @@
   },
   {
     "ZA_ZAPIS_ID": 49757,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15204,7 +15204,7 @@
   },
   {
     "ZA_ZAPIS_ID": 105005,
-    "ZAPIS_NADRZEDNY": 25222.0,
+    "ZA_ZA_ZAPIS_ID": 25222.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15227,7 +15227,7 @@
   },
   {
     "ZA_ZAPIS_ID": 43354,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15250,7 +15250,7 @@
   },
   {
     "ZA_ZAPIS_ID": 57756,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 61,
     "RZ_NAZWA": "wiersz",
@@ -15273,7 +15273,7 @@
   },
   {
     "ZA_ZAPIS_ID": 393999,
-    "ZAPIS_NADRZEDNY": 356146.0,
+    "ZA_ZA_ZAPIS_ID": 356146.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15296,7 +15296,7 @@
   },
   {
     "ZA_ZAPIS_ID": 394003,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15319,7 +15319,7 @@
   },
   {
     "ZA_ZAPIS_ID": 606396,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15342,7 +15342,7 @@
   },
   {
     "ZA_ZAPIS_ID": 766276,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15365,7 +15365,7 @@
   },
   {
     "ZA_ZAPIS_ID": 170183,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15388,7 +15388,7 @@
   },
   {
     "ZA_ZAPIS_ID": 193496,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15411,7 +15411,7 @@
   },
   {
     "ZA_ZAPIS_ID": 111613,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15434,7 +15434,7 @@
   },
   {
     "ZA_ZAPIS_ID": 373803,
-    "ZAPIS_NADRZEDNY": 363987.0,
+    "ZA_ZA_ZAPIS_ID": 363987.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15457,7 +15457,7 @@
   },
   {
     "ZA_ZAPIS_ID": 373804,
-    "ZAPIS_NADRZEDNY": 316706.0,
+    "ZA_ZA_ZAPIS_ID": 316706.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15480,7 +15480,7 @@
   },
   {
     "ZA_ZAPIS_ID": 414093,
-    "ZAPIS_NADRZEDNY": 365368.0,
+    "ZA_ZA_ZAPIS_ID": 365368.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15503,7 +15503,7 @@
   },
   {
     "ZA_ZAPIS_ID": 858533,
-    "ZAPIS_NADRZEDNY": 594346.0,
+    "ZA_ZA_ZAPIS_ID": 594346.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15526,7 +15526,7 @@
   },
   {
     "ZA_ZAPIS_ID": 863104,
-    "ZAPIS_NADRZEDNY": 825595.0,
+    "ZA_ZA_ZAPIS_ID": 825595.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15549,7 +15549,7 @@
   },
   {
     "ZA_ZAPIS_ID": 314484,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15572,7 +15572,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1966233,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15595,7 +15595,7 @@
   },
   {
     "ZA_ZAPIS_ID": 828221,
-    "ZAPIS_NADRZEDNY": 594346.0,
+    "ZA_ZA_ZAPIS_ID": 594346.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15618,7 +15618,7 @@
   },
   {
     "ZA_ZAPIS_ID": 243460,
-    "ZAPIS_NADRZEDNY": 120839.0,
+    "ZA_ZA_ZAPIS_ID": 120839.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -15641,7 +15641,7 @@
   },
   {
     "ZA_ZAPIS_ID": 541546,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15664,7 +15664,7 @@
   },
   {
     "ZA_ZAPIS_ID": 541550,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 96,
     "RZ_NAZWA": "korespondecja",
@@ -15687,7 +15687,7 @@
   },
   {
     "ZA_ZAPIS_ID": 144039,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -15710,7 +15710,7 @@
   },
   {
     "ZA_ZAPIS_ID": 461181,
-    "ZAPIS_NADRZEDNY": 461180.0,
+    "ZA_ZA_ZAPIS_ID": 461180.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -15733,7 +15733,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1671853,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15756,7 +15756,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1672531,
-    "ZAPIS_NADRZEDNY": 1672491.0,
+    "ZA_ZA_ZAPIS_ID": 1672491.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -15779,7 +15779,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18057,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -15802,7 +15802,7 @@
   },
   {
     "ZA_ZAPIS_ID": 543642,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15825,7 +15825,7 @@
   },
   {
     "ZA_ZAPIS_ID": 106684,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15848,7 +15848,7 @@
   },
   {
     "ZA_ZAPIS_ID": 173617,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -15871,7 +15871,7 @@
   },
   {
     "ZA_ZAPIS_ID": 230897,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15894,7 +15894,7 @@
   },
   {
     "ZA_ZAPIS_ID": 230899,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15917,7 +15917,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18080,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15940,7 +15940,7 @@
   },
   {
     "ZA_ZAPIS_ID": 166630,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15963,7 +15963,7 @@
   },
   {
     "ZA_ZAPIS_ID": 302256,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -15986,7 +15986,7 @@
   },
   {
     "ZA_ZAPIS_ID": 302266,
-    "ZAPIS_NADRZEDNY": 302260.0,
+    "ZA_ZA_ZAPIS_ID": 302260.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16009,7 +16009,7 @@
   },
   {
     "ZA_ZAPIS_ID": 55916,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16032,7 +16032,7 @@
   },
   {
     "ZA_ZAPIS_ID": 146773,
-    "ZAPIS_NADRZEDNY": 90170.0,
+    "ZA_ZA_ZAPIS_ID": 90170.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16055,7 +16055,7 @@
   },
   {
     "ZA_ZAPIS_ID": 194794,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16078,7 +16078,7 @@
   },
   {
     "ZA_ZAPIS_ID": 194820,
-    "ZAPIS_NADRZEDNY": 120847.0,
+    "ZA_ZA_ZAPIS_ID": 120847.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16101,7 +16101,7 @@
   },
   {
     "ZA_ZAPIS_ID": 236196,
-    "ZAPIS_NADRZEDNY": 236194.0,
+    "ZA_ZA_ZAPIS_ID": 236194.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16124,7 +16124,7 @@
   },
   {
     "ZA_ZAPIS_ID": 236197,
-    "ZAPIS_NADRZEDNY": 236194.0,
+    "ZA_ZA_ZAPIS_ID": 236194.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16147,7 +16147,7 @@
   },
   {
     "ZA_ZAPIS_ID": 284250,
-    "ZAPIS_NADRZEDNY": 284249.0,
+    "ZA_ZA_ZAPIS_ID": 284249.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16170,7 +16170,7 @@
   },
   {
     "ZA_ZAPIS_ID": 284251,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16193,7 +16193,7 @@
   },
   {
     "ZA_ZAPIS_ID": 284272,
-    "ZAPIS_NADRZEDNY": 213058.0,
+    "ZA_ZA_ZAPIS_ID": 213058.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16216,7 +16216,7 @@
   },
   {
     "ZA_ZAPIS_ID": 335271,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16239,7 +16239,7 @@
   },
   {
     "ZA_ZAPIS_ID": 335566,
-    "ZAPIS_NADRZEDNY": 213058.0,
+    "ZA_ZA_ZAPIS_ID": 213058.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16262,7 +16262,7 @@
   },
   {
     "ZA_ZAPIS_ID": 478043,
-    "ZAPIS_NADRZEDNY": 476449.0,
+    "ZA_ZA_ZAPIS_ID": 476449.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -16285,7 +16285,7 @@
   },
   {
     "ZA_ZAPIS_ID": 551920,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16308,7 +16308,7 @@
   },
   {
     "ZA_ZAPIS_ID": 551981,
-    "ZAPIS_NADRZEDNY": 476683.0,
+    "ZA_ZA_ZAPIS_ID": 476683.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16331,7 +16331,7 @@
   },
   {
     "ZA_ZAPIS_ID": 607998,
-    "ZAPIS_NADRZEDNY": 472496.0,
+    "ZA_ZA_ZAPIS_ID": 472496.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16354,7 +16354,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1113040,
-    "ZAPIS_NADRZEDNY": 1113039.0,
+    "ZA_ZA_ZAPIS_ID": 1113039.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16377,7 +16377,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1158543,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16400,7 +16400,7 @@
   },
   {
     "ZA_ZAPIS_ID": 228323,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16423,7 +16423,7 @@
   },
   {
     "ZA_ZAPIS_ID": 290634,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16446,7 +16446,7 @@
   },
   {
     "ZA_ZAPIS_ID": 328451,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -16469,7 +16469,7 @@
   },
   {
     "ZA_ZAPIS_ID": 328452,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -16492,7 +16492,7 @@
   },
   {
     "ZA_ZAPIS_ID": 328459,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16515,7 +16515,7 @@
   },
   {
     "ZA_ZAPIS_ID": 421729,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16538,7 +16538,7 @@
   },
   {
     "ZA_ZAPIS_ID": 421874,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16561,7 +16561,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1083074,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16584,7 +16584,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1083152,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16607,7 +16607,7 @@
   },
   {
     "ZA_ZAPIS_ID": 295376,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16630,7 +16630,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1023768,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16653,7 +16653,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1051958,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16676,7 +16676,7 @@
   },
   {
     "ZA_ZAPIS_ID": 459644,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16699,7 +16699,7 @@
   },
   {
     "ZA_ZAPIS_ID": 564576,
-    "ZAPIS_NADRZEDNY": 514614.0,
+    "ZA_ZA_ZAPIS_ID": 514614.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -16722,7 +16722,7 @@
   },
   {
     "ZA_ZAPIS_ID": 97861,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16745,7 +16745,7 @@
   },
   {
     "ZA_ZAPIS_ID": 33875,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -16768,7 +16768,7 @@
   },
   {
     "ZA_ZAPIS_ID": 132571,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -16791,7 +16791,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1609467,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16814,7 +16814,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18072,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16837,7 +16837,7 @@
   },
   {
     "ZA_ZAPIS_ID": 130768,
-    "ZAPIS_NADRZEDNY": 120839.0,
+    "ZA_ZA_ZAPIS_ID": 120839.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -16860,7 +16860,7 @@
   },
   {
     "ZA_ZAPIS_ID": 627136,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16883,7 +16883,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1014087,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16906,7 +16906,7 @@
   },
   {
     "ZA_ZAPIS_ID": 559552,
-    "ZAPIS_NADRZEDNY": 236718.0,
+    "ZA_ZA_ZAPIS_ID": 236718.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16929,7 +16929,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18094,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -16952,7 +16952,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1098479,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16975,7 +16975,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1947251,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -16998,7 +16998,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1947252,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17021,7 +17021,7 @@
   },
   {
     "ZA_ZAPIS_ID": 133895,
-    "ZAPIS_NADRZEDNY": 120847.0,
+    "ZA_ZA_ZAPIS_ID": 120847.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17044,7 +17044,7 @@
   },
   {
     "ZA_ZAPIS_ID": 378033,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17067,7 +17067,7 @@
   },
   {
     "ZA_ZAPIS_ID": 475411,
-    "ZAPIS_NADRZEDNY": 365368.0,
+    "ZA_ZA_ZAPIS_ID": 365368.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17090,7 +17090,7 @@
   },
   {
     "ZA_ZAPIS_ID": 482940,
-    "ZAPIS_NADRZEDNY": 475411.0,
+    "ZA_ZA_ZAPIS_ID": 475411.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 129,
     "RZ_NAZWA": "nawiązanie",
@@ -17113,7 +17113,7 @@
   },
   {
     "ZA_ZAPIS_ID": 483124,
-    "ZAPIS_NADRZEDNY": 475411.0,
+    "ZA_ZA_ZAPIS_ID": 475411.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 129,
     "RZ_NAZWA": "nawiązanie",
@@ -17136,7 +17136,7 @@
   },
   {
     "ZA_ZAPIS_ID": 186882,
-    "ZAPIS_NADRZEDNY": 186880.0,
+    "ZA_ZA_ZAPIS_ID": 186880.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17159,7 +17159,7 @@
   },
   {
     "ZA_ZAPIS_ID": 186977,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17182,7 +17182,7 @@
   },
   {
     "ZA_ZAPIS_ID": 356145,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17205,7 +17205,7 @@
   },
   {
     "ZA_ZAPIS_ID": 356147,
-    "ZAPIS_NADRZEDNY": 356146.0,
+    "ZA_ZA_ZAPIS_ID": 356146.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17228,7 +17228,7 @@
   },
   {
     "ZA_ZAPIS_ID": 172678,
-    "ZAPIS_NADRZEDNY": 172672.0,
+    "ZA_ZA_ZAPIS_ID": 172672.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17251,7 +17251,7 @@
   },
   {
     "ZA_ZAPIS_ID": 172681,
-    "ZAPIS_NADRZEDNY": 172674.0,
+    "ZA_ZA_ZAPIS_ID": 172674.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17274,7 +17274,7 @@
   },
   {
     "ZA_ZAPIS_ID": 178239,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17297,7 +17297,7 @@
   },
   {
     "ZA_ZAPIS_ID": 148111,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17320,7 +17320,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18054,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -17343,7 +17343,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18056,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "PU",
     "ZA_RZ_RODZAJ1_ID": 87,
     "RZ_NAZWA": "proza",
@@ -17366,7 +17366,7 @@
   },
   {
     "ZA_ZAPIS_ID": 113992,
-    "ZAPIS_NADRZEDNY": 90160.0,
+    "ZA_ZA_ZAPIS_ID": 90160.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17389,7 +17389,7 @@
   },
   {
     "ZA_ZAPIS_ID": 150218,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17412,7 +17412,7 @@
   },
   {
     "ZA_ZAPIS_ID": 207538,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17435,7 +17435,7 @@
   },
   {
     "ZA_ZAPIS_ID": 409020,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17458,7 +17458,7 @@
   },
   {
     "ZA_ZAPIS_ID": 509825,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17481,7 +17481,7 @@
   },
   {
     "ZA_ZAPIS_ID": 570503,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17504,7 +17504,7 @@
   },
   {
     "ZA_ZAPIS_ID": 992263,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -17527,7 +17527,7 @@
   },
   {
     "ZA_ZAPIS_ID": 992358,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 95,
     "RZ_NAZWA": "kult",
@@ -17550,7 +17550,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1240100,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17573,7 +17573,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1907811,
-    "ZAPIS_NADRZEDNY": 1907792.0,
+    "ZA_ZA_ZAPIS_ID": 1907792.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -17596,7 +17596,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1917318,
-    "ZAPIS_NADRZEDNY": 1907792.0,
+    "ZA_ZA_ZAPIS_ID": 1907792.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -17619,7 +17619,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18070,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17642,7 +17642,7 @@
   },
   {
     "ZA_ZAPIS_ID": 91343,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17665,7 +17665,7 @@
   },
   {
     "ZA_ZAPIS_ID": 193370,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17688,7 +17688,7 @@
   },
   {
     "ZA_ZAPIS_ID": 193402,
-    "ZAPIS_NADRZEDNY": 90170.0,
+    "ZA_ZA_ZAPIS_ID": 90170.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17711,7 +17711,7 @@
   },
   {
     "ZA_ZAPIS_ID": 341734,
-    "ZAPIS_NADRZEDNY": 261429.0,
+    "ZA_ZA_ZAPIS_ID": 261429.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17734,7 +17734,7 @@
   },
   {
     "ZA_ZAPIS_ID": 387796,
-    "ZAPIS_NADRZEDNY": 120847.0,
+    "ZA_ZA_ZAPIS_ID": 120847.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17757,7 +17757,7 @@
   },
   {
     "ZA_ZAPIS_ID": 421992,
-    "ZAPIS_NADRZEDNY": 316706.0,
+    "ZA_ZA_ZAPIS_ID": 316706.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17780,7 +17780,7 @@
   },
   {
     "ZA_ZAPIS_ID": 421994,
-    "ZAPIS_NADRZEDNY": 363987.0,
+    "ZA_ZA_ZAPIS_ID": 363987.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17803,7 +17803,7 @@
   },
   {
     "ZA_ZAPIS_ID": 422012,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17826,7 +17826,7 @@
   },
   {
     "ZA_ZAPIS_ID": 597348,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17849,7 +17849,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1068053,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17872,7 +17872,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1068091,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17895,7 +17895,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1068093,
-    "ZAPIS_NADRZEDNY": 1068092.0,
+    "ZA_ZA_ZAPIS_ID": 1068092.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17918,7 +17918,7 @@
   },
   {
     "ZA_ZAPIS_ID": 419816,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -17941,7 +17941,7 @@
   },
   {
     "ZA_ZAPIS_ID": 951446,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -17964,7 +17964,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18064,
-    "ZAPIS_NADRZEDNY": 18062.0,
+    "ZA_ZA_ZAPIS_ID": 18062.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -17987,7 +17987,7 @@
   },
   {
     "ZA_ZAPIS_ID": 18076,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -18010,7 +18010,7 @@
   },
   {
     "ZA_ZAPIS_ID": 72414,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -18033,7 +18033,7 @@
   },
   {
     "ZA_ZAPIS_ID": 73867,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -18056,7 +18056,7 @@
   },
   {
     "ZA_ZAPIS_ID": 74078,
-    "ZAPIS_NADRZEDNY": 18062.0,
+    "ZA_ZA_ZAPIS_ID": 18062.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -18079,7 +18079,7 @@
   },
   {
     "ZA_ZAPIS_ID": 109713,
-    "ZAPIS_NADRZEDNY": 91342.0,
+    "ZA_ZA_ZAPIS_ID": 91342.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -18102,7 +18102,7 @@
   },
   {
     "ZA_ZAPIS_ID": 109714,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -18125,7 +18125,7 @@
   },
   {
     "ZA_ZAPIS_ID": 135579,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -18148,7 +18148,7 @@
   },
   {
     "ZA_ZAPIS_ID": 185835,
-    "ZAPIS_NADRZEDNY": 109715.0,
+    "ZA_ZA_ZAPIS_ID": 109715.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 94,
     "RZ_NAZWA": "artykuł o utworze",
@@ -18171,7 +18171,7 @@
   },
   {
     "ZA_ZAPIS_ID": 185852,
-    "ZAPIS_NADRZEDNY": null,
+    "ZA_ZA_ZAPIS_ID": null,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 93,
     "RZ_NAZWA": "artykuł o twórcy",
@@ -18194,7 +18194,7 @@
   },
   {
     "ZA_ZAPIS_ID": 410558,
-    "ZAPIS_NADRZEDNY": 363987.0,
+    "ZA_ZA_ZAPIS_ID": 363987.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -18217,7 +18217,7 @@
   },
   {
     "ZA_ZAPIS_ID": 410562,
-    "ZAPIS_NADRZEDNY": 316706.0,
+    "ZA_ZA_ZAPIS_ID": 316706.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
@@ -18240,7 +18240,7 @@
   },
   {
     "ZA_ZAPIS_ID": 514617,
-    "ZAPIS_NADRZEDNY": 514614.0,
+    "ZA_ZA_ZAPIS_ID": 514614.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 661,
     "RZ_NAZWA": "artykuł o imprezie",
@@ -18263,7 +18263,7 @@
   },
   {
     "ZA_ZAPIS_ID": 1172890,
-    "ZAPIS_NADRZEDNY": 594346.0,
+    "ZA_ZA_ZAPIS_ID": 594346.0,
     "ZA_TYPE": "IZA",
     "ZA_RZ_RODZAJ1_ID": 18,
     "RZ_NAZWA": "recenzja",
