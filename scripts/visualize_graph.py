@@ -1,92 +1,82 @@
-"""
-Visualize Lalka Presentation Graph
-==================================
-
-Creates an interactive HTML visualization of the presentation graph.
-
-Input:
-    data/lalka_presentation_graph.json
-
-Optional visual asset:
-    assets/pbl-logo.png
-
-Output:
-    docs/lalka_graph.html
-"""
-
 from pathlib import Path
-import json
-import html
 import base64
+import html
+import json
 
 from bs4 import BeautifulSoup
 from pyvis.network import Network
 
 
-# =============================================================================
-# PATHS
-# =============================================================================
+# ============================================================
+# Paths
+# ============================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 DATA_FILE = PROJECT_ROOT / "data" / "lalka_presentation_graph.json"
 LOGO_FILE = PROJECT_ROOT / "assets" / "pbl-logo.png"
+BACKGROUND_IMAGE_FILE = PROJECT_ROOT / "assets" / "lalka-background.jpg"
 
 OUTPUT_DIR = PROJECT_ROOT / "docs"
 OUTPUT_FILE = OUTPUT_DIR / "lalka_graph.html"
 
 
-# =============================================================================
-# VISUAL SETTINGS
-# =============================================================================
+# ============================================================
+# Visual settings
+# ============================================================
 
 BACKGROUND = "#f8f6f2"
 TEXT_COLOR = "#50504f"
 EDGE_COLOR = "#b9b3aa"
 
+
 COLORS = {
-    "Work": "#50504f",
-    "Adaptation": "#e94a58",
-    "Person": "#a54f99",
-    "Publication": "#19978e",
-    "RelatedRecord": "#f3b65a",
-    "Source": "#87745e",
-    "Publisher": "#d8a461",
+    "Work": "#e2a84a",
+    "Adaptation": "#d95b67",
+    "Person": "#9a5b91",
+
+    # Publication and RelatedRecord are intentionally
+    # visually identical.
+    "Publication": "#2a9b90",
+    "RelatedRecord": "#2a9b90",
+
+    "Source": "#8a7662",
+    "Publisher": "#c99a5a",
 }
 
 
-# =============================================================================
-# NODE SIZES
-# =============================================================================
+# Publication and RelatedRecord intentionally
+# have exactly the same visual size.
 
 NODE_SIZES = {
     "Work": 38,
-    "Adaptation": 25,
+    "Adaptation": 29,
     "Person": 19,
-    "Publication": 18,
-    "RelatedRecord": 10,
-    "Source": 14,
-    "Publisher": 13,
+    "Publication": 17,
+    "RelatedRecord": 17,
+    "Source": 12,
+    "Publisher": 12,
 }
 
 
-# =============================================================================
-# RELATIONSHIP LABELS
-# =============================================================================
+# ============================================================
+# Graph label lengths
+# ============================================================
 
-RELATIONSHIP_LABELS = {
-    "ADAPTED_AS": "adaptacja",
-    "AUTHORED_BY": "autor",
-    "CREATED_BY": "twórca",
-    "FROM_SOURCE": "źródło",
-    "PUBLISHED_BY": "wydawca",
-    "RELATED_TO": "powiązane",
+GRAPH_LABEL_LENGTHS = {
+    "Work": 20,
+    "Adaptation": 38,
+    "Person": 30,
+    "Publication": 42,
+    "RelatedRecord": 42,
+    "Source": 34,
+    "Publisher": 30,
 }
 
 
-# =============================================================================
-# HUMAN-READABLE LABELS
-# =============================================================================
+# ============================================================
+# Labels
+# ============================================================
 
 TYPE_LABELS = {
     "Work": "Utwór",
@@ -99,82 +89,162 @@ TYPE_LABELS = {
 }
 
 
-# =============================================================================
-# HELPERS
-# =============================================================================
+RELATIONSHIP_LABELS = {
+    "ADAPTED_AS": "adaptacja",
+    "AUTHORED_BY": "autor",
+    "CREATED_BY": "twórca",
+    "FROM_SOURCE": "źródło",
+    "HAS_RECORD": "rekord",
+    "PUBLISHED_BY": "wydawca",
+    "RELATED_TO": "powiązane",
+}
+
+
+# ============================================================
+# Edge styles
+# ============================================================
+
+EDGE_STYLES = {
+    "ADAPTED_AS": {
+        "width": 2.6,
+        "color": "#87745e",
+        "label": "adaptacja",
+    },
+    "HAS_RECORD": {
+        "width": 1.8,
+        "color": "#9e9991",
+        "label": "rekord",
+    },
+    "CREATED_BY": {
+        "width": 1.8,
+        "color": "#9e9991",
+        "label": "twórca",
+    },
+    "RELATED_TO": {
+        "width": 1.0,
+        "color": "#c8c3bb",
+        "label": "",
+    },
+    "AUTHORED_BY": {
+        "width": 1.0,
+        "color": "#c8c3bb",
+        "label": "",
+    },
+    "PUBLISHED_BY": {
+        "width": 1.0,
+        "color": "#c8c3bb",
+        "label": "",
+    },
+    "FROM_SOURCE": {
+        "width": 1.0,
+        "color": "#c8c3bb",
+        "label": "",
+    },
+}
+
+
+# ============================================================
+# Data loading
+# ============================================================
 
 def load_graph():
-    """Load presentation graph JSON."""
+    """
+    Load the presentation graph from JSON.
+    """
 
     if not DATA_FILE.exists():
         raise FileNotFoundError(
             f"Graph file not found:\n{DATA_FILE}"
         )
 
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
+    with open(
+        DATA_FILE,
+        "r",
+        encoding="utf-8",
+    ) as f:
         return json.load(f)
 
 
+# ============================================================
+# General helpers
+# ============================================================
+
 def get_node_type(node):
-    """Return normalized node type."""
+    """
+    Return the presentation node type.
+    """
 
     return (
-        node.get("type")
-        or node.get("node_type")
-        or node.get("category")
-        or "Other"
+        node.get("presentation_type")
+        or node.get("type")
+        or "Unknown"
     )
 
 
-def clean_html(text):
+def clean_html(value):
     """
-    Convert HTML-formatted PBL text into readable plain text.
+    Convert HTML-containing values to plain text.
     """
 
-    if not text:
+    if value is None:
         return ""
 
-    soup = BeautifulSoup(str(text), "html.parser")
+    value = str(value)
 
-    for br in soup.find_all("br"):
-        br.replace_with("\n")
+    soup = BeautifulSoup(
+        value,
+        "html.parser",
+    )
 
-    for tag in soup.find_all(["div", "p", "li"]):
-        tag.insert_before("\n")
-        tag.insert_after("\n")
+    text = soup.get_text(
+        " ",
+        strip=True,
+    )
 
-    text = soup.get_text("\n", strip=True)
+    return html.unescape(text)
 
-    lines = []
 
-    for line in text.splitlines():
+def shorten_text(value, max_length):
+    """
+    Shorten text at a word boundary.
 
-        line = " ".join(line.split())
+    The full value remains available in the details panel
+    and tooltip.
+    """
 
-        if line:
-            lines.append(line)
+    text = clean_html(value)
 
-    return "\n".join(lines)
+    if len(text) <= max_length:
+        return text
 
+    shortened = text[:max_length - 1].rsplit(
+        " ",
+        1,
+    )[0]
+
+    if not shortened:
+        shortened = text[:max_length - 1]
+
+    return shortened + "…"
+
+
+# ============================================================
+# Node titles and labels
+# ============================================================
 
 def get_node_title(node):
     """
-    Return human-readable node title.
+    Return the full human-readable title of a node.
     """
 
-    node_id = str(node.get("id", ""))
-    node_type = get_node_type(node)
+    node_id = node.get("id")
 
-    # -------------------------------------------------------------------------
-    # Central work
-    # -------------------------------------------------------------------------
+    # --------------------------------------------------------
+    # Important manually defined nodes
+    # --------------------------------------------------------
 
     if node_id == "record:109715":
         return "Lalka"
-
-    # -------------------------------------------------------------------------
-    # Adaptations
-    # -------------------------------------------------------------------------
 
     if node_id == "record:304249":
         return "Lalka (prem. 1968)"
@@ -182,31 +252,30 @@ def get_node_title(node):
     if node_id == "record:136679":
         return "Lalka (TV) – Lalka (prem. 1977)"
 
-    # -------------------------------------------------------------------------
-    # People
-    # -------------------------------------------------------------------------
+    properties = node.get(
+        "properties",
+        {},
+    )
+
+    # --------------------------------------------------------
+    # Persons
+    # --------------------------------------------------------
 
     for key in (
         "name",
         "person_name",
         "full_name",
-        "display_name",
-        "label",
-        "title",
+        "author_name",
+        "creator_name",
     ):
+        if properties.get(key):
+            return clean_html(
+                properties[key]
+            )
 
-        value = node.get(key)
-
-        if value:
-
-            value = str(value)
-
-            if not value.isdigit() and not value.startswith("record:"):
-                return value
-
-    # -------------------------------------------------------------------------
-    # Records
-    # -------------------------------------------------------------------------
+    # --------------------------------------------------------
+    # General titles
+    # --------------------------------------------------------
 
     for key in (
         "title",
@@ -214,227 +283,284 @@ def get_node_title(node):
         "display_name",
         "label",
     ):
+        if properties.get(key):
+            return clean_html(
+                properties[key]
+            )
 
-        value = node.get(key)
+    # --------------------------------------------------------
+    # Fallback
+    # --------------------------------------------------------
 
-        if value:
-            return clean_html(value)
+    if node.get("label"):
+        return clean_html(
+            node["label"]
+        )
 
-    # -------------------------------------------------------------------------
-    # Fallback labels
-    # -------------------------------------------------------------------------
+    return node_id or "Brak nazwy"
 
-    fallback = {
-        "RelatedRecord": "Rekord",
-        "Publication": "Publikacja",
-        "Source": "Źródło",
-        "Publisher": "Wydawca",
-        "Person": "Osoba",
-        "Work": "Utwór",
-        "Adaptation": "Adaptacja",
-    }
 
-    return fallback.get(node_type, "Obiekt")
+def get_graph_label(node):
+    """
+    Return a shortened label displayed directly on the graph.
+
+    Publication and RelatedRecord intentionally use
+    exactly the same rules.
+    """
+
+    node_type = get_node_type(node)
+    title = get_node_title(node)
+
+    max_length = GRAPH_LABEL_LENGTHS.get(
+        node_type,
+        35,
+    )
+
+    return shorten_text(
+        title,
+        max_length,
+    )
 
 
 def get_person_name(node):
     """
-    Return human-readable person name.
+    Return a person's name.
     """
+
+    properties = node.get(
+        "properties",
+        {},
+    )
 
     for key in (
         "name",
         "person_name",
         "full_name",
-        "display_name",
-        "label",
-        "title",
+        "author_name",
+        "creator_name",
     ):
+        if properties.get(key):
+            return clean_html(
+                properties[key]
+            )
 
-        value = node.get(key)
+    return get_node_title(node)
 
-        if value:
 
-            value = str(value)
-
-            if (
-                not value.isdigit()
-                and not value.startswith("record:")
-            ):
-                return clean_html(value)
-
-    # Known PBL creator
-    node_id = str(node.get("id", ""))
-
-    if node_id == "record:3426":
-        return "Bolesław Prus"
-
-    return None
-
+# ============================================================
+# Details panel data
+# ============================================================
 
 def get_metadata(node):
     """
-    Return metadata for details panel.
+    Return the metadata shown in the details panel.
+
+    PBL metadata is stored inside node["properties"].
     """
 
-    metadata = []
+    properties = node.get(
+        "properties",
+        {},
+    )
 
-    # -------------------------------------------------------------------------
+    metadata = {}
+
+    # --------------------------------------------------------
     # PBL ID
-    # -------------------------------------------------------------------------
+    # --------------------------------------------------------
 
-    pbl_id = node.get("pbl_id")
+    pbl_id = properties.get("pbl_id")
 
-    if pbl_id is None:
+    if pbl_id is not None:
+        metadata["PBL ID"] = pbl_id
 
-        node_id = str(node.get("id", ""))
+    # --------------------------------------------------------
+    # PBL record type
+    # --------------------------------------------------------
 
-        if node_id.startswith("record:"):
-            pbl_id = node_id.replace("record:", "")
-
-    # -------------------------------------------------------------------------
-    # PBL type
-    # -------------------------------------------------------------------------
-
-    pbl_type = (
-        node.get("pbl_type")
-        or node.get("record_type")
-    )
-
-    # -------------------------------------------------------------------------
-    # Author / creator
-    # -------------------------------------------------------------------------
-
-    author = (
-        node.get("author_name")
-        or node.get("creator_name")
-        or node.get("author")
-        or node.get("creator")
-    )
-
-    if author:
-
-        author = str(author)
-
-        if author.isdigit():
-
-            if author == "3426":
-                author = "Bolesław Prus"
-            else:
-                author = None
-
-        elif author.startswith("record:"):
-
-            if author == "record:3426":
-                author = "Bolesław Prus"
-            else:
-                author = None
-
-    # -------------------------------------------------------------------------
-    # Other metadata
-    # -------------------------------------------------------------------------
-
-    section = node.get("section")
-
-    source = (
-        node.get("source")
-        or node.get("source_title")
-        or node.get("publication")
-    )
-
-    year = node.get("year")
-
-    if pbl_id:
-        metadata.append(("PBL ID", str(pbl_id)))
+    pbl_type = properties.get("pbl_type")
 
     if pbl_type:
-        metadata.append(("Typ PBL", clean_html(pbl_type)))
+        metadata["Rodzaj zapisu"] = clean_html(
+            pbl_type
+        )
 
-    if author:
-        metadata.append(("Autor", clean_html(author)))
+    # --------------------------------------------------------
+    # Publication year
+    # --------------------------------------------------------
 
-    if section:
-        metadata.append(("Dział", clean_html(section)))
+    publication_year = properties.get(
+        "publication_year"
+    )
+
+    if publication_year is not None:
+        metadata["Rok publikacji"] = publication_year
+
+    # --------------------------------------------------------
+    # Source
+    # --------------------------------------------------------
+
+    source = properties.get("source")
 
     if source:
-        metadata.append(("Źródło", clean_html(source)))
-
-    if year is not None:
-
-        try:
-
-            year_float = float(year)
-
-            if year_float.is_integer():
-                year = str(int(year_float))
-
-        except (ValueError, TypeError):
-            pass
-
-        metadata.append(("Rok", str(year)))
+        metadata["Źródło"] = clean_html(
+            source
+        )
 
     return metadata
 
 
 def get_description(node):
     """
-    Return cleaned description / annotation.
+    Return an optional description.
     """
 
-    description = (
-        node.get("description")
-        or node.get("note")
-        or node.get("content")
-        or node.get("abstract")
-        or ""
+    properties = node.get(
+        "properties",
+        {},
     )
 
-    return clean_html(description)
+    for key in (
+        "description",
+        "note",
+        "notes",
+    ):
+        if properties.get(key):
+            return clean_html(
+                properties[key]
+            )
 
+    return ""
+
+
+# ============================================================
+# Node preparation
+# ============================================================
 
 def prepare_node(node):
     """
-    Prepare node data for JavaScript.
+    Prepare visual properties of a graph node.
     """
 
+    node_id = node.get("id")
+    node_type = get_node_type(node)
+
+    title = get_node_title(node)
+    graph_label = get_graph_label(node)
+
+    color = COLORS.get(
+        node_type,
+        "#999999",
+    )
+
+    size = NODE_SIZES.get(
+        node_type,
+        15,
+    )
+
+    # --------------------------------------------------------
+    # Publication / RelatedRecord
+    # --------------------------------------------------------
+    #
+    # Deliberately identical.
+    # --------------------------------------------------------
+
+    if node_type in (
+        "Publication",
+        "RelatedRecord",
+    ):
+        color = COLORS["Publication"]
+        size = NODE_SIZES["Publication"]
+
+    # --------------------------------------------------------
+    # Tooltip
+    # --------------------------------------------------------
+
+    tooltip = title
+
+    metadata = get_metadata(node)
+
+    if metadata:
+
+        tooltip_parts = [title]
+
+        for key, value in metadata.items():
+            tooltip_parts.append(
+                f"{key}: {value}"
+            )
+
+        tooltip = "<br>".join(
+            str(value)
+            for value in tooltip_parts
+        )
+
+    # --------------------------------------------------------
+    # Original node color
+    #
+    # This is kept so that the graph can be restored after
+    # highlighting.
+    # --------------------------------------------------------
+
+    node_color = {
+        "background": color,
+        "border": color,
+        "highlight": {
+            "background": color,
+            "border": TEXT_COLOR,
+        },
+        "hover": {
+            "background": color,
+            "border": TEXT_COLOR,
+        },
+    }
+
     return {
-        "id": str(node.get("id")),
-        "title": get_node_title(node),
-        "type": get_node_type(node),
-        "type_label": TYPE_LABELS.get(
-            get_node_type(node),
-            "Obiekt"
-        ),
-        "metadata": get_metadata(node),
-        "description": get_description(node),
+        "id": node_id,
+        "label": graph_label,
+        "title": tooltip,
+        "color": node_color,
+        "originalColor": node_color,
+        "size": size,
+        "font": {
+            "face": "Arial",
+            "size": 15,
+            "color": TEXT_COLOR,
+        },
+        "borderWidth": 1.5,
+        "shadow": True,
     }
 
 
-# =============================================================================
-# MAIN
-# =============================================================================
+# ============================================================
+# Main
+# ============================================================
 
 def main():
 
-    print("Building Lalka graph visualization...")
+    # --------------------------------------------------------
+    # Load graph
+    # --------------------------------------------------------
 
-    # =========================================================================
-    # LOAD GRAPH
-    # =========================================================================
+    graph = load_graph()
 
-    print("\nLoading presentation graph...")
+    nodes = graph.get(
+        "nodes",
+        [],
+    )
 
-    graph_data = load_graph()
+    edges = graph.get(
+        "edges",
+        [],
+    )
 
-    nodes = graph_data.get("nodes", [])
-    edges = graph_data.get("edges", [])
+    OUTPUT_DIR.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    print(f"  Nodes: {len(nodes)}")
-    print(f"  Edges: {len(edges)}")
-
-    # =========================================================================
-    # CREATE NETWORK
-    # =========================================================================
+    # --------------------------------------------------------
+    # Create PyVis network
+    # --------------------------------------------------------
 
     net = Network(
         height="100vh",
@@ -447,794 +573,785 @@ def main():
         cdn_resources="in_line",
     )
 
-    # =========================================================================
-    # PHYSICS
-    # =========================================================================
+    # --------------------------------------------------------
+    # Physics / interaction
+    # --------------------------------------------------------
 
     net.set_options(
-        """
-        {
-          "interaction": {
-            "hover": true,
-            "navigationButtons": true,
-            "keyboard": {
-              "enabled": true
-            },
-            "multiselect": false
-          },
+        json.dumps(
+            {
+                "interaction": {
+                    "hover": True,
+                    "navigationButtons": True,
+                    "keyboard": {
+                        "enabled": True,
+                    },
+                    "multiselect": False,
+                    "hideEdgesOnDrag": False,
+                },
 
-          "physics": {
-            "enabled": true,
+                "physics": {
+                    "enabled": True,
 
-            "barnesHut": {
-              "gravitationalConstant": -6500,
-              "centralGravity": 0.25,
-              "springLength": 180,
-              "springConstant": 0.035,
-              "damping": 0.85,
-              "avoidOverlap": 1
-            },
+                    "barnesHut": {
+                        "gravitationalConstant": -8000,
+                        "centralGravity": 0.18,
+                        "springLength": 190,
+                        "springConstant": 0.03,
+                        "damping": 0.85,
+                        "avoidOverlap": 1.2,
+                    },
 
-            "stabilization": {
-              "enabled": true,
-              "iterations": 1000,
-              "updateInterval": 50
+                    "stabilization": {
+                        "enabled": True,
+                        "iterations": 1000,
+                        "updateInterval": 50,
+                    },
+                },
+
+                "nodes": {
+                    "shape": "dot",
+
+                    "font": {
+                        "face": "Arial",
+                        "color": TEXT_COLOR,
+                        "size": 15,
+                    },
+
+                    "borderWidth": 1.5,
+                    "borderWidthSelected": 3,
+
+                    "shadow": {
+                        "enabled": True,
+                        "color": "rgba(80,80,79,0.15)",
+                        "size": 8,
+                        "x": 2,
+                        "y": 3,
+                    },
+                },
+
+                "edges": {
+                    "color": {
+                        "color": EDGE_COLOR,
+                        "highlight": TEXT_COLOR,
+                        "hover": "#87745e",
+                    },
+
+                    "width": 1.2,
+                    "selectionWidth": 2.5,
+
+                    "smooth": {
+                        "enabled": True,
+                        "type": "dynamic",
+                    },
+
+                    "arrows": {
+                        "to": {
+                            "enabled": True,
+                            "scaleFactor": 0.45,
+                        },
+                    },
+
+                    "font": {
+                        "face": "Arial",
+                        "size": 11,
+                        "color": "#87745e",
+                        "strokeWidth": 3,
+                        "strokeColor": BACKGROUND,
+                    },
+                },
             }
-          },
-
-          "nodes": {
-            "shape": "dot",
-
-            "font": {
-              "face": "Arial",
-              "color": "#50504f",
-              "size": 16
-            },
-
-            "borderWidth": 2,
-            "borderWidthSelected": 3,
-
-            "shadow": {
-              "enabled": true,
-              "color": "rgba(80,80,79,0.15)",
-              "size": 8,
-              "x": 2,
-              "y": 3
-            }
-          },
-
-          "edges": {
-            "color": {
-              "color": "#b9b3aa",
-              "highlight": "#50504f",
-              "hover": "#87745e"
-            },
-
-            "width": 1.2,
-            "selectionWidth": 2.5,
-
-            "smooth": {
-              "enabled": true,
-              "type": "dynamic"
-            },
-
-            "arrows": {
-              "to": {
-                "enabled": true,
-                "scaleFactor": 0.45
-              }
-            },
-
-            "font": {
-              "face": "Arial",
-              "size": 11,
-              "color": "#87745e",
-              "strokeWidth": 3,
-              "strokeColor": "#f8f6f2"
-            }
-          }
-        }
-        """
+        )
     )
 
-    # =========================================================================
-    # ADD NODES
-    # =========================================================================
+    # ========================================================
+    # Nodes
+    # ========================================================
 
-    node_lookup = {}
     details_data = {}
 
     for node in nodes:
 
-        node_id = str(node.get("id"))
-
+        node_id = node.get("id")
         node_type = get_node_type(node)
-        title = get_node_title(node)
 
-        color = COLORS.get(
-            node_type,
-            TEXT_COLOR
-        )
+        prepared = prepare_node(node)
 
-        size = NODE_SIZES.get(
-            node_type,
-            15
-        )
-
-        # Prepare details separately
-        details_data[node_id] = prepare_node(node)
-
-        # ---------------------------------------------------------------------
-        # CENTRAL LALKA
-        # ---------------------------------------------------------------------
+        # ----------------------------------------------------
+        # Central Lalka node
+        # ----------------------------------------------------
 
         if node_id == "record:109715":
 
-            net.add_node(
-                node_id,
+            prepared["label"] = "Lalka"
+            prepared["size"] = 48
 
-                label="Lalka",
+            prepared["color"] = {
+                "background": COLORS["Work"],
+                "border": "#ffffff",
 
-                title="",
-
-                color={
+                "highlight": {
                     "background": COLORS["Work"],
                     "border": "#ffffff",
-                    "highlight": {
-                        "background": COLORS["Work"],
-                        "border": "#ffffff"
-                    }
                 },
 
-                size=48,
-
-                borderWidth=4,
-
-                font={
-                    "color": "#ffffff",
-                    "size": 24,
-                    "face": "Arial",
-                    "bold": True
-                },
-
-                shape="dot",
-            )
-
-        # ---------------------------------------------------------------------
-        # RELATED RECORD
-        # ---------------------------------------------------------------------
-
-        elif node_type == "RelatedRecord":
-
-            net.add_node(
-                node_id,
-
-                label="",
-
-                title="",
-
-                color={
-                    "background": color,
+                "hover": {
+                    "background": COLORS["Work"],
                     "border": "#ffffff",
-                    "highlight": {
-                        "background": color,
-                        "border": "#50504f"
-                    }
                 },
+            }
 
-                size=size,
+            prepared["originalColor"] = prepared["color"]
 
-                borderWidth=1.5,
+            prepared["font"] = {
+                "face": "Arial",
+                "size": 24,
+                "color": "#ffffff",
+                "bold": True,
+            }
 
-                shape="dot",
-            )
+            prepared["borderWidth"] = 3
 
-        # ---------------------------------------------------------------------
-        # OTHER NODES
-        # ---------------------------------------------------------------------
+        # ----------------------------------------------------
+        # Add node
+        # ----------------------------------------------------
 
-        else:
+        net.add_node(
+            prepared["id"],
+            label=prepared["label"],
+            title=prepared["title"],
+            color=prepared["color"],
+            size=prepared["size"],
+            font=prepared["font"],
+            borderWidth=prepared["borderWidth"],
+            shadow=prepared["shadow"],
+            originalColor=prepared["originalColor"],
+        )
 
-            net.add_node(
-                node_id,
+        # ----------------------------------------------------
+        # Details data
+        # ----------------------------------------------------
 
-                label=title,
+        details_data[node_id] = {
+            "id": node_id,
+            "type": node_type,
+            "title": get_node_title(node),
+            "metadata": get_metadata(node),
+            "description": get_description(node),
+        }
 
-                title="",
-
-                color={
-                    "background": color,
-                    "border": "#ffffff",
-                    "highlight": {
-                        "background": color,
-                        "border": "#50504f"
-                    }
-                },
-
-                size=size,
-
-                borderWidth=2,
-
-                shape="dot",
-            )
-
-        node_lookup[node_id] = node
-
-    # =========================================================================
-    # ADD EDGES
-    # =========================================================================
+    # ========================================================
+    # Edges
+    # ========================================================
 
     for index, edge in enumerate(edges):
 
-        source = str(
-            edge.get("source")
-            or edge.get("from")
-        )
-
-        target = str(
-            edge.get("target")
-            or edge.get("to")
-        )
+        source = edge.get("source")
+        target = edge.get("target")
 
         relationship = (
             edge.get("relationship")
             or edge.get("type")
-            or edge.get("label")
+            or edge.get("relation")
             or ""
         )
 
-        relationship_label = RELATIONSHIP_LABELS.get(
+        style = EDGE_STYLES.get(
             relationship,
-            relationship
+            {
+                "width": 1.0,
+                "color": EDGE_COLOR,
+                "label": "",
+            },
         )
 
-        if (
-            source not in node_lookup
-            or target not in node_lookup
-        ):
-            continue
+        relationship_label = (
+            RELATIONSHIP_LABELS.get(
+                relationship,
+                relationship,
+            )
+        )
+
+        label = style.get(
+            "label",
+            "",
+        )
+
+        edge_id = f"edge_{index}"
 
         net.add_edge(
             source,
             target,
+            id=edge_id,
+            label=label,
+            title=relationship_label,
+            width=style["width"],
+            color=style["color"],
+            arrows="to",
+            smooth=True,
 
-            id=f"edge_{index}",
-
-            label=relationship_label,
-
-            title="",
-
-            relationship=relationship,
+            # Original settings used by JavaScript
+            # when the graph is reset.
+            originalWidth=style["width"],
+            originalColor=style["color"],
         )
 
-    # =========================================================================
-    # OUTPUT DIRECTORY
-    # =========================================================================
+    # ========================================================
+    # Logo
+    # ========================================================
 
-    OUTPUT_DIR.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    print("\nWriting HTML...")
-
-    generated_html = net.generate_html()
-
-    # =========================================================================
-    # LOGO
-    # =========================================================================
-
-    logo_html = ""
+    logo_data = ""
 
     if LOGO_FILE.exists():
 
-        try:
+        with open(
+            LOGO_FILE,
+            "rb",
+        ) as f:
 
-            with open(LOGO_FILE, "rb") as f:
-                logo_data = base64.b64encode(
-                    f.read()
-                ).decode("ascii")
+            encoded = base64.b64encode(
+                f.read()
+            ).decode("ascii")
 
-            logo_html = f"""
+        logo_data = (
+            "data:image/png;base64,"
+            + encoded
+        )
+
+    # ========================================================
+    # Background image
+    # ========================================================
+
+    background_css = f"""
+        background-color: {BACKGROUND} !important;
+    """
+
+    if BACKGROUND_IMAGE_FILE.exists():
+
+        suffix = (
+            BACKGROUND_IMAGE_FILE
+            .suffix
+            .lower()
+        )
+
+        mime_types = {
+            ".jpg": "image/jpeg",
+            ".jpeg": "image/jpeg",
+            ".png": "image/png",
+            ".webp": "image/webp",
+        }
+
+        mime = mime_types.get(
+            suffix,
+            "image/jpeg",
+        )
+
+        with open(
+            BACKGROUND_IMAGE_FILE,
+            "rb",
+        ) as f:
+
+            encoded = base64.b64encode(
+                f.read()
+            ).decode("ascii")
+
+        background_uri = (
+            f"data:{mime};base64,{encoded}"
+        )
+
+        background_css = f"""
+            background-color: {BACKGROUND} !important;
+
+            background-image:
+                linear-gradient(
+                    rgba(248, 246, 242, 0.91),
+                    rgba(248, 246, 242, 0.91)
+                ),
+                url("{background_uri}") !important;
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        """
+
+    # ========================================================
+    # Logo HTML
+    # ========================================================
+
+    logo_html = ""
+
+    if logo_data:
+
+        logo_html = f"""
+        <div class="pbl-logo">
             <img
-                id="pbl-logo"
-                src="data:image/png;base64,{logo_data}"
+                src="{logo_data}"
                 alt="Polska Bibliografia Literacka"
             >
-            """
+        </div>
+        """
 
-        except Exception as exc:
-
-            print(
-                f"\nWARNING: Could not load PBL logo: {exc}"
-            )
-
-    else:
-
-        print(
-            "\nWARNING: PBL logo not found:"
-        )
-
-        print(LOGO_FILE)
-
-    # =========================================================================
-    # LEGEND
-    # =========================================================================
-
-    legend_items = []
-
-    for node_type, color in COLORS.items():
-
-        label = TYPE_LABELS.get(
-            node_type,
-            node_type
-        )
-
-        legend_items.append(
-            f"""
-            <div class="legend-item">
-                <span
-                    class="legend-dot"
-                    style="background:{color};"
-                ></span>
-
-                <span>{html.escape(label)}</span>
-            </div>
-            """
-        )
-
-    legend_html = "".join(
-        legend_items
-    )
-
-    # =========================================================================
-    # DETAILS DATA
-    # =========================================================================
+    # ========================================================
+    # Details JSON
+    # ========================================================
 
     details_json = json.dumps(
         details_data,
-        ensure_ascii=False
+        ensure_ascii=False,
     )
 
-    # =========================================================================
-    # CUSTOM CSS
-    # =========================================================================
+    # Protect the embedded JSON from accidentally closing
+    # the script element.
+    details_json = (
+        details_json
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+        .replace("&", "\\u0026")
+    )
+
+    # ========================================================
+    # Custom HTML / CSS / JavaScript
+    # ========================================================
+
+    custom_html = f"""
+    <style>
+
+        /* ==================================================
+           Base
+           ================================================== */
+
+        html,
+        body {{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: {BACKGROUND};
+            font-family: Arial, sans-serif;
+        }}
+
+        #mynetwork {{
+            width: 100%;
+            height: 100vh;
+            {background_css}
+        }}
+
+
+        /* ==================================================
+           Header
+           ================================================== */
+
+        .graph-header {{
+            position: fixed;
+            top: 20px;
+            left: 24px;
+            z-index: 1000;
+            pointer-events: none;
+
+            background:
+                rgba(
+                    248,
+                    246,
+                    242,
+                    0.90
+                );
+
+            padding: 12px 16px;
+            border-radius: 8px;
+
+            box-shadow:
+                0 2px 12px
+                rgba(0, 0, 0, 0.08);
+        }}
+
+        .graph-header-title {{
+            font-size: 20px;
+            font-weight: 600;
+            color: {TEXT_COLOR};
+            margin-bottom: 3px;
+        }}
+
+        .graph-header-subtitle {{
+            font-size: 12px;
+            color: #77736e;
+        }}
+
+
+        /* ==================================================
+           PBL logo
+           ================================================== */
+
+        .pbl-logo {{
+            position: fixed;
+            top: 20px;
+            right: 24px;
+            z-index: 1000;
+            pointer-events: none;
+
+            background:
+                rgba(
+                    248,
+                    246,
+                    242,
+                    0.90
+                );
+
+            padding: 8px 12px;
+            border-radius: 8px;
+        }}
+
+        .pbl-logo img {{
+            display: block;
+            max-width: 180px;
+            max-height: 55px;
+        }}
+
+
+        /* ==================================================
+           Legend
+           ================================================== */
+
+        .legend {{
+            position: fixed;
+            bottom: 22px;
+            left: 24px;
+            z-index: 1000;
+
+            background:
+                rgba(
+                    248,
+                    246,
+                    242,
+                    0.94
+                );
+
+            padding: 12px 15px;
+            border-radius: 8px;
+
+            box-shadow:
+                0 2px 12px
+                rgba(0, 0, 0, 0.08);
+
+            font-size: 12px;
+            color: {TEXT_COLOR};
+        }}
+
+        .legend-title {{
+            font-weight: 600;
+            margin-bottom: 8px;
+        }}
+
+        .legend-item {{
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }}
+
+        .legend-dot {{
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            margin-right: 8px;
+            flex-shrink: 0;
+        }}
+
+
+        /* ==================================================
+           Details panel
+           ================================================== */
+
+        .details-panel {{
+            position: fixed;
+            top: 90px;
+            right: 24px;
+            z-index: 1001;
+
+            width: 380px;
+            max-height: calc(100vh - 130px);
+
+            overflow-y: auto;
+
+            background:
+                rgba(
+                    248,
+                    246,
+                    242,
+                    0.97
+                );
+
+            border-radius: 10px;
+
+            box-shadow:
+                0 4px 22px
+                rgba(0, 0, 0, 0.13);
+
+            padding: 18px;
+            box-sizing: border-box;
+
+            display: none;
+        }}
+
+        .details-panel.visible {{
+            display: block;
+        }}
+
+        .details-type {{
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #87745e;
+            margin-bottom: 7px;
+        }}
+
+        .details-title {{
+            font-size: 19px;
+            line-height: 1.35;
+            font-weight: 600;
+            color: {TEXT_COLOR};
+            margin-bottom: 15px;
+        }}
+
+        .details-row {{
+            display: flex;
+            gap: 10px;
+            margin: 7px 0;
+            font-size: 13px;
+            line-height: 1.4;
+        }}
+
+        .details-key {{
+            width: 105px;
+            flex-shrink: 0;
+            color: #77736e;
+        }}
+
+        .details-value {{
+            color: {TEXT_COLOR};
+            word-break: break-word;
+        }}
+
+        .details-description {{
+            margin-top: 14px;
+            padding-top: 12px;
+            border-top: 1px solid #ded9d1;
+            font-size: 13px;
+            line-height: 1.5;
+            color: {TEXT_COLOR};
+        }}
+
+
+        /* ==================================================
+           Interaction hint
+           ================================================== */
+
+        .interaction-hint {{
+            position: fixed;
+            bottom: 22px;
+            right: 24px;
+            z-index: 1000;
+
+            background:
+                rgba(
+                    248,
+                    246,
+                    242,
+                    0.90
+                );
+
+            padding: 8px 12px;
+            border-radius: 7px;
+
+            font-size: 11px;
+            color: #77736e;
+
+            pointer-events: none;
+        }}
+
+
+        /* ==================================================
+           Mobile / small screens
+           ================================================== */
+
+        @media (max-width: 700px) {{
+
+            .graph-header {{
+                top: 10px;
+                left: 10px;
+            }}
+
+            .graph-header-title {{
+                font-size: 16px;
+            }}
+
+            .pbl-logo {{
+                top: 10px;
+                right: 10px;
+            }}
+
+            .pbl-logo img {{
+                max-width: 120px;
+                max-height: 40px;
+            }}
+
+            .details-panel {{
+                top: 70px;
+                right: 10px;
+                left: 10px;
+                width: auto;
+                max-height: 45vh;
+            }}
+
+            .legend {{
+                bottom: 10px;
+                left: 10px;
+            }}
+
+            .interaction-hint {{
+                display: none;
+            }}
+        }}
+
+    </style>
+
+
+    <!-- ====================================================
+         Header
+         ==================================================== -->
+
+    <div class="graph-header">
+
+        <div class="graph-header-title">
+            Lalka Knowledge Graph
+        </div>
+
+        <div class="graph-header-subtitle">
+            Polska Bibliografia Literacka
+        </div>
 
-    custom_css = """
-<style>
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background: #f8f6f2;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-}
-
-#mynetwork {
-    position: absolute !important;
-    inset: 0;
-    background: #f8f6f2 !important;
-}
-
-
-/* =========================================================================
-   HEADER
-   ========================================================================= */
-
-#graph-header {
-    position: fixed;
-    top: 26px;
-    left: 32px;
-    z-index: 1000;
-    pointer-events: none;
-}
-
-#graph-title {
-    margin: 0;
-    color: #50504f;
-    font-size: 27px;
-    font-weight: 600;
-    letter-spacing: -0.3px;
-}
-
-#graph-subtitle {
-    margin-top: 5px;
-    color: #87745e;
-    font-size: 13px;
-    letter-spacing: 0.2px;
-}
-
-
-/* =========================================================================
-   LOGO
-   ========================================================================= */
-
-#pbl-logo {
-    position: fixed;
-    top: 25px;
-    right: 30px;
-
-    z-index: 1000;
-
-    max-width: 155px;
-    max-height: 65px;
-
-    object-fit: contain;
-}
-
-
-/* =========================================================================
-   LEGEND
-   ========================================================================= */
-
-#legend {
-    position: fixed;
-
-    left: 28px;
-    bottom: 28px;
-
-    z-index: 1000;
-
-    padding: 15px 18px;
-
-    background: rgba(248, 246, 242, 0.94);
-
-    border: 1px solid rgba(135, 116, 94, 0.20);
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 5px 20px rgba(80,80,79,0.08);
-
-    color: #50504f;
-
-    font-size: 12px;
-}
-
-.legend-title {
-    margin-bottom: 9px;
-
-    font-size: 11px;
-    font-weight: 700;
-
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-
-    color: #87745e;
-}
-
-.legend-item {
-    display: flex;
-
-    align-items: center;
-
-    margin: 6px 0;
-
-    white-space: nowrap;
-}
-
-.legend-dot {
-    width: 10px;
-    height: 10px;
-
-    margin-right: 8px;
-
-    border-radius: 50%;
-}
-
-
-/* =========================================================================
-   DETAILS PANEL
-   ========================================================================= */
-
-#details-panel {
-    position: fixed;
-
-    top: 100px;
-    right: 28px;
-
-    width: 380px;
-    max-height: calc(100vh - 150px);
-
-    z-index: 2000;
-
-    display: none;
-
-    padding: 22px;
-
-    overflow-y: auto;
-
-    background: rgba(255,255,255,0.98);
-
-    border: 1px solid rgba(80,80,79,0.14);
-
-    border-radius: 12px;
-
-    box-shadow:
-        0 12px 35px rgba(80,80,79,0.16);
-}
-
-#details-close {
-    position: absolute;
-
-    top: 11px;
-    right: 14px;
-
-    border: none;
-
-    background: transparent;
-
-    color: #87745e;
-
-    font-size: 22px;
-
-    cursor: pointer;
-
-    line-height: 1;
-}
-
-#details-close:hover {
-    color: #50504f;
-}
-
-
-/* =========================================================================
-   NODE DETAILS
-   ========================================================================= */
-
-.node-type {
-    margin-bottom: 8px;
-
-    color: #87745e;
-
-    font-size: 10px;
-    font-weight: 700;
-
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.node-title {
-    margin-bottom: 18px;
-
-    padding-right: 20px;
-
-    color: #50504f;
-
-    font-size: 19px;
-    font-weight: 600;
-
-    line-height: 1.3;
-}
-
-.node-metadata {
-    border-top: 1px solid #ebe7e0;
-}
-
-.detail-row {
-    display: grid;
-
-    grid-template-columns: 80px 1fr;
-
-    gap: 12px;
-
-    padding: 9px 0;
-
-    border-bottom: 1px solid #ebe7e0;
-
-    font-size: 12px;
-
-    line-height: 1.4;
-}
-
-.detail-label {
-    color: #87745e;
-    font-weight: 600;
-}
-
-.detail-value {
-    color: #50504f;
-    word-break: break-word;
-}
-
-.node-description {
-    margin-top: 18px;
-    padding-top: 15px;
-
-    border-top: 1px solid #ebe7e0;
-
-    color: #50504f;
-
-    font-size: 13px;
-
-    line-height: 1.55;
-
-    white-space: pre-line;
-}
-
-.description-label {
-    margin-bottom: 8px;
-
-    color: #87745e;
-
-    font-size: 10px;
-    font-weight: 700;
-
-    text-transform: uppercase;
-
-    letter-spacing: 0.8px;
-}
-
-
-/* =========================================================================
-   HINT
-   ========================================================================= */
-
-#interaction-hint {
-    position: fixed;
-
-    right: 28px;
-    bottom: 28px;
-
-    z-index: 1000;
-
-    padding: 9px 13px;
-
-    background: rgba(255,255,255,0.80);
-
-    border-radius: 7px;
-
-    color: #87745e;
-
-    font-size: 11px;
-}
-
-
-/* =========================================================================
-   SCROLLBAR
-   ========================================================================= */
-
-#details-panel::-webkit-scrollbar {
-    width: 7px;
-}
-
-#details-panel::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-#details-panel::-webkit-scrollbar-thumb {
-    background: #d8d1c7;
-    border-radius: 5px;
-}
-
-</style>
-"""
-
-    # =========================================================================
-    # CUSTOM HTML
-    # =========================================================================
-
-    custom_markup = """
-<div id="graph-header">
-
-    <h1 id="graph-title">
-        Lalka
-    </h1>
-
-    <div id="graph-subtitle">
-        Knowledge Graph · Polska Bibliografia Literacka
     </div>
 
-</div>
+
+    <!-- ====================================================
+         Logo
+         ==================================================== -->
+
+    {logo_html}
 
 
-__LOGO__
+    <!-- ====================================================
+         Legend
+         ==================================================== -->
 
+    <div class="legend">
 
-<div id="legend">
+        <div class="legend-title">
+            Typy węzłów
+        </div>
 
-    <div class="legend-title">
-        Typy obiektów
+        <div class="legend-item">
+            <span
+                class="legend-dot"
+                style="background:{COLORS["Work"]};"
+            ></span>
+            Utwór
+        </div>
+
+        <div class="legend-item">
+            <span
+                class="legend-dot"
+                style="background:{COLORS["Adaptation"]};"
+            ></span>
+            Adaptacja
+        </div>
+
+        <div class="legend-item">
+            <span
+                class="legend-dot"
+                style="background:{COLORS["Person"]};"
+            ></span>
+            Osoba
+        </div>
+
+        <div class="legend-item">
+            <span
+                class="legend-dot"
+                style="background:{COLORS["Publication"]};"
+            ></span>
+            Publikacja / rekord
+        </div>
+
+        <div class="legend-item">
+            <span
+                class="legend-dot"
+                style="background:{COLORS["Source"]};"
+            ></span>
+            Źródło
+        </div>
+
+        <div class="legend-item">
+            <span
+                class="legend-dot"
+                style="background:{COLORS["Publisher"]};"
+            ></span>
+            Wydawca
+        </div>
+
     </div>
 
-    __LEGEND__
 
-</div>
+    <!-- ====================================================
+         Details panel
+         ==================================================== -->
 
-
-<div id="details-panel">
-
-    <button
-        id="details-close"
-        aria-label="Zamknij"
-    >
-        ×
-    </button>
-
-    <div id="details-content"></div>
-
-</div>
+    <div
+        id="details-panel"
+        class="details-panel"
+    ></div>
 
 
-<div id="interaction-hint">
-    Kliknij obiekt, aby zobaczyć szczegóły
-</div>
-"""
+    <!-- ====================================================
+         Interaction hint
+         ==================================================== -->
 
-    custom_markup = custom_markup.replace(
-        "__LOGO__",
-        logo_html
-    )
-
-    custom_markup = custom_markup.replace(
-        "__LEGEND__",
-        legend_html
-    )
-
-    # =========================================================================
-    # JAVASCRIPT
-    #
-    # IMPORTANT:
-    # This is a normal string, NOT an f-string.
-    # Therefore JavaScript braces do not need to be doubled.
-    # =========================================================================
-
-    custom_js = r"""
-<script>
-
-document.addEventListener(
-    "DOMContentLoaded",
-    function() {
-
-        console.log(
-            "Lalka Knowledge Graph interface loaded."
-        );
-
-        /* ================================================================
-           DETAILS DATA
-           ================================================================ */
-
-        const detailsData =
-            __DETAILS_DATA__;
+    <div class="interaction-hint">
+        Kliknij węzeł, aby zobaczyć szczegóły
+        · dwuklik — przybliżenie
+    </div>
 
 
-        /* ================================================================
-           DOM ELEMENTS
-           ================================================================ */
+    <!-- ====================================================
+         JavaScript
+         ==================================================== -->
 
-        const detailsPanel =
-            document.getElementById(
-                "details-panel"
-            );
+    <script>
 
-        const detailsContent =
-            document.getElementById(
-                "details-content"
-            );
+        /*
+         * IMPORTANT:
+         *
+         * Do NOT declare:
+         *
+         *     const network = window.network;
+         *
+         * PyVis already creates the `network` variable
+         * in the generated HTML.
+         */
 
-        const detailsClose =
-            document.getElementById(
-                "details-close"
-            );
+        const detailsData = {details_json};
 
 
-        /* ================================================================
-           ESCAPE HTML
-           ================================================================ */
+        // ==================================================
+        // HTML escaping
+        // ==================================================
 
-        function escapeHtml(value) {
+        function escapeHtml(value) {{
 
             if (
                 value === null ||
                 value === undefined
-            ) {
+            ) {{
                 return "";
-            }
+            }}
 
             return String(value)
                 .replace(/&/g, "&amp;")
@@ -1242,16 +1359,16 @@ document.addEventListener(
                 .replace(/>/g, "&gt;")
                 .replace(/"/g, "&quot;")
                 .replace(/'/g, "&#039;");
-        }
+        }}
 
 
-        /* ================================================================
-           GET TYPE LABEL
-           ================================================================ */
+        // ==================================================
+        // Type labels
+        // ==================================================
 
-        function getTypeLabel(type) {
+        function getTypeLabel(type) {{
 
-            const labels = {
+            const labels = {{
                 "Work": "Utwór",
                 "Adaptation": "Adaptacja",
                 "Person": "Osoba",
@@ -1259,509 +1376,566 @@ document.addEventListener(
                 "RelatedRecord": "Rekord powiązany",
                 "Source": "Źródło",
                 "Publisher": "Wydawca"
-            };
+            }};
 
-            return labels[type] || type || "Obiekt";
-        }
+            return labels[type] || type || "";
+        }}
 
 
-        /* ================================================================
-           BUILD DETAILS HTML
-           ================================================================ */
+        // ==================================================
+        // Details HTML
+        // ==================================================
 
-        function buildDetailsHtml(data) {
+        function buildDetailsHtml(data) {{
 
-            if (!data) {
+            if (!data) {{
                 return "";
-            }
+            }}
 
             let result = "";
 
 
-            /* ------------------------------------------------------------
-               TYPE
-               ------------------------------------------------------------ */
-
-            result +=
-                '<div class="node-type">' +
-                escapeHtml(
-                    data.type_label ||
-                    getTypeLabel(data.type)
-                ) +
-                '</div>';
+            result += `
+                <div class="details-type">
+                    ${{escapeHtml(
+                        getTypeLabel(data.type)
+                    )}}
+                </div>
+            `;
 
 
-            /* ------------------------------------------------------------
-               TITLE
-               ------------------------------------------------------------ */
-
-            result +=
-                '<div class="node-title">' +
-                escapeHtml(
-                    data.title || "Obiekt"
-                ) +
-                '</div>';
+            result += `
+                <div class="details-title">
+                    ${{escapeHtml(data.title)}}
+                </div>
+            `;
 
 
-            /* ------------------------------------------------------------
-               METADATA
-               ------------------------------------------------------------ */
+            if (data.metadata) {{
 
-            if (
-                data.metadata &&
-                data.metadata.length
-            ) {
+                for (
+                    const [key, value]
+                    of Object.entries(data.metadata)
+                ) {{
 
-                result +=
-                    '<div class="node-metadata">';
+                    if (
+                        value === null ||
+                        value === undefined ||
+                        value === ""
+                    ) {{
+                        continue;
+                    }}
 
-                data.metadata.forEach(
-                    function(row) {
+                    result += `
+                        <div class="details-row">
 
-                        if (
-                            !row ||
-                            row.length < 2
-                        ) {
-                            return;
-                        }
+                            <div class="details-key">
+                                ${{escapeHtml(key)}}
+                            </div>
 
-                        result +=
-                            '<div class="detail-row">' +
+                            <div class="details-value">
+                                ${{escapeHtml(value)}}
+                            </div>
 
-                            '<div class="detail-label">' +
-                            escapeHtml(row[0]) +
-                            '</div>' +
-
-                            '<div class="detail-value">' +
-                            escapeHtml(row[1]) +
-                            '</div>' +
-
-                            '</div>';
-                    }
-                );
-
-                result +=
-                    '</div>';
-            }
+                        </div>
+                    `;
+                }}
+            }}
 
 
-            /* ------------------------------------------------------------
-               DESCRIPTION
-               ------------------------------------------------------------ */
+            if (data.description) {{
 
-            if (
-                data.description &&
-                data.description.trim()
-            ) {
-
-                result +=
-                    '<div class="node-description">' +
-
-                    '<div class="description-label">' +
-                    'Opis' +
-                    '</div>' +
-
-                    escapeHtml(
-                        data.description
-                    ) +
-
-                    '</div>';
-            }
+                result += `
+                    <div class="details-description">
+                        ${{escapeHtml(
+                            data.description
+                        )}}
+                    </div>
+                `;
+            }}
 
 
             return result;
-        }
+        }}
 
 
-        /* ================================================================
-           RESET GRAPH
-           ================================================================ */
+        // ==================================================
+        // Original edge color
+        // ==================================================
 
-        function resetGraph() {
+        function getOriginalEdgeColor(edge) {{
+
+            if (edge.originalColor) {{
+
+                return {{
+                    color: edge.originalColor,
+                    opacity: 1
+                }};
+            }}
+
 
             if (
-                typeof nodes === "undefined" ||
-                typeof edges === "undefined"
-            ) {
-                return;
-            }
+                edge.color &&
+                typeof edge.color === "object" &&
+                edge.color.color
+            ) {{
 
-            const currentNodes =
-                nodes.get();
+                return {{
+                    color: edge.color.color,
+                    opacity: 1
+                }};
+            }}
 
-            const currentEdges =
-                edges.get();
 
+            if (
+                edge.color &&
+                typeof edge.color === "string"
+            ) {{
+
+                return {{
+                    color: edge.color,
+                    opacity: 1
+                }};
+            }}
+
+
+            return {{
+                color: "{EDGE_COLOR}",
+                opacity: 1
+            }};
+        }}
+
+
+        // ==================================================
+        // Original node color
+        // ==================================================
+
+        function getOriginalNodeColor(node) {{
+
+            if (node.originalColor) {{
+                return node.originalColor;
+            }}
+
+            if (node.color) {{
+                return node.color;
+            }}
+
+            return {{
+                background: "#999999",
+                border: "#999999"
+            }};
+        }}
+
+
+        // ==================================================
+        // Reset graph
+        // ==================================================
+
+        function resetGraph() {{
+
+            // ----------------------------------------------
+            // Restore node colors
+            // ----------------------------------------------
 
             const nodeUpdates = [];
 
-            currentNodes.forEach(
-                function(node) {
+            network.body.data.nodes
+                .get()
+                .forEach(node => {{
 
-                    const originalColor =
-                        node.color &&
-                        node.color.background
-                            ? node.color.background
-                            : "#50504f";
-
-                    const originalBorder =
-                        node.color &&
-                        node.color.border
-                            ? node.color.border
-                            : "#ffffff";
-
-                    nodeUpdates.push({
+                    nodeUpdates.push({{
                         id: node.id,
-
-                        opacity: 1,
-
-                        color: {
-                            background:
-                                originalColor,
-
-                            border:
-                                originalBorder
-                        },
-
-                        font: {
-                            color:
-                                node.id === "record:109715"
-                                    ? "#ffffff"
-                                    : "#50504f"
-                        }
-                    });
-                }
-            );
+                        color:
+                            getOriginalNodeColor(node)
+                    }});
+                }});
 
 
-            const edgeUpdates = [];
-
-            currentEdges.forEach(
-                function(edge) {
-
-                    edgeUpdates.push({
-                        id: edge.id,
-
-                        color: {
-                            color: "#b9b3aa",
-                            opacity: 1
-                        },
-
-                        width: 1.2
-                    });
-                }
-            );
-
-
-            nodes.update(
+            network.body.data.nodes.update(
                 nodeUpdates
             );
 
-            edges.update(
+
+            // ----------------------------------------------
+            // Restore edge colors and widths
+            // ----------------------------------------------
+
+            const edgeUpdates = [];
+
+            network.body.data.edges
+                .get()
+                .forEach(edge => {{
+
+                    const originalColor =
+                        getOriginalEdgeColor(edge);
+
+                    edgeUpdates.push({{
+                        id: edge.id,
+
+                        color: originalColor,
+
+                        width:
+                            edge.originalWidth ||
+                            1.0
+                    }});
+                }});
+
+
+            network.body.data.edges.update(
                 edgeUpdates
             );
-        }
+        }}
 
 
-        /* ================================================================
-           HIGHLIGHT NEIGHBORHOOD
-           ================================================================ */
+        // ==================================================
+        // Highlight selected node
+        // ==================================================
 
-        function highlightNode(selectedId) {
+        function highlightNode(nodeId) {{
 
-            const currentNodes =
-                nodes.get();
+            const connectedNodes =
+                new Set(
+                    network.getConnectedNodes(
+                        nodeId
+                    )
+                );
 
-            const currentEdges =
-                edges.get();
-
-
-            const connectedNodeIds =
-                new Set();
-
-            connectedNodeIds.add(
-                selectedId
-            );
+            connectedNodes.add(nodeId);
 
 
-            const connectedEdgeIds =
-                new Set();
-
-
-            currentEdges.forEach(
-                function(edge) {
-
-                    if (
-                        String(edge.from) ===
-                            String(selectedId)
-                        ||
-                        String(edge.to) ===
-                            String(selectedId)
-                    ) {
-
-                        connectedEdgeIds.add(
-                            edge.id
-                        );
-
-                        connectedNodeIds.add(
-                            edge.from
-                        );
-
-                        connectedNodeIds.add(
-                            edge.to
-                        );
-                    }
-                }
-            );
-
-
-            /* ------------------------------------------------------------
-               NODES
-               ------------------------------------------------------------ */
+            // ----------------------------------------------
+            // Nodes
+            // ----------------------------------------------
 
             const nodeUpdates = [];
 
-            currentNodes.forEach(
-                function(node) {
+            network.body.data.nodes
+                .get()
+                .forEach(node => {{
 
-                    const isConnected =
-                        connectedNodeIds.has(
+                    const connected =
+                        connectedNodes.has(
                             node.id
                         );
 
-                    nodeUpdates.push({
-                        id: node.id,
 
-                        opacity:
-                            isConnected
-                                ? 1
-                                : 0.15,
-
-                        font: {
-                            color:
-                                isConnected
-                                    ? (
-                                        node.id ===
-                                        "record:109715"
-                                            ? "#ffffff"
-                                            : "#50504f"
-                                      )
-                                    : "rgba(80,80,79,0.15)"
-                        }
-                    });
-                }
-            );
+                    const originalColor =
+                        getOriginalNodeColor(node);
 
 
-            /* ------------------------------------------------------------
-               EDGES
-               ------------------------------------------------------------ */
+                    if (connected) {{
 
-            const edgeUpdates = [];
+                        nodeUpdates.push({{
+                            id: node.id,
 
-            currentEdges.forEach(
-                function(edge) {
+                            color: originalColor
+                        }});
 
-                    const isConnected =
-                        connectedEdgeIds.has(
-                            edge.id
-                        );
+                    }} else {{
 
-                    edgeUpdates.push({
-                        id: edge.id,
+                        nodeUpdates.push({{
+                            id: node.id,
 
-                        color: {
-                            color:
-                                isConnected
-                                    ? "#50504f"
-                                    : "#dcd8d1",
+                            color: {{
+                                background:
+                                    "#d7d4cf",
 
-                            opacity:
-                                isConnected
-                                    ? 1
-                                    : 0.10
-                        },
+                                border:
+                                    "#d0ccc6",
 
-                        width:
-                            isConnected
-                                ? 2.4
-                                : 1
-                    });
-                }
-            );
+                                highlight: {{
+                                    background:
+                                        "#d7d4cf",
+
+                                    border:
+                                        "#aaa59d"
+                                }},
+
+                                hover: {{
+                                    background:
+                                        "#d7d4cf",
+
+                                    border:
+                                        "#aaa59d"
+                                }}
+                            }}
+                        }});
+                    }}
+                }});
 
 
-            nodes.update(
+            network.body.data.nodes.update(
                 nodeUpdates
             );
 
-            edges.update(
+
+            // ----------------------------------------------
+            // Edges
+            // ----------------------------------------------
+
+            const connectedEdges =
+                new Set(
+                    network.getConnectedEdges(
+                        nodeId
+                    )
+                );
+
+
+            const edgeUpdates = [];
+
+            network.body.data.edges
+                .get()
+                .forEach(edge => {{
+
+                    const connected =
+                        connectedEdges.has(
+                            edge.id
+                        );
+
+
+                    const originalWidth =
+                        edge.originalWidth ||
+                        1.0;
+
+
+                    if (connected) {{
+
+                        edgeUpdates.push({{
+                            id: edge.id,
+
+                            color: {{
+                                color: "#50504f",
+                                opacity: 1
+                            }},
+
+                            width:
+                                Math.max(
+                                    originalWidth,
+                                    2
+                                )
+                        }});
+
+                    }} else {{
+
+                        edgeUpdates.push({{
+                            id: edge.id,
+
+                            color: {{
+                                color: "#d8d3cb",
+                                opacity: 0.20
+                            }},
+
+                            width:
+                                originalWidth
+                        }});
+                    }}
+                }});
+
+
+            network.body.data.edges.update(
                 edgeUpdates
             );
+        }}
 
 
-            /* ------------------------------------------------------------
-               DETAILS
-               ------------------------------------------------------------ */
+        // ==================================================
+        // Details panel
+        // ==================================================
 
-            const selectedData =
-                detailsData[
-                    String(selectedId)
-                ];
+        function showDetails(nodeId) {{
 
-
-            if (selectedData) {
-
-                detailsContent.innerHTML =
-                    buildDetailsHtml(
-                        selectedData
-                    );
-
-                detailsPanel.style.display =
-                    "block";
-
-            } else {
-
-                console.warn(
-                    "No details found for node:",
-                    selectedId
+            const panel =
+                document.getElementById(
+                    "details-panel"
                 );
-            }
-        }
 
 
-        /* ================================================================
-           CLOSE PANEL
-           ================================================================ */
-
-        detailsClose.addEventListener(
-            "click",
-            function() {
-
-                detailsPanel.style.display =
-                    "none";
-
-                resetGraph();
-            }
-        );
+            const data =
+                detailsData[nodeId];
 
 
-        /* ================================================================
-           NETWORK CLICK
-           ================================================================ */
+            if (!data) {{
+
+                panel.classList.remove(
+                    "visible"
+                );
+
+                return;
+            }}
+
+
+            panel.innerHTML =
+                buildDetailsHtml(data);
+
+
+            panel.classList.add(
+                "visible"
+            );
+        }}
+
+
+        // ==================================================
+        // Click
+        // ==================================================
 
         network.on(
             "click",
-            function(params) {
+            function(params) {{
+
+                // ------------------------------------------
+                // Clicked a node
+                // ------------------------------------------
 
                 if (
                     params.nodes &&
                     params.nodes.length > 0
-                ) {
+                ) {{
 
-                    const selectedId =
+                    const nodeId =
                         params.nodes[0];
 
-                    console.log(
-                        "Selected node:",
-                        selectedId
-                    );
 
+                    // Stop the graph immediately.
+                    network.setOptions({{
+                        physics: {{
+                            enabled: false
+                        }}
+                    }});
+
+
+                    // Highlight selected node and
+                    // its directly connected neighbourhood.
                     highlightNode(
-                        selectedId
+                        nodeId
                     );
 
-                } else {
 
-                    detailsPanel.style.display =
-                        "none";
+                    // Show metadata panel.
+                    showDetails(
+                        nodeId
+                    );
+
+
+                }} else {{
+
+                    // --------------------------------------
+                    // Clicked empty space
+                    // --------------------------------------
 
                     resetGraph();
-                }
-            }
+
+
+                    document
+                        .getElementById(
+                            "details-panel"
+                        )
+                        .classList.remove(
+                            "visible"
+                        );
+
+
+                    // Start physics again.
+                    network.setOptions({{
+                        physics: {{
+                            enabled: true
+                        }}
+                    }});
+                }}
+            }}
         );
 
 
-        /* ================================================================
-           DOUBLE CLICK
-           ================================================================ */
+        // ==================================================
+        // Double click
+        // ==================================================
 
         network.on(
             "doubleClick",
-            function(params) {
+            function(params) {{
 
                 if (
                     params.nodes &&
                     params.nodes.length > 0
-                ) {
+                ) {{
+
+                    // Keep the graph stopped while focusing.
+                    network.setOptions({{
+                        physics: {{
+                            enabled: false
+                        }}
+                    }});
+
 
                     network.focus(
                         params.nodes[0],
-                        {
-                            scale: 1.4,
+                        {{
+                            scale: 1.3,
 
-                            animation: {
-                                duration: 600,
+                            animation: {{
+                                duration: 500,
                                 easingFunction:
                                     "easeInOutQuad"
-                            }
-                        }
+                            }}
+                        }}
                     );
-                }
-            }
+                }}
+            }}
         );
 
-    }
-);
+    </script>
+    """
 
-</script>
-"""
 
-    # =========================================================================
-    # INSERT DATA INTO JAVASCRIPT
-    # =========================================================================
+    # ========================================================
+    # Generate PyVis HTML
+    # ========================================================
 
-    custom_js = custom_js.replace(
-        "__DETAILS_DATA__",
-        details_json
+    # Do NOT use net.write_html().
+    #
+    # On Windows PyVis can use the system encoding (e.g.
+    # cp1250), which fails for some Unicode characters.
+    #
+    # generate_html() gives us the HTML as a Python string,
+    # which we explicitly save as UTF-8 below.
+
+    html_content = net.generate_html(
+        notebook=False
     )
 
-    # =========================================================================
-    # INSERT CUSTOM INTERFACE
-    # =========================================================================
 
-    custom_interface = (
-        custom_css
-        + custom_markup
-        + custom_js
-    )
+    # ========================================================
+    # Inject custom HTML
+    # ========================================================
 
-    html_content = generated_html.replace(
+    html_content = html_content.replace(
         "</body>",
-        custom_interface + "\n</body>"
+        custom_html + "\n</body>",
     )
 
-    # =========================================================================
-    # WRITE FINAL HTML
-    # =========================================================================
+
+    # ========================================================
+    # Save as UTF-8
+    # ========================================================
 
     with open(
         OUTPUT_FILE,
         "w",
-        encoding="utf-8"
+        encoding="utf-8",
+        newline="",
     ) as f:
 
         f.write(
             html_content
         )
 
-    # =========================================================================
-    # SUMMARY
-    # =========================================================================
 
-    print("\n" + "=" * 80)
-    print("VISUALIZATION BUILT")
-    print("=" * 80)
+    # ========================================================
+    # Final information
+    # ========================================================
+
+    print(
+        f"Graph saved to: {OUTPUT_FILE}"
+    )
 
     print(
         f"Nodes: {len(nodes)}"
@@ -1771,34 +1945,10 @@ document.addEventListener(
         f"Edges: {len(edges)}"
     )
 
-    print("\nLogo:")
 
-    if LOGO_FILE.exists():
-
-        print(
-            f"  OK: {LOGO_FILE}"
-        )
-
-    else:
-
-        print(
-            "  NOT FOUND"
-        )
-
-    print("\nOutput:")
-
-    print(
-        f"  {OUTPUT_FILE}"
-    )
-
-    print(
-        "\nOpen the HTML file in your browser."
-    )
-
-
-# =============================================================================
-# RUN
-# =============================================================================
+# ============================================================
+# Entry point
+# ============================================================
 
 if __name__ == "__main__":
     main()

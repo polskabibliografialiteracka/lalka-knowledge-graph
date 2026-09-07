@@ -13,7 +13,6 @@
         "Adaptation",
         "Publication",
         "Event",
-        "RelatedRecord",
         "Publisher",
         "Source"
       ],
@@ -39,9 +38,8 @@
       "node_types": {
         "Adaptation": 2,
         "Person": 75,
-        "Publication": 10,
+        "Publication": 104,
         "Publisher": 10,
-        "RelatedRecord": 94,
         "Source": 64,
         "Work": 1
       },
@@ -269,7 +267,7 @@
     },
     {
       "id": "record:1231878",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Kilka myśli o Wokulskim",
       "properties": {
         "pbl_id": 1231878,
@@ -282,15 +280,15 @@
         "source_year": 2003.0,
         "source_number": "nr 12",
         "source_pages": "s. 14",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1764892",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Słowa, obrazy, dźwięki [z tego cyklu:] Krakowskie Przedmieście dzisiaj...",
       "properties": {
         "pbl_id": 1764892,
@@ -303,15 +301,15 @@
         "source_year": 2010.0,
         "source_number": "nr 18",
         "source_pages": "s. 2",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1932139",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Moje czytanie \"Lalki\"",
       "properties": {
         "pbl_id": 1932139,
@@ -324,15 +322,15 @@
         "source_year": 2012.0,
         "source_number": "nr 1",
         "source_pages": "s. 171-178",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1899512",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Piękna wymyślona",
       "properties": {
         "pbl_id": 1899512,
@@ -345,15 +343,15 @@
         "source_year": 2012.0,
         "source_number": "nr 7/8",
         "source_pages": "s. 47-48",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:2006683",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "O Wokulskim na Placu Bankowym",
       "properties": {
         "pbl_id": 2006683,
@@ -366,15 +364,15 @@
         "source_year": 2010.0,
         "source_number": "nr 3",
         "source_pages": "s. 10",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1616706",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Nie przemilczać Godlewskiego!",
       "properties": {
         "pbl_id": 1616706,
@@ -388,15 +386,15 @@
         "source_number": "nr 1",
         "source_pages": "s. 17-19",
         "annotation": "dot. recepcji powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1714371",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Pamięc miejsca. Wokulski i Wawera - ucieleśnienia świadomości przestrzeni?",
       "properties": {
         "pbl_id": 1714371,
@@ -409,15 +407,15 @@
         "source_year": 2007.0,
         "source_number": "nr 17/23 (2006/2007)",
         "source_pages": "s. 204-206",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1312008",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Nie-samowite\" lustra. Z rozmyślań nad \"Lalką\" Bolesława Prusa",
       "properties": {
         "pbl_id": 1312008,
@@ -430,15 +428,15 @@
         "source_year": 2004.0,
         "source_number": "nr 1",
         "source_pages": "s. 185-200",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1159830",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Czy rozumiemy tekst \"Lalki\"? Kilka uwag o archaizmach językowych w najpopularniejszej powieści Bolesława Prusa",
       "properties": {
         "pbl_id": 1159830,
@@ -451,15 +449,15 @@
         "source_year": 2003.0,
         "source_number": "z. 1",
         "source_pages": "s. 158-164",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1323169",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Postać Żyda w literaturze pozytywizmu ze szczególnym uwzględnieniem \"Lalki\" Bolesława Prusa",
       "properties": {
         "pbl_id": 1323169,
@@ -473,15 +471,15 @@
         "source_number": "z. 2",
         "source_pages": "s. 87-102",
         "annotation": "z fot. i notą o autorce",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1933140",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ancient, gothic and romantic influences in \"Lalka\" by Bolesław Prus as examples of intertextual interdependence",
       "properties": {
         "pbl_id": 1933140,
@@ -494,15 +492,15 @@
         "source_year": 2009.0,
         "source_number": "z. 6",
         "source_pages": "s. 132-140",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1934557",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Miłość i pieniądze. O finansowej karierze Stanisława Wokulskiego",
       "properties": {
         "pbl_id": 1934557,
@@ -515,15 +513,15 @@
         "source_year": 2010.0,
         "source_number": "z. 5",
         "source_pages": "s. 208-226",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1937797",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Skąpy Litwin\". Poezja Adama Mickiewicza w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 1937797,
@@ -536,15 +534,15 @@
         "source_year": 2010.0,
         "source_number": "nr 8",
         "source_pages": "s. 99-115",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:2020246",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Niezwykły doktor Ochocki",
       "properties": {
         "pbl_id": 2020246,
@@ -558,15 +556,15 @@
         "source_number": "nr 10",
         "source_pages": "s. 38-40",
         "annotation": "postać Juliana Ochockiego wzorowana na przyjacielu ze szkolnej ławy - Julianie Ochorowiczu",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:294728",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "O Prusowskiej interpretacji tytułu \"Lalki\"",
       "properties": {
         "pbl_id": 294728,
@@ -579,15 +577,15 @@
         "source_year": 1994.0,
         "source_number": "z. 88 (1136)",
         "source_pages": "s. 61-82",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:135412",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Panie Wokulski\", czyli o pewnym typie form adresatywnych w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 135412,
@@ -600,15 +598,15 @@
         "source_year": 1991.0,
         "source_number": "z. 6 (137)",
         "source_pages": "s. 227-236",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:843019",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Narodziny i śmierć wieku",
       "properties": {
         "pbl_id": 843019,
@@ -622,15 +620,15 @@
         "source_number": "nr 231",
         "source_pages": "s. 18-19",
         "annotation": "dot. modelu nowoczesności w XX wieku",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1144561",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Polskie powieści. \"Lalka\"",
       "properties": {
         "pbl_id": 1144561,
@@ -644,15 +642,15 @@
         "source_number": "nr 12",
         "source_pages": "s. 8",
         "annotation": "nota o utworze",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:493113",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Piwo i prawda o Wokulskim",
       "properties": {
         "pbl_id": 493113,
@@ -666,15 +664,15 @@
         "source_number": "nr 11",
         "source_pages": "s. 98-111",
         "annotation": "nt. picia piwa i scen w piwiarni w powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:2012946",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Record 2012946",
       "properties": {
         "pbl_id": 2012946,
@@ -688,15 +686,15 @@
         "source_number": "nr 4",
         "source_pages": "s. 28",
         "annotation": "not. o wykładzie Anny Tylusińskiej nt. powieści na Uniwersytecie Turyńskim, 14 XI 2006",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:597767",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Losy wybranych wyrazów na przykładzie słownictwa \"Lalki\" Bolesława Prusa",
       "properties": {
         "pbl_id": 597767,
@@ -709,15 +707,15 @@
         "source_year": 1998.0,
         "source_number": "[z.] 17",
         "source_pages": "s. 101-126",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1981718",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "O pieniądzach i kwestiach ekonomicznych w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 1981718,
@@ -730,15 +728,15 @@
         "source_year": 2008.0,
         "source_number": "nr 3/4 (2007/2008)",
         "source_pages": "s. 46-49",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:405083",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ciało wyparte",
       "properties": {
         "pbl_id": 405083,
@@ -752,15 +750,15 @@
         "source_number": "nr 25",
         "source_pages": "s. 39-43",
         "annotation": "konfrontacja  zjawiska prostytucji przedstawionego w \"Lalce\" i innych utworach Prusa z realiami Warszawy schyłku XIX w.",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:636555",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Budowa słowotwórcza rzeczowników w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 636555,
@@ -773,15 +771,15 @@
         "source_year": 2000.0,
         "source_number": "t. 45",
         "source_pages": "s. 567-572",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:330663",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka",
       "properties": {
         "pbl_id": 330663,
@@ -795,15 +793,15 @@
         "source_number": "nr 7/8",
         "source_pages": "s. 23",
         "annotation": "fel.",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:334355",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Złudzenia, przywidzenia i obserwacje starego subiekta",
       "properties": {
         "pbl_id": 334355,
@@ -816,15 +814,15 @@
         "source_year": 1995.0,
         "source_number": "nr 44",
         "source_pages": "s. 9",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:595048",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Słownictwo dotyczące nakryć głowy w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 595048,
@@ -837,15 +835,15 @@
         "source_year": 1999.0,
         "source_number": "t. 4",
         "source_pages": "s. 237-247",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:290238",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Skała ludzkiego wyrobu\"? Myślenie o mieście w \"Lalace\" Bolesława Prusa",
       "properties": {
         "pbl_id": 290238,
@@ -859,15 +857,15 @@
         "source_number": "nr 1",
         "source_pages": "s. 70-75",
         "annotation": "z notą",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:224964",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Metafizyka przypadku w \"Lalce\" Prusa",
       "properties": {
         "pbl_id": 224964,
@@ -880,15 +878,15 @@
         "source_year": 1993.0,
         "source_number": "nr 2",
         "source_pages": "s. 77-83",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:251888",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Prusa ofiary szaleństwa",
       "properties": {
         "pbl_id": 251888,
@@ -902,15 +900,15 @@
         "source_number": "nr 2",
         "source_pages": "s. 94-99",
         "annotation": "z not. o Jakubie Aleksandrowiczu na s. 171",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:407265",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Jan Mincel - prawda i zmyślenie",
       "properties": {
         "pbl_id": 407265,
@@ -924,15 +922,15 @@
         "source_number": "nr 47",
         "source_pages": "s. 13-15",
         "annotation": "nt. pierwowzoru bohatera powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:428320",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\" Bolesława Prusa dzisiaj",
       "properties": {
         "pbl_id": 428320,
@@ -946,15 +944,15 @@
         "source_number": "z. 2 (1997/1998)",
         "source_pages": "s. 68-72",
         "annotation": "współczesne interpretacje powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:188059",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\", een omvangrijk werk",
       "properties": {
         "pbl_id": 188059,
@@ -967,15 +965,15 @@
         "source_year": 1991.0,
         "source_number": "nr 3",
         "source_pages": "s. 20-21",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:504894",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Analiza stylów odbiorców \"Lalki\" B. Prusa na podstawie eksperymentu",
       "properties": {
         "pbl_id": 504894,
@@ -988,15 +986,15 @@
         "source_year": 1998.0,
         "source_number": "nr 14",
         "source_pages": "s. 124-125",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:177401",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Pokój starego subiekta. Próbka językowej eksplikacji kilku zdań z \"Lalki\"",
       "properties": {
         "pbl_id": 177401,
@@ -1009,15 +1007,15 @@
         "source_year": 1992.0,
         "source_number": "nr 3",
         "source_pages": "s. 61-66",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:553384",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Kupiec galanteryjny i machina dziejów",
       "properties": {
         "pbl_id": 553384,
@@ -1031,15 +1029,15 @@
         "source_number": "nr 5/6",
         "source_pages": "s. 39-42",
         "annotation": "m.in. lekceważenie i wzgarda w stosunku do bohatera powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:199298",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "A Polish realist-naturalist and American exceptionalism: Prus's \"Lalka\"",
       "properties": {
         "pbl_id": 199298,
@@ -1052,15 +1050,15 @@
         "source_year": 1992.0,
         "source_number": "t. 3/4",
         "source_pages": "s. 65-80",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:291614",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Najważniejszy dzień w życiu Ignacego Rzeckiego, czyli Bolesław Prus o wojnie",
       "properties": {
         "pbl_id": 291614,
@@ -1073,15 +1071,15 @@
         "source_year": 1994.0,
         "source_number": "nr 8",
         "source_pages": "s. 451-456",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:292052",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Habent sua fata libelli. Z dziejów \"Lalki\"",
       "properties": {
         "pbl_id": 292052,
@@ -1094,15 +1092,15 @@
         "source_year": 1994.0,
         "source_number": "nr 8",
         "source_pages": "s. 462-470",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:613518",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Małgorzata Minclowa, czyli drugie ja Stanisława Wokulskiego",
       "properties": {
         "pbl_id": 613518,
@@ -1115,15 +1113,15 @@
         "source_year": 2000.0,
         "source_number": "nr 7",
         "source_pages": "s. 407-411",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1069832",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Izabeli Łęckiej nieznane oblicze",
       "properties": {
         "pbl_id": 1069832,
@@ -1136,15 +1134,15 @@
         "source_year": 2003.0,
         "source_number": "nr 8",
         "source_pages": "s. 477-480",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1995749",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Gdy zasypia rozum. Bohaterowie \"Lalki\" w świetle swoich snów",
       "properties": {
         "pbl_id": 1995749,
@@ -1157,15 +1155,15 @@
         "source_year": 2008.0,
         "source_number": "nr 8",
         "source_pages": "s. 25-30",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:2002582",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Labirynt rzeczywistości w \"Lalce\"",
       "properties": {
         "pbl_id": 2002582,
@@ -1178,15 +1176,15 @@
         "source_year": 2009.0,
         "source_number": "nr 3",
         "source_pages": "s. 29-34",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:2002837",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Spiskowcy: Kordian i Wokulski",
       "properties": {
         "pbl_id": 2002837,
@@ -1199,15 +1197,15 @@
         "source_year": 2009.0,
         "source_number": "nr 11",
         "source_pages": "s. 12-16",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:2005993",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Jakie tajemnice kryje przestrzeń kościoła w \"Lalce\"?",
       "properties": {
         "pbl_id": 2005993,
@@ -1220,15 +1218,15 @@
         "source_year": 2011.0,
         "source_number": "nr 6",
         "source_pages": "s. 38-41",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:158728",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Kukla\" Boleslava Prusa i \"Anna Karenina\" L'va Tolstogo",
       "properties": {
         "pbl_id": 158728,
@@ -1240,15 +1238,15 @@
         "source": "x",
         "source_year": 1991.0,
         "annotation": "[w czasopiśmie:] <i>Vestnik Moskovskogo Universiteta</i> Ser. 9: Filologija (Moskva) 1991 nr 1 s. 33-40 [informacja własna]",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:239131",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "W kamienicy Łęckich. O \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 239131,
@@ -1260,15 +1258,15 @@
         "source": "x",
         "source_year": 1992.0,
         "annotation": "[W ks. zb.:] Od Koźmiana do Czernika. Studia i szkice o literaturze polskiej XIX i XX wieku. Rzeszów 1992 s. 73-91",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:366580",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Dialogichnijat model na sahnanueto i elementaht na zagadkata v romana na Prust \"Kukla\"",
       "properties": {
         "pbl_id": 366580,
@@ -1280,15 +1278,15 @@
         "source": "x",
         "source_year": 1993.0,
         "annotation": "[W ks. zb.:] Slavistichni prouchvanija. Veliko Tahrnovo 1993 s. 149-156 [<i>New Contents Slavistics</i> 1993]",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:791079",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Paris du XIXe siecle vu par un Polonais",
       "properties": {
         "pbl_id": 791079,
@@ -1301,15 +1299,15 @@
         "source_number": "nr",
         "source_pages": "s.",
         "annotation": "Le livre et l'art. Etudes offertes en hommage a Pierre Lelievre reunies par Therese Kleindienst. Paris 2000",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1051343",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\" - epizod czy nazwa?",
       "properties": {
         "pbl_id": 1051343,
@@ -1321,15 +1319,15 @@
         "source": "x",
         "source_year": 2003.0,
         "annotation": "[w ks.:] Zofia Mitosek: Poznanie (w) powieści. Od Balzaka do Masłowskiej. Kraków 2003 s. 57-67",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1923592",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "W niewielkim nakładzie (\"Lalka\" Prusa po chińsku)",
       "properties": {
         "pbl_id": 1923592,
@@ -1343,15 +1341,15 @@
         "source_number": "nr 224",
         "source_pages": "s. 12",
         "annotation": "nota",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1092767",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka i lalki",
       "properties": {
         "pbl_id": 1092767,
@@ -1366,15 +1364,15 @@
         "source_pages": "s. 119-120",
         "coauthors_description": "Tł. Irena Pyszko",
         "annotation": "m.in. nt. dwóch czeskich powieści bliskich typologii powieści Bolesława Prusa: Jan Vrchlicky wydał w 1908 roku powieść \"Lalki\", F.X Salda powieść \"Lalki i robotnicy boży\" (1917 r.)",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1009689",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Panna Dandys i inni (mysli nad lekturą \"Lalki\" B. Prusa)",
       "properties": {
         "pbl_id": 1009689,
@@ -1388,15 +1386,15 @@
         "source_number": "r. 45 nr 1/2",
         "source_pages": "s. 23-36",
         "annotation": "spojrzenie na kreację postaci Izabeli Łęckiej w kontekście zjawiska dandyzmu",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:66300",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\" czyli pozytywizm w aliażu z romantyzmem",
       "properties": {
         "pbl_id": 66300,
@@ -1409,15 +1407,15 @@
         "source_year": 1989.0,
         "source_number": "z. 15",
         "source_pages": "s. 47-60",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1857214",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ciastka za szybą",
       "properties": {
         "pbl_id": 1857214,
@@ -1431,15 +1429,15 @@
         "source_number": "nr 10",
         "source_pages": "s. 22",
         "annotation": "nt. sceny, w której bohaterka powieści - Izabela Łęcka siedzi w cukierni i zauważa za szybą gromadkę dzieci",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:43354",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Sto lat z \"Lalką\".",
       "properties": {
         "pbl_id": 43354,
@@ -1452,15 +1450,15 @@
         "source_year": 1989.0,
         "source_number": "nr 10",
         "source_pages": "s. 8",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:394003",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Zęby barona Krzeszowskiego",
       "properties": {
         "pbl_id": 394003,
@@ -1474,15 +1472,15 @@
         "source_number": "nr 38",
         "source_pages": "s. 40-41",
         "annotation": "próba wirtualnego \"leczenia\" bohatera powieści wg wiedzy współczesnej medycyny",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:606396",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Brylanty zdradzają... (Z prof. Tadeuszem Budrewiczem o savoir-vivrze w \"Lalce\")",
       "properties": {
         "pbl_id": 606396,
@@ -1496,15 +1494,15 @@
         "source_number": "nr 20",
         "source_pages": "s. 37",
         "annotation": "wywiad z profesorem Akademii Pedagogicznej w Krakowie; not. Teresa Bętkowska",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1966233",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ignacy Rzecki - kreacja biedermeierowska?",
       "properties": {
         "pbl_id": 1966233,
@@ -1517,15 +1515,15 @@
         "source_year": 2011.0,
         "source_number": "t. 65",
         "source_pages": "s. 219-228",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:230897",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\" w kontekście \"Trylogii\" [Henryka Sienkiewicza]",
       "properties": {
         "pbl_id": 230897,
@@ -1538,15 +1536,15 @@
         "source_year": 1993.0,
         "source_number": "r. 26/27 (1991/1992)",
         "source_pages": "s. 27-40",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:230899",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Płaszczyzny interpretacyjne tytułu \"Lalki\" Prusa",
       "properties": {
         "pbl_id": 230899,
@@ -1559,15 +1557,15 @@
         "source_year": 1993.0,
         "source_number": "r. 26/27 (1991/1992)",
         "source_pages": "s. 41-50",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:166630",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Jak się jada ryby nożem\". Savoir-vivre w \"Lalce\"",
       "properties": {
         "pbl_id": 166630,
@@ -1580,15 +1578,15 @@
         "source_year": 1992.0,
         "source_number": "t. 28",
         "source_pages": "s. 129-138",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:302256",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Polisemia tytułu \"Lalki\" Prusa",
       "properties": {
         "pbl_id": 302256,
@@ -1601,15 +1599,15 @@
         "source_year": 1994.0,
         "source_number": "t. 29/30",
         "source_pages": "s. 33-40",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:55916",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Uczony wśród aniołów i samic (O stylu miłosnym \"Lalki\")",
       "properties": {
         "pbl_id": 55916,
@@ -1622,15 +1620,15 @@
         "source_year": 1989.0,
         "source_number": "z. 2",
         "source_pages": "s. 141-156",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:194794",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Świat lalek starego subiekta Rzeckiego",
       "properties": {
         "pbl_id": 194794,
@@ -1644,15 +1642,15 @@
         "source_number": "z. 3",
         "source_pages": "s. 191-202",
         "annotation": "nt. lalkowo-marionetkowej interpretacji tytułu powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:284251",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "O kupieckim fachu Stanisława Wokulskiego",
       "properties": {
         "pbl_id": 284251,
@@ -1665,15 +1663,15 @@
         "source_year": 1994.0,
         "source_number": "z. 3/4",
         "source_pages": "s. 247-262",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1083152",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Stanisław Wokulski's Semi-Voluntary Exile: Exporing the Hero's Journey to Emigration in Bolesław Prus' \"Lalka\"",
       "properties": {
         "pbl_id": 1083152,
@@ -1686,15 +1684,15 @@
         "source_year": 2003.0,
         "source_number": "t. 48 nr 2",
         "source_pages": "s. 165-184",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:295376",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Co się stało z \"Lalką\"?",
       "properties": {
         "pbl_id": 295376,
@@ -1707,15 +1705,15 @@
         "source_year": 1994.0,
         "source_number": "nr 7",
         "source_pages": "s. 69-86",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1023768",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ćwiczenia z patrzenia",
       "properties": {
         "pbl_id": 1023768,
@@ -1728,15 +1726,15 @@
         "source_year": 2002.0,
         "source_number": "nr 7/8",
         "source_pages": "s. 76-93",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1051958",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Co dalej z Lalką?",
       "properties": {
         "pbl_id": 1051958,
@@ -1749,15 +1747,15 @@
         "source_year": 2003.0,
         "source_number": "nr 10",
         "source_pages": "s. 123-126",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:97861",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Żydzi u Prusa i Żeromskiego",
       "properties": {
         "pbl_id": 97861,
@@ -1771,15 +1769,15 @@
         "source_number": "nr 1/4",
         "source_pages": "s. 11-14",
         "annotation": "obraz Żydów w \"Lalce\" Bolesława Prusa oraz \"Ludziach bezdomnych\" i \"Przedwiośniu\" Stefana Żeromskiego",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1014087",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka Olgi",
       "properties": {
         "pbl_id": 1014087,
@@ -1792,15 +1790,15 @@
         "source_year": 2001.0,
         "source_number": "nr 15",
         "source_pages": "s. 60-62",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:18094",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ignacy Rzecki na Węgrzech",
       "properties": {
         "pbl_id": 18094,
@@ -1814,15 +1812,15 @@
         "source_number": "nr 11",
         "source_pages": "s. 9, 14",
         "annotation": "węgierski epizod w życiu Rzeckiego",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:186977",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Rodowód marionetek Ignacego Rzeckiego",
       "properties": {
         "pbl_id": 186977,
@@ -1835,15 +1833,15 @@
         "source_year": 1992.0,
         "source_number": "seria 47 (1991/1992)",
         "source_pages": "s. 167-174",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:356145",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Ignacy Rzecki i Andrzej Rzeski. O wpływie powieści \"Ci i tamci\" T.T. Jeża na epizod węgierski w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 356145,
@@ -1856,15 +1854,15 @@
         "source_year": 1995.0,
         "source_number": "seria 50",
         "source_pages": "s. 77-89",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:148111",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Prus w zbożu",
       "properties": {
         "pbl_id": 148111,
@@ -1878,15 +1876,15 @@
         "source_number": "nr 13",
         "source_pages": "s. 12",
         "annotation": "postać i działaln. Jakuba Langego, prawdopodobnie pierwowzoru Stanisława Wokulskiego",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:150218",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\" czytana dzisiaj",
       "properties": {
         "pbl_id": 150218,
@@ -1899,15 +1897,15 @@
         "source_year": 1991.0,
         "source_number": "z 4 IV",
         "source_pages": "s. 13, 15",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:207538",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka",
       "properties": {
         "pbl_id": 207538,
@@ -1920,15 +1918,15 @@
         "source_year": 1993.0,
         "source_number": "nr z 9 IX",
         "source_pages": "s. 4",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:422012",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Panna Leokadia widzi cały garnitur\". O ubraniach w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 422012,
@@ -1941,15 +1939,15 @@
         "source_year": 1997.0,
         "source_number": "z. 4",
         "source_pages": "s. 53-74",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:597348",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Determinizm w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 597348,
@@ -1962,15 +1960,15 @@
         "source_year": 2000.0,
         "source_number": "z. 2",
         "source_pages": "s. 19-44",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1068091",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Funkcje podania ludowego w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 1068091,
@@ -1983,15 +1981,15 @@
         "source_year": 2003.0,
         "source_number": "z. 2",
         "source_pages": "s. 43-54",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:951446",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Światy zastępcze w \"Lalce\" Bolesława Prusa",
       "properties": {
         "pbl_id": 951446,
@@ -2004,15 +2002,15 @@
         "source_year": 2002.0,
         "source_number": "nr 1/2",
         "source_pages": " 29-36",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:109714",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Paryska utopia Bolesława Prusa",
       "properties": {
         "pbl_id": 109714,
@@ -2025,15 +2023,15 @@
         "source_year": 1990.0,
         "source_number": "nr 7",
         "source_pages": "s. 123-131",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:135579",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Polski realizm i naturalizm a specyficzność amerykańska: \"Lalka\" Prusa",
       "properties": {
         "pbl_id": 135579,
@@ -2047,15 +2045,15 @@
         "source_number": "nr 1",
         "source_pages": "s. 61-75",
         "coauthors_description": "Tł. Anna Przybysz",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:185835",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Oswajanie miasta",
       "properties": {
         "pbl_id": 185835,
@@ -2069,10 +2067,10 @@
         "source_number": "nr 6",
         "source_pages": "s. 65-76",
         "annotation": "wątek Warszawy i Paryża w powieści",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "direct_child_of_lalka"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
@@ -2108,7 +2106,7 @@
     },
     {
       "id": "record:1704531",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Miłość w \"Lalce\" Hasa",
       "properties": {
         "pbl_id": 1704531,
@@ -2121,16 +2119,16 @@
         "source_year": 2010.0,
         "source_number": "nr 3",
         "source_pages": "s. 34-35",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:527545",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "\"Lalka\" w reżyserii Wojciecha J. Hasa - inspiracja tematem literackim",
       "properties": {
         "pbl_id": 527545,
@@ -2143,16 +2141,16 @@
         "source_year": 1998.0,
         "source_number": "z. 51 (325)",
         "source_pages": "s. 127-148",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:505941",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Próba uaktualnienia problematyki \"Lalki\" Bolesława Prusa przez W. Hasa i R. Bera w adaptacjach filmowych",
       "properties": {
         "pbl_id": 505941,
@@ -2165,16 +2163,16 @@
         "source_year": 1998.0,
         "source_number": "nr 2",
         "source_pages": "s. 23-33",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:1148961",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka",
       "properties": {
         "pbl_id": 1148961,
@@ -2188,16 +2186,16 @@
         "source_number": "nr 152",
         "source_pages": "s. D4",
         "annotation": "nota przed emisją telewizyjną",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:304250",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Dramat Wokulskiego według Hassa [!]",
       "properties": {
         "pbl_id": 304250,
@@ -2211,16 +2209,16 @@
         "source_number": "nr 60 dod.",
         "source_pages": "s. 9",
         "annotation": "art. przed emisją tv",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:401079",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka",
       "properties": {
         "pbl_id": 401079,
@@ -2233,16 +2231,16 @@
         "source_year": 1996.0,
         "source_number": "nr 6",
         "source_pages": "s. 76",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:498326",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "[Trzydzieści] ...30 lat minęło",
       "properties": {
         "pbl_id": 498326,
@@ -2256,16 +2254,16 @@
         "source_number": "nr 11",
         "source_pages": "s. 16",
         "annotation": "nt. filmu w 30. rocznicę premiery",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:304249"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:505942",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Próba uaktualnienia problematyki \"Lalki\" Bolesława Prusa przez W. Hasa i R. Bera w adaptacjach filmowych",
       "properties": {
         "pbl_id": 505942,
@@ -2278,16 +2276,16 @@
         "source_year": 1998.0,
         "source_number": "nr 2",
         "source_pages": "s. 23-33",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:136679"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {
       "id": "record:136684",
-      "type": "RelatedRecord",
+      "type": "Publication",
       "label": "Lalka",
       "properties": {
         "pbl_id": 136684,
@@ -2301,11 +2299,11 @@
         "source_number": "nr 46",
         "source_pages": "s. 23",
         "annotation": "dot. 1. odc.",
-        "role": "related_record",
+        "role": "publication",
         "root_relation": "child_of_adaptation",
         "parent_presentation_id": "record:136679"
       },
-      "presentation_type": "RelatedRecord",
+      "presentation_type": "Publication",
       "original_type": "OtherRecord"
     },
     {

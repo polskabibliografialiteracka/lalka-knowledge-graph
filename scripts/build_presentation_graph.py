@@ -1,4 +1,3 @@
-
 """
 Build the presentation layer of the Lalka Knowledge Graph.
 
@@ -13,7 +12,6 @@ Source:
 Output:
     data/lalka_presentation_graph.json
 
-
 Presentation model
 ------------------
 
@@ -24,7 +22,6 @@ Node types:
     Adaptation
     Publication
     Event
-    RelatedRecord
     Publisher
     Source
 
@@ -55,15 +52,20 @@ Instead:
         |
         | HAS_RECORD
         v
-    RelatedRecord
+    Publication
 
-This distinction is important because records such as:
+All bibliographic record types are represented in the presentation
+layer as Publication:
 
-    401079 -> parent_id 304249
-    136684 -> parent_id 136679
+    BookRecord
+    PublicationRecord
+    OtherRecord
 
-are bibliographic records attached to the corresponding
-adaptation records, rather than independent adaptations.
+The original PBL type is preserved in the `original_type` field.
+
+This distinction allows the presentation layer to use a simple,
+user-oriented model while preserving the technical information
+from the source PBL graph.
 
 The original PBL identifiers and metadata are preserved.
 
@@ -115,6 +117,16 @@ MANUAL_LALKA_ADAPTATIONS = [
 # PRESENTATION TYPE MAPPING
 # =============================================================================
 
+"""
+Mapping from technical PBL/source graph types to the simplified
+presentation model.
+
+The presentation layer deliberately groups all bibliographic
+record types under the single Publication type.
+
+The original technical type remains available in `original_type`.
+"""
+
 PRESENTATION_TYPE_MAP = {
     "LiteraryWork": "Work",
 
@@ -124,10 +136,9 @@ PRESENTATION_TYPE_MAP = {
 
     "BookRecord": "Publication",
     "PublicationRecord": "Publication",
+    "OtherRecord": "Publication",
 
     "EventRecord": "Event",
-
-    "OtherRecord": "RelatedRecord",
 }
 
 
@@ -208,6 +219,8 @@ def edge_relationship(edge):
 def get_presentation_type(original_type):
     """
     Convert a source graph node type into a presentation type.
+
+    All bibliographic record types are represented as Publication.
     """
 
     if original_type in {
@@ -224,7 +237,7 @@ def get_presentation_type(original_type):
 
     return PRESENTATION_TYPE_MAP.get(
         original_type,
-        "RelatedRecord",
+        "Publication",
     )
 
 
@@ -516,7 +529,7 @@ class PresentationGraphBuilder:
         if presentation_type_value == "Event":
             return "event"
 
-        return "related_record"
+        return "publication"
 
     # =========================================================================
     # DIRECT RECORD RELATIONSHIP
@@ -550,8 +563,7 @@ class PresentationGraphBuilder:
 
         Adaptations are promoted to the presentation layer.
 
-        Other direct records are retained as RelatedRecord
-        or their corresponding presentation type.
+        All bibliographic record types are represented as Publication.
         """
 
         direct_records = (
@@ -713,8 +725,9 @@ class PresentationGraphBuilder:
                 v
             record:136684
 
-        These records are RelatedRecord objects because their
-        original PBL type is OtherRecord.
+        These records are represented as Publication objects
+        in the presentation layer, regardless of their original
+        PBL record type.
         """
 
         adaptation_ids = [
@@ -746,6 +759,10 @@ class PresentationGraphBuilder:
                     )
                 )
 
+                role = self.record_role(
+                    presentation_type_value
+                )
+
                 self.add_node(
                     node_id_value=child_id,
                     presentation_type_value=(
@@ -753,7 +770,7 @@ class PresentationGraphBuilder:
                     ),
                     label=node_label(child),
                     original_node=child,
-                    role="related_record",
+                    role=role,
                     root_relation="child_of_adaptation",
                     parent_presentation_id=adaptation_id,
                 )
@@ -787,7 +804,6 @@ class PresentationGraphBuilder:
                 "Adaptation",
                 "Publication",
                 "Event",
-                "RelatedRecord",
             }
         ]
 
@@ -1008,7 +1024,6 @@ class PresentationGraphBuilder:
                         "Adaptation",
                         "Publication",
                         "Event",
-                        "RelatedRecord",
                         "Publisher",
                         "Source",
                     ],
@@ -1262,4 +1277,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
