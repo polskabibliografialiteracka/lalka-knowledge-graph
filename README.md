@@ -1,227 +1,212 @@
 # Lalka Knowledge Graph
 
-**Lalka Knowledge Graph** to eksperymentalny projekt wykorzystujący dane z **Polskiej Bibliografii Literackiej (PBL)** do przedstawienia informacji o powieści **„Lalka” Bolesława Prusa i jej adaptacjach** w postaci grafu wiedzy.
+**Lalka Knowledge Graph** to eksperymentalny projekt pokazujący, jak rekordy [Polskiej Bibliografii Literackiej (PBL)](https://pbl.ibl.poznan.pl/) można przekształcić w graf relacji między utworem, jego twórcą, adaptacjami ekranowymi, publikacjami, osobami, wydawcami i źródłami bibliograficznymi.
 
-Projekt pokazuje, w jaki sposób dane bibliograficzne mogą zostać przekształcone z tradycyjnej struktury rekordów w model oparty na relacjach między utworami, osobami, adaptacjami i innymi obiektami bibliograficznymi.
+Projekt wykorzystuje „Lalkę” Bolesława Prusa jako studium przypadku. Jego wynikiem jest pełniejszy graf zachowujący strukturę danych PBL, uproszczona warstwa prezentacyjna oraz interaktywna wizualizacja.
 
 ## Interaktywna wizualizacja
 
-Graf można obejrzeć bezpośrednio w przeglądarce:
+**[Otwórz Lalka Knowledge Graph](https://polskabibliografialiteracka.github.io/lalka-knowledge-graph/)**
 
-**[Lalka Knowledge Graph – interaktywna wizualizacja](https://polskabibliografialiteracka.github.io/lalka-knowledge-graph/lalka_graph.html)**
+Wizualizacja została przygotowana do przeglądania w przeglądarce i udostępniona za pomocą GitHub Pages. Umożliwia filtrowanie typów obiektów, wyszukiwanie węzłów oraz sprawdzanie relacji i podstawowych informacji o rekordach.
 
-Wizualizacja jest udostępniona za pomocą GitHub Pages.
+## Co przedstawia graf?
+
+Punktem centralnym grafu jest „Lalka” jako utwór literacki. Z utworem powiązane są:
+
+- Bolesław Prus jako jego twórca;
+- dwie zidentyfikowane w PBL adaptacje ekranowe;
+- publikacje i inne rekordy bibliograficzne związane z utworem lub adaptacjami;
+- osoby odpowiedzialne za publikacje;
+- wydawcy;
+- czasopisma i inne źródła bibliograficzne.
+
+Warstwa prezentacyjna obejmuje obecnie:
+
+| Typ obiektu | Liczba |
+|---|---:|
+| Utwór | 1 |
+| Adaptacje | 2 |
+| Publikacje | 104 |
+| Osoby | 75 |
+| Źródła | 64 |
+| Wydawcy | 10 |
+| **Wszystkie węzły** | **256** |
+| **Relacje** | **312** |
+
+Liczby pochodzą z metadanych zapisanych w pliku `data/lalka_presentation_graph.json`.
 
 ## Cel projektu
 
-Celem projektu jest eksperymentalne wykorzystanie danych PBL do budowy grafu wiedzy, który pozwala spojrzeć na informacje bibliograficzne nie tylko jako na zbiór rekordów, ale jako na **sieć powiązanych obiektów i relacji**.
+Projekt służy sprawdzeniu, jak dane bibliograficzne zapisane pierwotnie jako rekordy i hierarchie można przedstawić jako sieć obiektów i relacji.
 
-Na przykładzie „Lalki” projekt łączy m.in.:
+Graf pozwala zadawać pytania inne niż podczas przeglądania pojedynczego rekordu, na przykład:
 
-* utwór literacki,
-* jego twórcę,
-* adaptacje ekranowe,
-* rekordy bibliograficzne dotyczące adaptacji,
-* autorów rekordów,
-* źródła bibliograficzne.
+- jakie obiekty są powiązane z „Lalką”;
+- jakie adaptacje ekranowe zostały zarejestrowane w PBL;
+- jakie publikacje dotyczą konkretnej adaptacji;
+- kto jest autorem danej publikacji;
+- w jakim źródle została ona odnotowana.
 
-Projekt ma charakter badawczo-eksperymentalny. Jego celem nie jest zastąpienie istniejącej struktury PBL, lecz sprawdzenie, jak istniejące dane bibliograficzne można wykorzystać do budowy alternatywnego modelu ich prezentacji i eksploracji.
-
-## Źródło danych
-
-Podstawowym źródłem danych jest **Polska Bibliografia Literacka (PBL)**:
-
-https://pbl.ibl.poznan.pl/
-
-Dane wykorzystane w projekcie pochodzą z bazy PBL i zostały wyodrębnione na potrzeby eksperymentu z grafem wiedzy.
-
-Projekt nie modyfikuje danych źródłowych PBL. Dane są przekształcane do kolejnych warstw przeznaczonych do analizy i wizualizacji.
-
-## Struktura projektu
-
-```text
-lalka-knowledge-graph/
-│
-├── data/
-│   ├── lalka_graph.json
-│   └── lalka_presentation_graph.json
-│
-├── scripts/
-│   ├── extract_lalka.py
-│   ├── inspect_lalka.py
-│   └── build_presentation_graph.py
-│
-├── docs/
-│   ├── index.html
-│   └── lalka_graph.html
-│
-└── README.md
-```
-
-### `data/lalka_graph.json`
-
-Pełniejszy graf danych wyodrębnionych z PBL.
-
-Zawiera techniczne typy obiektów oraz relacje wynikające ze struktury danych źródłowych.
-
-### `data/lalka_presentation_graph.json`
-
-Uproszczona **warstwa prezentacyjna** grafu.
-
-Jej zadaniem jest przekształcenie technicznej struktury PBL w model łatwiejszy do wykorzystania podczas wizualizacji i eksploracji.
-
-Warstwa prezentacyjna nie zastępuje grafu źródłowego. Jest jego interpretacją przygotowaną na potrzeby konkretnego sposobu prezentacji danych.
+Projekt nie zastępuje modelu danych ani interfejsu PBL. Jest eksperymentem dotyczącym alternatywnego sposobu przetwarzania, modelowania i prezentowania danych bibliograficznych.
 
 ## Model grafu
 
-W warstwie prezentacyjnej wykorzystywany jest uproszczony zestaw typów węzłów:
+Warstwa prezentacyjna wykorzystuje następujące typy węzłów:
 
-* `Work` – utwór literacki,
-* `Person` – osoba,
-* `Adaptation` – adaptacja,
-* `Publication` – publikacja,
-* `Event` – wydarzenie,
-* `RelatedRecord` – powiązany rekord,
-* `Publisher` – wydawca,
-* `Source` – źródło bibliograficzne.
+| Typ | Znaczenie |
+|---|---|
+| `Work` | utwór literacki |
+| `Person` | twórca utworu lub osoba związana z publikacją |
+| `Adaptation` | adaptacja ekranowa |
+| `Publication` | publikacja lub inny rekord bibliograficzny |
+| `Event` | wydarzenie |
+| `Publisher` | wydawca |
+| `Source` | czasopismo lub inne źródło bibliograficzne |
 
-Najważniejsze relacje to:
+Najważniejsze relacje:
 
-```text
-CREATED_BY
-ADAPTED_AS
-RELATED_TO
-AUTHORED_BY
-PUBLISHED_BY
-FROM_SOURCE
-HAS_RECORD
+| Relacja | Znaczenie |
+|---|---|
+| `CREATED_BY` | utwór został stworzony przez osobę |
+| `ADAPTED_AS` | utwór został zaadaptowany |
+| `HAS_RECORD` | adaptacja ma powiązany rekord bibliograficzny |
+| `RELATED_TO` | rekord bibliograficzny jest związany z utworem |
+| `AUTHORED_BY` | publikacja ma autora |
+| `PUBLISHED_BY` | publikacja została wydana przez wydawcę |
+| `FROM_SOURCE` | rekord pochodzi ze wskazanego źródła |
+
+```mermaid
+flowchart TD
+    W["Lalka — utwór"] -->|CREATED_BY| P["Bolesław Prus"]
+    W -->|ADAPTED_AS| A["Adaptacja"]
+    A -->|HAS_RECORD| R["Publikacja"]
+    R -->|AUTHORED_BY| O["Osoba"]
+    R -->|FROM_SOURCE| S["Źródło"]
 ```
 
-Przykładowa struktura grafu:
-
-```text
-Lalka
- │
- ├── CREATED_BY ──→ Bolesław Prus
- │
- ├── ADAPTED_AS ──→ Lalka
- │                      │
- │                      └── HAS_RECORD ──→ rekord bibliograficzny
- │
- └── ADAPTED_AS ──→ Lalka (TV)
-                        │
-                        └── HAS_RECORD ──→ rekord bibliograficzny
-```
-
-W przypadku rekordów podrzędnych zachowywana jest informacja o ich pochodzeniu z hierarchii PBL, ale relacja techniczna `CHILD_OF` nie jest prezentowana użytkownikowi jako element modelu.
-
-Część relacji w warstwie prezentacyjnej wynika bezpośrednio ze struktury PBL. Niektóre relacje dotyczące adaptacji zostały **zweryfikowane i dodane ręcznie**, ponieważ nie można było ich jednoznacznie odtworzyć z samej hierarchii rekordów.
-
-Informacja o ręcznie dodanych relacjach jest zachowywana w metadanych grafu.
+Diagram przedstawia fragment modelu. Publikacje mogą być również bezpośrednio powiązane z utworem relacją `RELATED_TO` oraz z wydawcą relacją `PUBLISHED_BY`.
 
 ## Warstwy danych
 
-Projekt rozdziela dane źródłowe od sposobu ich prezentacji:
+Projekt rozdziela dane wyodrębnione z PBL od modelu przeznaczonego dla użytkownika:
 
-```text
-PBL
- │
- ▼
-Ekstrakcja danych
- │
- ▼
-lalka_graph.json
- │
- ▼
-Warstwa prezentacyjna
- │
- ▼
-lalka_presentation_graph.json
- │
- ▼
-Wizualizacja
+```mermaid
+flowchart TD
+    PBL["Baza PBL"] --> E["Ekstrakcja"]
+    E --> G["Pełny graf"]
+    G --> PG["Warstwa prezentacyjna"]
+    PG --> V["Interaktywna wizualizacja"]
 ```
 
-Takie rozdzielenie pozwala zachować oryginalny graf i niezależnie eksperymentować z jego interpretacją oraz sposobem prezentacji.
+- `data/lalka_graph.json` zachowuje techniczne typy obiektów i relacje wynikające ze struktury danych PBL;
+- `data/lalka_presentation_graph.json` upraszcza ten model na potrzeby wizualizacji;
+- `docs/index.html` zawiera opublikowaną wersję interaktywnego grafu.
 
-## Wizualizacja
+Relacja `CHILD_OF`, wykorzystywana w PBL do zapisu hierarchii rekordów, pozostaje w pełnym grafie. W warstwie prezentacyjnej jest zastępowana relacjami łatwiejszymi do interpretacji przez użytkownika.
 
-Interaktywna wizualizacja wykorzystuje dane z warstwy prezentacyjnej.
+Niektóre relacje dotyczące adaptacji zostały zweryfikowane i dodane ręcznie, ponieważ nie można było ich wiarygodnie odtworzyć wyłącznie na podstawie hierarchii rekordów. Informacja o tych relacjach jest zachowana w metadanych warstwy prezentacyjnej.
 
-Jej zadaniem jest umożliwienie użytkownikowi eksplorowania zależności między:
+## Zakres i ograniczenia danych
 
-* „Lalką” jako utworem,
-* Bolesławem Prusem,
-* adaptacjami ekranowymi,
-* rekordami bibliograficznymi,
-* autorami rekordów,
-* źródłami bibliograficznymi.
+Graf przedstawia określony wycinek PBL, a nie pełną bibliografię „Lalki”. Zakres ekstrakcji został wyznaczony przez:
 
-**[Otwórz interaktywny graf](https://polskabibliografialiteracka.github.io/lalka-knowledge-graph/lalka_graph.html)**
+- rekord utworu „Lalka” o identyfikatorze PBL `109715`;
+- rekordy Bolesława Prusa o identyfikatorach `3426` i `1082`;
+- adaptacje ekranowe o identyfikatorach `304249` i `136679`;
+- ustaloną liczbę poziomów hierarchii pobieranych dla poszczególnych grup rekordów.
+
+Obecny graf nie powinien być traktowany jako kompletny wykaz wszystkich wydań książkowych „Lalki”, wszystkich adaptacji ani całej recepcji utworu. Pokazuje rekordy osiągalne zgodnie z przyjętymi regułami ekstrakcji i modelowania.
+
+Dane zostały wyodrębnione 28 sierpnia 2026 roku. Liczebność zbiorów wejściowych i parametry ekstrakcji zapisano w `data/lalka_extraction_metadata.json`.
+
+## Struktura repozytorium
+
+```text
+lalka-knowledge-graph/
+├── assets/
+│   └── pbl-logo.png
+├── data/
+│   ├── lalka_records_raw.json
+│   ├── lalka_authors_raw.json
+│   ├── lalka_creators_raw.json
+│   ├── lalka_publishers_raw.json
+│   ├── lalka_extraction_metadata.json
+│   ├── lalka_graph.json
+│   └── lalka_presentation_graph.json
+├── docs/
+│   └── index.html
+├── scripts/
+│   ├── extract_lalka.py
+│   ├── inspect_lalka_data.py
+│   ├── build_graph.py
+│   ├── inspect_graph.py
+│   ├── build_presentation_graph.py
+│   ├── inspect_presentation_graph.py
+│   └── visualize_graph.py
+├── .gitignore
+└── README.md
+```
+
+## Przetwarzanie danych
+
+Skrypty należy uruchamiać z głównego katalogu projektu.
+
+### 1. Ekstrakcja danych z PBL
+
+```bash
+python scripts/extract_lalka.py
+```
+
+Ten etap wymaga dostępu do bazy Oracle PBL oraz skonfigurowania zmiennych środowiskowych:
+
+```text
+PBL_ORACLE_HOST
+PBL_ORACLE_PORT
+PBL_ORACLE_SERVICE
+PBL_ORACLE_USER
+PBL_ORACLE_PASSWORD
+PBL_ORACLE_LIB_DIR
+```
+
+Dane dostępowe nie są przechowywane w repozytorium. Osoby bez dostępu do bazy mogą korzystać z plików JSON zapisanych w katalogu `data` i rozpocząć pracę od budowy grafu.
+
+### 2. Inspekcja danych wejściowych
+
+```bash
+python scripts/inspect_lalka_data.py
+```
+
+### 3. Budowa i kontrola pełnego grafu
+
+```bash
+python scripts/build_graph.py
+python scripts/inspect_graph.py
+```
+
+### 4. Budowa i kontrola warstwy prezentacyjnej
+
+```bash
+python scripts/build_presentation_graph.py
+python scripts/inspect_presentation_graph.py
+```
+
+### 5. Generowanie wizualizacji
+
+```bash
+python scripts/visualize_graph.py
+```
+
+Skrypt wykorzystuje dane z `data/lalka_presentation_graph.json` i tworzy interaktywny plik HTML w katalogu `docs`.
+
+Projekt wykorzystuje Python, SQL, JSON, Oracle Database, pandas, NetworkX, Pyvis, Beautiful Soup oraz HTML/JavaScript.
+
+## Źródło danych
+
+Źródłem danych jest [Polska Bibliografia Literacka](https://pbl.ibl.poznan.pl/), prowadzona przez Pracownię Bibliografii Bieżącej Instytutu Badań Literackich PAN.
+
+Dane PBL nie są modyfikowane w bazie źródłowej. Projekt przetwarza ich wyodrębnioną kopię do kolejnych warstw przeznaczonych do analizy i wizualizacji.
 
 ## Status projektu
 
-Projekt znajduje się w fazie eksperymentalnej.
-
-Obecnie przygotowane są:
-
-* ekstrakcja danych dotyczących „Lalki” z PBL,
-* podstawowy graf danych,
-* inspekcja i analiza struktury danych,
-* warstwa prezentacyjna grafu,
-* ręczna weryfikacja wybranych relacji dotyczących adaptacji,
-* interaktywna wizualizacja dostępna przez GitHub Pages.
-
-Projekt jest rozwijany iteracyjnie. Model grafu oraz sposób jego wizualizacji mogą ulegać zmianom wraz z kolejnymi etapami eksperymentu.
-
-## Dlaczego PBL jako graf?
-
-Tradycyjny rekord bibliograficzny opisuje konkretny obiekt i jego właściwości. Dane PBL zawierają jednak również informacje o relacjach między rekordami, osobami, utworami, źródłami i innymi elementami.
-
-Graf wiedzy pozwala potraktować te relacje jako jeden z podstawowych elementów modelu:
-
-```text
-obiekt → relacja → obiekt
-```
-
-Dzięki temu możliwe jest przejście od pytania:
-
-> „Co znajduje się w tym rekordzie?”
-
-do pytań takich jak:
-
-> „Jakie obiekty są powiązane z tym utworem?”
-
-> „Jakie adaptacje zostały zarejestrowane w PBL?”
-
-> „Jakie rekordy bibliograficzne dotyczą konkretnej adaptacji?”
-
-Projekt jest próbą sprawdzenia, jak zmiana perspektywy — od rekordów do sieci relacji — wpływa na sposób eksplorowania danych bibliograficznych.
-
-## Technologie
-
-Projekt wykorzystuje m.in.:
-
-* Python,
-* SQL,
-* JSON,
-* NetworkX,
-* dane z bazy PBL,
-* HTML/JavaScript,
-* GitHub,
-* GitHub Pages.
-
-## Źródło danych i kontekst bibliograficzny
-
-**Polska Bibliografia Literacka** jest prowadzona przez **Pracownię Bibliografii Bieżącej Instytutu Badań Literackich PAN**.
-
-Projekt wykorzystuje dane PBL jako materiał do eksperymentu z modelowaniem, przekształcaniem i wizualizacją danych bibliograficznych.
-
-Źródło danych:
-
-**Polska Bibliografia Literacka**
-https://pbl.ibl.poznan.pl/
-
-## Autor
-
-Projekt został przygotowany jako eksperyment dotyczący możliwości wykorzystania danych bibliograficznych PBL do budowy i wizualizacji grafu wiedzy.
+Projekt znajduje się w fazie eksperymentalnej i jest rozwijany iteracyjnie. Model grafu, zakres danych oraz sposób wizualizacji mogą się zmieniać wraz z kolejnymi etapami prac.
